@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Telemarines;
+    src: url(telemarines1.ttf);
+}
+
+body {
+    font-size: 100%;
+}
+
+ /* ================================================ */
+ /* navbar css                                       */
+ /* ================================================ */
+
+/* top container */
+#Header.container-fluid {
+  position: relative;
+}
+
+.nav {
+  position: relative;
+  margin: auto;
+}
+
+#Header .region-logo img {
+  width: 175px;
+  height: 20px;
+  border: 0;
+}
+
+.polarity-right {
+  float: right;
+  font-variant: small-caps;
+  font-family: Telemarines;
+  font-size: 1.75em;
+}
+
+ /* actual navbar */
+  /* fixed navbar after scroll */
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+.affix + .container-fluid {
+  padding-top: 70px;
+}
+
+.navbar {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #930000;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.nav-justified li a {
+  color: #ffffff;
+}
+
+.nav-justified li a:hover {
+  background-color: #ffffff; 
+  color: #BCBCBC;
+}
+
+/* carousel */
+.carousel-inner { 
+  height: 700px; 
+  overflow: hidden; 
+}
+.carousel-inner img {
+  -webkit-filter: blur(8px); /* Chrome, Safari, Opera */
+  filter: blur(8px);
+  align: center; 
+  width: 100%
+}
+
+/* styles caption box */
+.carousel-caption-plus div {
+  position: absolute;
+  top: 17%;
+  left: 8%;
+
+  width: 450px;
+
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+
+  background-color: rgba(147, 0, 0, 0.75);
+  color: #ffffff;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-caption-plus div {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.6s;
+}
+
+.carousel-caption-plus div:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),  0 17px 50px 0 rgba(0,0,0,0.19); 
+}
+
+.carousel-caption-plus h1 {
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.carousel-caption-plus p {
+  font-family: 'Oswald', sans-serif;
+}
+
+ .carousel-caption-plus-link {
+        position: relative;
+    }
+
+ .carousel-caption-plus-link a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none; /* No underlines on the link */
+  z-index: 10; /* Places the link above everything else in the div */
+  background-color: #FFF; /* Fix to make div clickable in IE */
+  opacity: 0; /* Fix to make div clickable in IE */
+  filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+
+/*
+  Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
+  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
+  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  Inspired from:  http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
