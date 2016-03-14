@@ -11,65 +11,58 @@ body {
  /* navbar css                                       */
  /* ================================================ */
 
-/* top container */
-#Header.container-fluid {
-  position: relative;
+#header-logo img {
+  width: 195px;
+  height: 25px;
 }
 
-.nav {
-  position: relative;
-  margin: auto;
-}
-
-#Header .region-logo img {
-  width: 175px;
-  height: 20px;
-  border: 0;
-}
-
-.polarity-right {
-  float: right;
-  font-variant: small-caps;
-  font-family: Telemarines;
-  font-size: 1.75em;
+#header-logo {
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-bottom: 25px;
 }
 
  /* actual navbar */
   /* fixed navbar after scroll */
-.affix {
-  top: 0;
-  width: 100%;
+#test {
+  margin-bottom:0px;
 }
 
-.affix + .container-fluid {
-  padding-top: 70px;
-}
 
 .navbar {
-  border: 0;
-  border-radius: 0;
+  border: 0px;
+  border-radius: 0px;
   margin-bottom: 0;
   background-color: #930000;
+}
+
+.navbar a {
+  color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-  color: #ffffff;
   font-size: 2em;
 }
 
-.nav-justified li a {
-  color: #ffffff;
+.navbar a:hover {
+  background-color: #000000;
 }
 
-.nav-justified li a:hover {
-  background-color: #ffffff; 
-  color: #BCBCBC;
-}
+ .affix {
+      top: 0;
+      width: 100%;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
 
 /* carousel */
+
 .carousel-inner { 
   height: 700px; 
   overflow: hidden; 
 }
+
 .carousel-inner img {
   -webkit-filter: blur(8px); /* Chrome, Safari, Opera */
   filter: blur(8px);
