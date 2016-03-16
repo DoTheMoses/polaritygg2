@@ -48,12 +48,13 @@
 <!-- ================================================ -->
 <!-- begin header and navbar                          -->
 <!-- ================================================ -->
-
-<div class="row" id="header-logo">
-  <a href="/"><img src="polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
+<div class="row">
+  <div id="header-logo">
+    <a href="indexnew2.html"><img src="polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
+  </div>
 </div> 
 
-<nav class="navbar" data-spy="affix" data-offset-top="197">
+<nav class="navbar" data-spy="affix" data-offset-top="75">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#polarity_navbar">
@@ -68,7 +69,7 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Super Smash Brothers Melee</a></li>
+            <li><a href="melee.html">Super Smash Brothers Melee</a></li>
             <li><a href="#">Super Smash Brothers WiiU</a></li>
             <li><a href="#">Project Melee</a></li> 
             <li><a href="#">Super Smash Brothers (64)</a></li> 
@@ -76,7 +77,7 @@
         </li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Partners</a></li>
-        <li><a href="#">Announcements</a></li>
+        <li><a href="blog.html">Announcements</a></li>
         <li><a href="#">Store</a></li>
         <li><a href="#">About</a></li>
       </ul>
@@ -100,11 +101,25 @@
       <ol class="carousel-indicators">
         <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
         <li data-target="#main_carousel" data-slide-to="1"></li>
+        <li data-target="#main_carousel" data-slide-to="2"></li>
       </ol>
 
       <div class="carousel-inner" role="listbox"> 
+        
         <!-- slide 0 -->
         <div class="item active">
+          <img src="grid.png" alt="Grid">
+          <div class="carousel-caption-plus">
+            <div class="carousel-caption-plus-link">
+              <h1>Polarity Southeast Melee Invitational</h1>
+              <p>July 30th - 31st in Orlando, Florida</p>
+              <a href="https://www.facebook.com/events/1661446734125439/"></a>
+            </div>  
+          </div>
+        </div>
+
+        <!-- slide 1 -->
+        <div class="item">
           <img src="plup.jpg" alt="Dudes">
           <div class="carousel-caption-plus">
             <div class="carousel-caption-plus-link">
@@ -115,7 +130,7 @@
           </div>
         </div>
 
-        <!-- slide 1 -->
+        <!-- slide 2 -->
         <div class="item">
           <img src="hands.jpg" alt="Hands">
           <div class="carousel-caption-plus">
@@ -188,7 +203,6 @@
   font-family: 'Oswald', sans-serif;
   font-size: 1.75em;
 }
-
 .footer-contact-link a {
   border-style: solid;
   border-width: 2px;
@@ -196,7 +210,6 @@
   
   padding: 10px;
 }
-
 <!-- social media -->
 .footer-follow-us a {
   font-family: 'Oswald', sans-serif;
@@ -205,33 +218,25 @@
 .footer-follow-us ul {
   list-style-type: none;
 } 
-
 .footer-follow-us ul li {
   display: inline;
 }
-
 .footer-follow-us ul li a img{
   width: 25px; 
   height:25px;
 }
-
-
 .footer-follow-us ul li a.youtube {
   background: url(twitprof.png); 
 } 
-
 .footer-follow-us a.linkedin {
   font-family: 'Oswald', sans-serif;
 } 
-
 .footer-about-company-row {
   border-bottom: 1px solid #ffffff;
   margin-bottom: 2.5%;
 }
-
 .footer-rhs-links ul {
   list-style-type: none;
-
 }
 .footer-rhs-links li {
   display: inline;
