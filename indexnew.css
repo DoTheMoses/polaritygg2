@@ -22,18 +22,18 @@ body {
   padding-bottom: 25px;
 }
 
- /* actual navbar */
-  /* fixed navbar after scroll */
-#test {
-  margin-bottom:0px;
-}
-
+ /* navbar */
 
 .navbar {
   border: 0px;
   border-radius: 0px;
   margin-bottom: 0;
-  background-color: #930000;
+  background: #930000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#930000, #440000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#930000, #440000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#930000, #440000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#930000, #440000); /* Standard syntax */
+  z-index: 100;
 }
 
 .navbar a {
@@ -43,18 +43,15 @@ body {
   font-size: 2em;
 }
 
-.navbar a:hover {
-  background-color: #000000;
+/* navbar fixed to top of page */
+.affix {
+  top: 0;
+  width: 100%;
 }
 
- .affix {
-      top: 0;
-      width: 100%;
-  }
-
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
+.affix + .container-fluid {
+  padding-top: 50px;
+}
 
 /* carousel */
 
@@ -64,8 +61,8 @@ body {
 }
 
 .carousel-inner img {
-  -webkit-filter: blur(8px); /* Chrome, Safari, Opera */
-  filter: blur(8px);
+  -webkit-filter: blur(3px); /* Chrome, Safari, Opera */
+  filter: blur(3px);
   align: center; 
   width: 100%
 }
@@ -107,9 +104,9 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
- .carousel-caption-plus-link {
-        position: relative;
-    }
+.carousel-caption-plus-link {
+  position: relative;
+}
 
  .carousel-caption-plus-link a {
   position: absolute;
@@ -182,4 +179,17 @@ body {
     }
 }
 
+/* melee */
+.melee-content {
+  padding: 20px;
+}
+.melee-content h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.5em;
+}
+.melee-content p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.25em;
+}
 
+}
