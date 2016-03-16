@@ -13,25 +13,25 @@
 
 <head>
 
-<title>Polarity Website 2.0</title>
-<meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament Source" /> 
-<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
-<meta name="author" content="Matt Kiep" />
+  <title>Polarity Website 2.0</title>
+  <meta charset="utf-8" />
+  <meta name="description" content="CFL-Based Tournament Source" /> 
+  <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
+  <meta name="author" content="Matt Kiep" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
-<link rel="stylesheet" href="indexnew.css" type="text/css" />
+  <link rel="stylesheet" href="indexnew.css" type="text/css" />
 
 </head>
 
@@ -46,59 +46,44 @@
 <body>
 
 <!-- ================================================ -->
-<!-- begin navbar                                     -->
+<!-- begin header and navbar                          -->
 <!-- ================================================ -->
+<div class="row">
+  <div id="header-logo">
+    <a href="indexnew2.html"><img src="polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
+  </div>
+</div> 
 
-<header id="Header">
+<nav class="navbar" data-spy="affix" data-offset-top="75">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-sm-3 col-md-3 col-lg-2 logo">
-
-        <div class="region region-logo">
-          <div id="block-block-1" class="block block-block">
-        
-            <div class="content">
-              <a href="/"><img src="polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg"</a> <!-- add svg and no svg options here, see comment below-->
-            </div>
-
-
-            <nav class="navbar navbar-default" data-spy="affix" data-offset-top="190">
-              <div class="container-fluid">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav_bar_collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                  </button>
-                </div>
-
-                <div class="collapse navbar-collapse" id="nav_bar_collapse"> 
-                  <ul class="nav nav-justified">
-                    <li class="dropdown">
-                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Super Smash Brothers Melee</a></li>
-                          <li><a href="#">Super Smash Brothers WiiU</a></li>
-                          <li><a href="#">Project Melee</a></li> 
-                          <li><a href="#">Super Smash Brothers (64)</a></li> 
-                        </ul>
-                    </li>
-                    <li><a href="#">Events</a></li>
-                    <li><a href="#">Partners</a></li>
-                    <li><a href="#">Announcements</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">About</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-
-          </div>
-        </div>
-      </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#polarity_navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+    </div>
+            
+    <div class="collapse navbar-collapse" id="polarity_navbar">
+      <ul class="nav nav-justified">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="melee.html">Super Smash Brothers Melee</a></li>
+            <li><a href="#">Super Smash Brothers WiiU</a></li>
+            <li><a href="#">Project Melee</a></li> 
+            <li><a href="#">Super Smash Brothers (64)</a></li> 
+          </ul>
+        </li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="blog.html">Announcements</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
     </div>
   </div>
-</header>
+</nav>
 
 <!-- ================================================ -->
 <!-- end navbar                                       -->
@@ -108,75 +93,141 @@
 <!-- begin carousel                                   -->
 <!-- ================================================ -->
 
-<div class="container-fluid">
-<div class="row">
+<div id="Carousel" class="container-fluid">
+  <div class="row">
 
-  <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-    <!-- indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#main_carousel" data-slide-to="1"></li>
-    </ol>
+    <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#main_carousel" data-slide-to="1"></li>
+        <li data-target="#main_carousel" data-slide-to="2"></li>
+      </ol>
 
-    <div class="carousel-inner" role="listbox"> 
-      <!-- slide 0 -->
-      <div class="item active">
-        <img src="plup.jpg" alt="Dudes">
-        <div class="carousel-caption-plus">
-          <div class="carousel-caption-plus-link">
-            <h1>The FBC Presents: Come to Papa</h1>
-            <p>March 19th-20th in Orlando, Florida</p>
-            <a href="https://smash.gg/tournament/the-fbc-presents-come-to-papa-1"></a>
-          </div>  
+      <div class="carousel-inner" role="listbox"> 
+        
+        <!-- slide 0 -->
+        <div class="item active">
+          <img src="grid.png" alt="Grid">
+          <div class="carousel-caption-plus">
+            <div class="carousel-caption-plus-link">
+              <h1>Polarity Southeast Melee Invitational</h1>
+              <p>July 30th - 31st in Orlando, Florida</p>
+              <a href="https://www.facebook.com/events/1661446734125439/"></a>
+            </div>  
+          </div>
         </div>
-      </div>
 
-      <!-- slide 1 -->
-      <div class="item">
-        <img src="hands.jpg" alt="Hands">
-        <div class="carousel-caption-plus">
-          <div class="carousel-caption-plus-link">
-            <h1>Impact 2016</h1>
-            <p>April 9th-10th in Orlando, Florida</p>
-            <a href="https://www.facebook.com/events/1661446734125439/"></a>
-          </div>  
+        <!-- slide 1 -->
+        <div class="item">
+          <img src="plup.jpg" alt="Dudes">
+          <div class="carousel-caption-plus">
+            <div class="carousel-caption-plus-link">
+              <h1>The FBC Presents: Come to Papa</h1>
+              <p>March 19th-20th in Orlando, Florida</p>
+              <a href="https://smash.gg/tournament/the-fbc-presents-come-to-papa-1"></a>
+            </div>  
+          </div>
         </div>
-      </div>
 
-    </div> <!-- end carousel-inner -->
+        <!-- slide 2 -->
+        <div class="item">
+          <img src="hands.jpg" alt="Hands">
+          <div class="carousel-caption-plus">
+            <div class="carousel-caption-plus-link">
+              <h1>Impact 2016</h1>
+              <p>April 9th-10th in Orlando, Florida</p>
+              <a href="https://www.facebook.com/events/1661446734125439/"></a>
+            </div>  
+          </div>
+        </div>
 
-  </div> <!-- end main-carousel -->
+      </div> <!-- end carousel-inner -->
 
-</div>  
+    </div> <!-- end main-carousel -->
+
+  </div> <!-- end row --> 
 
 </div> <!-- end container-fluid -->
+
 <!-- ================================================ -->
 <!-- end carousel                                     -->
 <!-- ================================================ -->
 
 <div class="container-fluid">
-<div class="row">
-  <h1>Some text to enable scrolling 1</h1>
-  <h1>Some text to enable scrolling 2</h1>
-  <h1>Some text to enable scrolling 3</h1>
-  <h1>Some text to enable scrolling 4</h1>
-  <h1>Some text to enable scrolling 5</h1>
-  <h1>Some text to enable scrolling 6</h1>
-  <h1>Some text to enable scrolling 7</h1>
-  <h1>Some text to enable scrolling 8</h1>
-  <h1>Some text to enable scrolling 9</h1>
-  <h1>Some text to enable scrolling 0</h1>
-  <h1>Some text to enable scrolling 1</h1>
-  <h1>Some text to enable scrolling 2</h1>
-  <h1>Some text to enable scrolling 3</h1>
-  <h1>Some text to enable scrolling 4</h1>
-  <h1>Some text to enable scrolling 5</h1>
-  <h1>Some text to enable scrolling 6</h1>
-  <h1>Some text to enable scrolling 7</h1>
-  <h1>Some text to enable scrolling 8</h1>
-  <h1>Some text to enable scrolling 9</h1>
-  <h1>Some text to enable scrolling 0</h1>  
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="melee-content">
+        <h1>Events & Tournaments</h1>
+        <p>Polarity runs a weekly tournament series called CFL Smackdown. It is held almost every
+           Monday night at Campus Cards & Games in Orlando, FL.<br /><br />
+           Click <a href="https://wwww.getjohns.com/cfl">here</a> to see brackets from past events.
+        </p>  
+      </div> 
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs">
+      <div class="melee-content">
+        <img class="img-responsive" src="hands.jpg" style="max-height:300px; max-width: 900px;" />
+        </p>
+      </div>
+    </div>
+
+  </div>
 </div>
+
+<hr />
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="melee-content">
+        <h1>Communities & Resources</h1>
+        <p> Whether you're looking for some help with tech skill, seeking different 
+            strategies for that tricky matchup, or just want to find a place to 
+            hang out and chat about Melee, we've provided some links below. <br /><br />
+
+            CFL Melee Facebook Group - Largest melee community in the CFL area<br />
+            Winter Garden Melee Facebook Group - Second largest group for players near Winter Garden (West Orlando)<br />
+            Kissimmee Melee Facebook group - Smaller group focused on players from Kissimmee (South of Orlando)<br />
+            Smashboards ATL South Melee board<br /><br />
+            
+            <a href="https://www.smashboards.com">Smashboards</a> - The original source for everything smash related<br />
+            <a href="https://www.reddit.com/r/ssbm">/r/ssbm</a> - Subreddit specifically about Melee<br />
+            <a href="https://www.reddit.com/r/smashbros">/r/smashbros</a> - Subreddit with all smash games showcased
+        </p>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="melee-content">
+        <h1>Some text to enable scrolling 1</h1>  
+      </div> 
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="melee-content">
+        <h1>Some text to enable scrolling 1</h1>  
+      </div> 
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="melee-content">
+        <h1>Resources</h1>
+        <p>There are tons of resources out there to enjoy: <br />
+        reddit.com/r/smashbros <br />
+        reddit.com/r/ssbm <br />
+        smashboards.com
+        </p>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <!-- ================================================ -->
@@ -201,7 +252,6 @@
   font-family: 'Oswald', sans-serif;
   font-size: 1.75em;
 }
-
 .footer-contact-link a {
   border-style: solid;
   border-width: 2px;
@@ -209,7 +259,6 @@
   
   padding: 10px;
 }
-
 <!-- social media -->
 .footer-follow-us a {
   font-family: 'Oswald', sans-serif;
@@ -218,33 +267,25 @@
 .footer-follow-us ul {
   list-style-type: none;
 } 
-
 .footer-follow-us ul li {
   display: inline;
 }
-
 .footer-follow-us ul li a img{
   width: 25px; 
   height:25px;
 }
-
-
 .footer-follow-us ul li a.youtube {
   background: url(twitprof.png); 
 } 
-
 .footer-follow-us a.linkedin {
   font-family: 'Oswald', sans-serif;
 } 
-
 .footer-about-company-row {
   border-bottom: 1px solid #ffffff;
   margin-bottom: 2.5%;
 }
-
 .footer-rhs-links ul {
   list-style-type: none;
-
 }
 .footer-rhs-links li {
   display: inline;
@@ -262,41 +303,37 @@
 
           <div class="footer-about-company">
             <div class="region region-footer-about-mindtree">
-              <div id="block-block-5" class="block block-block">
                 <div class="content">
                   <h2>About Polarity</h2> <!-- size doesnt change with window width -->
                   <p>Polarity is an Orlando, Florida based gaming organization specializing
                   in Super Smash Brothers tournaments and production for other gaming events. 
                   We've got a talented staff that has grown with the community.
-Find out more here.</p> <!-- size changes to bigger size with bigger window font -->
+                  Find out more here.</p> <!-- size changes to bigger size with bigger window font -->
                 </div>
               </div>
-            </div>
           </div>
         </div>  
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
 
           <div class="row footer-contact-row">
             <div class="region region-footer-contactus-social-links">
-              <div id="block-block-6" class="block block-block">
                 <div class="content">
                   <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
                     <div class="footer-contact-link">
                       <a href="/contact-us">CONTACT US</a>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 footer-follow-us-sep">
+                  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
                     <div class="footer-follow-us">
                       <h1>Follow Us</h1>
                       <ul>
-                        <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="twitprof.png" alt="Twitter"></></a></li>
-                        <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="twitprof.png" alt="Instagram"></></a></li>
-                        <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="twitprof.png" alt="Facebook"></></a></li>
-                        <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="twitprof.png" alt="Twitch"></></a></li>
-                        <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"></a></li>
+                        <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter"></></a></li>
+                        <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_logo.png" alt="Instagram"></></a></li>
+                        <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_logo.png" alt="Facebook"></></a></li>
+                        <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_logo.png" alt="Twitch"></></a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_logo.png" /></a></li>
                       </ul>
                     </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -309,19 +346,16 @@ Find out more here.</p> <!-- size changes to bigger size with bigger window font
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="footer-copy-rights">
             <div class="region region-footer-trademark-copyright">
-              <div id="block-block-7" class="block block-block">
                 <div class="content">
                   <p>Polarity is a registered trademarks of Polarity, Inc.</p>
                   <p>All rights reserved.</p>
                 </div>
               </div>
-            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="footer-rhs-links">
             <div class="region region-footer-other-links-mandator-link">
-              <div id="block-block-8" class="block block-block">
                 <div class="content">
                   <ul>          
                     <li><a href="/about-us/investors">Investors</a></li>
@@ -339,7 +373,6 @@ Find out more here.</p> <!-- size changes to bigger size with bigger window font
                   </ul>  
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
