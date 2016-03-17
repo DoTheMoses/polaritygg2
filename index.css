@@ -1,12 +1,13 @@
 @font-face {
-    font-family: Telemarines;
-    src: url(telemarines1.ttf);
+  font-family:Telemarines;
+  src: url(fonts/telemarines/telemarinesbold1.ttf);
 }
 
 body {
-    font-size: 100%;
+  font-size: 100%;
 }
 
+.row { width: 100% }
  /* ================================================ */
  /* navbar css                                       */
  /* ================================================ */
@@ -24,7 +25,7 @@ body {
 
  /* navbar */
 
-.navbar {
+.navbar-default {
   border: 0px;
   border-radius: 0px;
   margin-bottom: 0;
@@ -46,7 +47,7 @@ Standard syntax */
   z-index: 100;
 }
 
-.navbar a {
+.navbar-default a {
   color: #ffffff;
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
@@ -63,7 +64,7 @@ Standard syntax */
   padding-top: 50px;
 }
 
-/* carousel */
+/* carousel ======================================================================== */
 
 .carousel-inner { 
   height: 700px; 
@@ -214,10 +215,10 @@ apply opacity
   padding: 20px;
 }
 .melee-content h1{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Telemarines', sans-serif;
   font-size: 2.5em;
 }
-.melee-content p{
+.melee-content p {
   font-family: 'Oswald', sans-serif;
   font-size: 1.25em;
 }
@@ -238,7 +239,9 @@ apply opacity
 
 
 .content-section h1 {
-  font-size: 2.5em;
+  font-size: 2.25em;
+  font-family: Telemarines, sans-serif; 
+  text-align: center;
 }
 .content-section p {
   font-size: 1.5em;
@@ -277,7 +280,19 @@ apply opacity
 /* footer */
 #Footer {
   position: relative;
-  background-color: #000000;
+  background: #530000; /* For browsers that do not support 
+
+gradients */
+  background: -webkit-linear-gradient(#530000, #100000); /* 
+
+For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#530000, #100000); /* For 
+
+Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#530000, #100000); /* 
+
+For Firefox 3.6 to 15 */
+  background: linear-gradient(#530000, #100000);
   padding: 1px;
   color: #ffffff;
 }
