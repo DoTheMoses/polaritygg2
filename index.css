@@ -28,11 +28,21 @@ body {
   border: 0px;
   border-radius: 0px;
   margin-bottom: 0;
-  background: #930000; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#930000, #440000); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#930000, #440000); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#930000, #440000); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#930000, #440000); /* Standard syntax */
+  background: #930000; /* For browsers that do not support 
+
+gradients */
+  background: -webkit-linear-gradient(#930000, #440000); /* 
+
+For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#930000, #440000); /* For 
+
+Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#930000, #440000); /* 
+
+For Firefox 3.6 to 15 */
+  background: linear-gradient(#930000, #440000); /* 
+
+Standard syntax */
   z-index: 100;
 }
 
@@ -92,7 +102,9 @@ body {
 }
 
 .carousel-caption-plus div:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),  0 17px 50px 0 rgba(0,0,0,0.19); 
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),  0 17px 50px 
+
+0 rgba(0,0,0,0.19); 
 }
 
 .carousel-caption-plus h1 {
@@ -115,17 +127,31 @@ body {
   top: 0;
   left: 0;
   text-decoration: none; /* No underlines on the link */
-  z-index: 10; /* Places the link above everything else in the div */
-  background-color: #FFF; /* Fix to make div clickable in IE */
+  z-index: 10; /* Places the link above everything else in 
+
+the div */
+  background-color: #FFF; /* Fix to make div clickable in 
+
+IE */
   opacity: 0; /* Fix to make div clickable in IE */
-  filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+  filter: alpha(opacity=1); /* Fix to make div clickable in 
+
+IE */
 }
 
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
-  CSS from:       http://codepen.io/transportedman/pen/NPWRGq
-  and:            http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
+  CSS from:       
+
+http://codepen.io/transportedman/pen/NPWRGq
+  and:            
+
+http://stackoverflow.com/questions/18548731/bootstrap-3-
+
+carousel-fading-to-new-slide-instead-of-sliding-to-new-
+
+slide
   Inspired from:  http://codepen.io/Rowno/pen/Afykb 
 */
 .carousel-fade .carousel-inner .item {
@@ -154,8 +180,12 @@ body {
 }
 
 /*
-  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
-  Need to override the 3.3 new styles for modern browsers & apply opacity
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel 
+
+performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & 
+
+apply opacity
 */
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
@@ -195,6 +225,54 @@ body {
 #Testing123 {
   position: relative;
 }
+
+.content-section {
+  padding: 0px;
+
+  background-color: #ffffff;
+  background-image: url("images/grid.png");
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+
+.content-section h1 {
+  font-size: 2.5em;
+}
+.content-section p {
+  font-size: 1.5em;
+}
+
+.content-section img {
+  max-width:100%; 
+  max-height:100%;
+
+}
+
+.content-section-right {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+
+   .content-section h1 {
+      font-size: 2.25em;
+   }
+
+   .content-section p {
+      font-size: 1.15em;
+   }
+
+}
+
+
+
+
+
+
+
 
 /* footer */
 #Footer {
