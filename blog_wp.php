@@ -111,31 +111,33 @@ require('../wp/wp-blog-header.php');
        
 
     <?php
-    $posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
+    $posts = get_posts('numberposts=2&order=DSC&orderby=post_title');
     foreach ($posts as $post) : setup_postdata( $post ); ?>
         <!-- /.row -->
-        <div class="row">
-            <div class="col-md-7">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
-                </a>
+        <div class="container-fluid" style="padding:0px">       
+          <div class="container" style="margin-bottom:15px; padding:0px;">        
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="<?php the_permalink(); ?>">
+                        <img class="img-responsive" src=<?php the_post_thumbnail(full); ?>
+                    </a>
+                </div>
+                <div class="col-md-5">
+                  <h3><?php the_title(); ?></h3>
+                  <h4><?php the_date(); ?></h4>
+                  <p><?php the_excerpt(); ?></p>
+                  <h4>Categories: <?php the_category( ', ' ); ?></h4>
+                  <a class="btn btn-primary" href="<?php the_permalink(); ?>">View Post<span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
             </div>
-            <div class="col-md-5">
-                <h3><?php the_date();?></h3>
-                <h4><?php the_title(); ?></h4>
-                <p><?php the_excerpt(); ?></p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
-        </div>
+          </div>
+      </div>
+
         <!-- /.row -->
 
       <?php
       endforeach;
       ?>
-
-
-
-        <hr>
 
         <!-- Pagination -->
         <div class="row text-center">
