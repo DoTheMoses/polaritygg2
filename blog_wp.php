@@ -111,7 +111,7 @@ require('../wp/wp-blog-header.php');
        
 
     <?php
-    $posts = get_posts('numberposts=2&order=DSC&orderby=post_title');
+    $posts = get_posts('numberposts=2&order=DSC&orderby=post_date');
     foreach ($posts as $post) : setup_postdata( $post ); ?>
         <!-- /.row -->
         <div class="container-fluid" style="padding:0px">       
