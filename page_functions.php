@@ -1,7 +1,4 @@
-<?php function pol_navbar() { ?>
-<!-- ================================================ -->
-<!-- begin header and navbar                          -->
-<!-- ================================================ -->
+<?php function get_pol_navbar() { ?>
 
 <div class="row">
   <div id="header-logo">
@@ -41,18 +38,11 @@
   </div>
 </nav>
 
-<!-- ================================================ -->
-<!-- end navbar                                       -->
-<!-- ================================================ -->
 <?php
 }
 
-function pol_footer() {
+function get_pol_footer() {
 ?>
-
-<!-- ================================================ -->
-<!-- begin footer                                     -->
-<!-- ================================================ -->
 
 <div class="section" id="FooterBottom" data-type="footer">
   <section id="Footer" class="container-fluid">
@@ -137,9 +127,5 @@ function pol_footer() {
     </div>
   </section>
 </div>
-
-<!-- ================================================ -->
-<!-- end footer                                       -->
-<!-- ================================================ -->
 
 <?php } ?>
