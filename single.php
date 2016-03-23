@@ -92,6 +92,8 @@ define('WP_USE_THEMES', true);
 require('../wp/wp-blog-header.php');
 ?>
 
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
 <?php
 $posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
 foreach ($posts as $post) : setup_postdata( $post ); ?>
