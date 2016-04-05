@@ -6,7 +6,9 @@
 body {
   font-size: 100%;
 }
-
+@media (max-width: 800px) {
+#polarity_navbar {padding:15px;}
+}
 .row { width: 100% }
  /* ================================================ */
  /* navbar css                                       */
