@@ -21,18 +21,18 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="melee.html">Super Smash Brothers Melee</a></li>
-            <li><a href="wiiu.html/">Super Smash Brothers WiiU</a></li>
-            <li><a href="pm.html/">Project Melee</a></li> 
-            <li><a href="64.html/">Super Smash Brothers (64)</a></li> 
+            <li><a href="melee.php">Super Smash Brothers Melee</a></li>
+            <li><a href="wiiu.php/">Super Smash Brothers WiiU</a></li>
+            <li><a href="pm.php/">Project Melee</a></li> 
+            <li><a href="64.php/">Super Smash Brothers (64)</a></li> 
           </ul>
         </li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="aml.html">Amateur Melee League</a></li>
-        <li><a href="partners.html">Partners</a></li>
-        <li><a href="blog.html">Announcements</a></li>
-        <li><a href="store.html">Store</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="events.php">Events</a></li>
+        <li><a href="aml.php">Amateur Melee League</a></li>
+        <li><a href="partners.php">Partners</a></li>
+        <li><a href="blog.php">Announcements</a></li>
+        <li><a href="store.php">Store</a></li>
+        <li><a href="about.php">About</a></li>
       </ul>
     </div>
   </div>
