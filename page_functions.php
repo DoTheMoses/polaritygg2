@@ -30,7 +30,7 @@
         <li><a href="events.php">Events</a></li>
         <li><a href="aml.php">Amateur Melee League</a></li>
         <li><a href="partners.php">Partners</a></li>
-        <li><a href="blog.php">Announcements</a></li>
+        <li><a href="blog_wp.php">Announcements</a></li>
         <li><a href="store.php">Store</a></li>
         <li><a href="about.php">About</a></li>
       </ul>

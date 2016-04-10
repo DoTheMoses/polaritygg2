@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <html>
-  
+
 <!-- =================================================================== -->
 <head>
 <!-- =================================================================== -->
 
-<title>Polarity</title>
+<title>Polarity Website 2.0</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament & Production Source" /> 
+<meta name="description" content="CFL-Based Tournament Source" /> 
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
 <meta name="author" content="Matt Kiep" />
 
