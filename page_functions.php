@@ -2,12 +2,12 @@
 
 <div class="row">
   <div id="header-logo">
-    <a href="index.html"><img src="images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
+    <a href="index.php"><img src="images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
   </div>
 </div> 
 
 <nav class="nav navbar-default" data-spy="affix" data-offset-top="75">
-  <div class="container-fluid" style="padding:0px">
+  <div class="container-fluid" id="navbar-container" style="padding:0px">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#polarity_navbar">
         <span class="icon-bar"></span>

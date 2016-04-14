@@ -10,6 +10,7 @@ body {
 #polarity_navbar {padding:15px;}
 }
 .row { width: 100% }
+
  /* ================================================ */
  /* navbar css                                       */
  /* ================================================ */
@@ -26,6 +27,9 @@ body {
 }
 
  /* navbar */
+#navbar-container {
+  padding: 0px;
+}
 
 .navbar-default {
   border: 0px;
