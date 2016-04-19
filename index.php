@@ -25,6 +25,7 @@
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="index.css" type="text/css" />
+<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
 
 <!-- =================================================================== -->
 </head>
