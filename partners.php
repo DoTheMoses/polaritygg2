@@ -6,9 +6,11 @@
 <head>
 <!-- =================================================================== -->
 
-<title>Polarity Website 2.0</title>
+<head>
+
+<title>Polarity: Partners</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament Source" /> 
+<meta name="description" content="CFL-Based Tournament & Production Source" /> 
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
 <meta name="author" content="Matt Kiep" />
 
@@ -36,15 +38,15 @@
 
 <?php include("page_functions.php"); ?>
 
-<!-- ========================================================= -->
-<!-- header and navbar                                         -->
-<!-- ========================================================= -->
+<!-- ================================================ -->
+<!-- header and navbar                                -->
+<!-- ================================================ -->
 
 <?php get_pol_navbar(); ?>
 
-<!-- ========================================================= -->
-<!-- content                                                   -->
-<!-- ========================================================= -->
+<!-- ================================================ -->
+<!-- content                                          -->
+<!-- ================================================ -->
 
 <!-- begin carousel -->
 <div id="Carousel" class="container-fluid">
@@ -102,30 +104,67 @@
 </div>
 <!-- end carousel -->
 
-<div class="container-fluid">
-  <div class="row">
-    <h1>Some text to enable scrolling 1</h1>
-    <h1>Some text to enable scrolling 2</h1>
-    <h1>Some text to enable scrolling 3</h1>
-    <h1>Some text to enable scrolling 4</h1>
-    <h1>Some text to enable scrolling 5</h1>
-    <h1>Some text to enable scrolling 6</h1>
-    <h1>Some text to enable scrolling 7</h1>
-    <h1>Some text to enable scrolling 8</h1>
-    <h1>Some text to enable scrolling 9</h1>
-    <h1>Some text to enable scrolling 0</h1>
-    <h1>Some text to enable scrolling 1</h1>
-    <h1>Some text to enable scrolling 2</h1>
-    <h1>Some text to enable scrolling 3</h1>
-    <h1>Some text to enable scrolling 4</h1>
-    <h1>Some text to enable scrolling 5</h1>
-    <h1>Some text to enable scrolling 6</h1>
-    <h1>Some text to enable scrolling 7</h1>
-    <h1>Some text to enable scrolling 8</h1>
-    <h1>Some text to enable scrolling 9</h1>
-    <h1>Some text to enable scrolling 0</h1>  
+<!-- begin twtich -->
+<div class="container-fluid content-section">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h1>Twitch</h1>
+        <p>Polarity's first major partnership began with Twitch. Our Twitch partnership allows us to 
+           better serve viewers watching our stream at home by providing coolio benefits.<br /><br />
+
+           Check out our Twitch channel here: <a href"https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
+           
+        </p> 
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs">
+        <img class="img-responsive" src="images/hands.jpg" />
+      </div>
+
+    </div>           
   </div>
 </div>
+<!-- end twtich -->
+
+<!-- begin discord -->
+<div class="container-fluid content-section content-section-right">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs">
+        <img class="img-responsive" src="images/hands.jpg" />
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h1>Discord</h1>
+        <p>Discord is also a partner. They provide ??
+        </p> 
+      </div>
+
+    </div>           
+  </div>
+</div>
+<!-- end discord -->
+
+<!-- begin partner with us -->
+<div class="container-fluid content-section" style="padding-top:30px; padding-bottom:30px">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h1 style="text-align:center">Partner with Polarity</h1>
+        <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
+
+           We look forward to working with you!
+        </p> 
+      </div>
+
+    </div>           
+  </div>
+</div>
+<!-- end partner with us -->
 
 <!-- ========================================================= -->
 <!-- footer                                                    -->
