@@ -1,0 +1,2 @@
+[14-Apr-2016 09:04:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /proc/1518/fd/pipe:[1313920913]:96) in /home/polarity/public_html/wp/wp-includes/load.php on line 140
+[14-Apr-2016 09:04:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /proc/1518/fd/pipe:[1313920913]:96) in /home/polarity/public_html/wp/wp-includes/load.php on line 141
