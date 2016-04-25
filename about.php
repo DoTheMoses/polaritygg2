@@ -46,80 +46,133 @@
 <!-- content                                                   -->
 <!-- ========================================================= -->
 
-<!-- begin carousel -->
-<div id="Carousel" class="container-fluid">
-  <div class="row">
+<!-- begin top -->
+<div class="container-fluid content-section" id="top">
+  <div class="container">
 
-    <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-      <!-- indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#main_carousel" data-slide-to="1"></li>
-        <li data-target="#main_carousel" data-slide-to="2"></li>
-      </ol>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+      <div class="content-box">
+        <h1 style="text-align: center;">About Polarity</h1>
+        <p>In nature, polarity is created when opposites come together, and our community 
+        is a reflection of that polarity. We are your source for premiere central Florida 
+        events.<br /><br />                
 
-      <div class="carousel-inner" role="listbox"> 
-        
-        <!-- slide 0 -->
-        <div class="item active">
-          <img src="images/hands.jpg" alt="Grid">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Polarity Southeast Melee Invitational</h1>
-              <p>July 30th - 31st in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
+        Polarity is for the players. We want the best for every player, no matter if 
+        you're the best player, or if you could stand to improve. We want everyone's 
+        tournament experience to be the best, and will treat every players' concerns 
+        equally.<br /><br />  
+
+        Polarity is for the viewers. Whether you tune into our stream every time we 
+        broadcast, or if you're only here once, we want your time spent watching our 
+        stream to be enjoyable and memorable.<br /><br />  
+
+        Polarity is who we are. We consider all ideas from our own staff and from the 
+        community, and we use every piece of information we can to make the best decisions 
+        for our players, for our stream, and for the community.
+        </p> 
+
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <div class="content-box">
+              <h1>Tournaments Team</h1>
+                <ul>
+                  <li>Kelly</li>
+                  <li>Colin</li>
+                  <li>Lindsay</li>
+                </ul>
+            </div>
           </div>
-        </div>
 
-        <!-- slide 1 -->
-        <div class="item">
-          <img src="images/plup.jpg" alt="Dudes">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>The FBC Presents: Come to Papa</h1>
-              <p>March 19th-20th in Orlando, Florida</p>
-              <a href="https://smash.gg/tournament/the-fbc-presents-come-to-papa-1"></a>
-            </div>  
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <div class="content-box">
+              <h1>Production Team</h1>
+                <ul>
+                  <li>Gavin</li>
+                  <li>Mohamed</li>
+                  <li>Gabriel B.</li>
+                </ul>
+            </div>
           </div>
-        </div>
 
-        <!-- slide 2 -->
-        <div class="item">
-          <img src="images/hands.jpg" alt="Hands">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Impact 2016</h1>
-              <p>April 9th-10th in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <div class="content-box" style="padding-bottom: 22px;">
+              <h1>Operations Team</h1>
+                <ul>
+                  <li><a href="#matt">Matt</a></li>
+                  <li>Gabriel N.</li>
+                </ul>
+            </div>
           </div>
-        </div>
 
+        </div>
       </div>
     </div>
+
   </div>
 </div>
-<!-- end carousel -->
+<!-- end top -->
 
 <!-- begin matt -->
-<div class="container-fluid">
-  <div class="row">
+<div class="container-fluid content-section" id="matt">
+  <div class="container">
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="melee-content">
-        <h1>Matt "Moses" Kiep</h1>
-        <p>Matt plays Melee and stuff<br /><br />
-           Follow him on twitter: <a href="https://wwww.twitter.com/DoTheMoses">DoTheMoses</a><br />
-           Email him here: <a href="mailto:matthewkiep@gmail.com?Subject=Hello%20Moses" target="_top"></a>
-        </p>  
-      </div> 
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box">
+        <img src="images/staff/Matt_Kiep.png" alt="Twitch.tv"/>
+      </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <div class="melee-content">
-        <img class="img-responsive" src="images/hands.jpg" style="max-height:300px; max-width: 900px;" />
-        </p>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box">
+        <h1>Matt "Moses" Kiep</h1>
+        <p style="margin-bottom: 0px;">Matt has played video games for forever. He began playing Melee casually upon 
+        release in 2001, and picked it up competitively in 2009 after meeting Harriet 
+        and Rockcrock at UF. After that, he organized Smash fests and tournaments in 
+        Gainesville. He graduated in 2012 and moved to Orlando soon after to work full 
+        time.<br /><br />
+
+        In summer 2015, He joined the team that would become Polarity. He started the 
+        Amateur Melee League with Fearless later that year.<br /><br />
+
+        In the past he has played Halo and Halo 2, both competitively. He has also played 
+        Diablo 2 and Starcraft extensively. Matt currently plays DotA (occasionally 
+        competitively) and Hearthstone casually.<br /><br />
+
+        He has an affinity for pop-punk and Taylor Swift. You can follow him 
+        on twitter at <a href="https://www.twitter.com/DoTheMoses">twitter.com/DoTheMoses</a>.<br /><br />
+
+        <b>Birthday:</b> May 8th<br />
+        <b>Favorite Game:</b> Super Smash Brothers Melee<br />
+        <p style="margin-bottom: 0px;" id="matt_script"></p>
+
+        <script type="text/javascript">
+          
+          var matt_fact = [
+            "Favorite Movie: The Emperor's New Groove",
+            "Favorite Fast Food: Chipotle",
+            "Favorite Book: The Mill on the Floss",
+            "Favorite TV Show: Futurama",
+            "Favorite Smasher: Harriet",
+            "Favorite Hearthstone Streamer: Kripparian",
+            "Favorite DotA 2 Team: Team Empire",
+            "Favorite DotA 2 Player: Resolution",
+            "Favorite Pokemon: Zapdos",
+            "Favorite Ice Cream: Cookie Dough",
+            "Favorite Band: Motion City Soundtrack",
+          ];
+
+          function myFunction() {
+          var x = document.getElementById("matt_script")
+          x.innerHTML = matt_fact[Math.floor((Math.random() * 10) + 1)];
+          }
+
+          window.onload = function() {
+            myFunction();
+          };
+        </script> 
+
+        <a href="#top" style="text-align: center;">Back to top</a>
+        </p> 
       </div>
     </div>
 

@@ -25,7 +25,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="index.css" type="text/css" />
 
 <!-- =================================================================== -->
@@ -107,61 +107,92 @@
 <!-- begin twtich -->
 <div class="container-fluid content-section">
   <div class="container">
-    <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-        <h1>Twitch</h1>
-        <p>Polarity's first major partnership began with Twitch. Our Twitch partnership allows us to 
-           better serve viewers watching our stream at home by providing coolio benefits.<br /><br />
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+      <div class="content-box">
+        <h1 style="text-align: center;"><img src="images/Twitch_logo_black.svg" style="max-height: 150px;" alt="Twitch.tv"/></h1>
+        <p><i>"Founded in June 2011, Twitch is the world’s leading social video platform and community for gamers. 
+        Each month, more than 100 million community members gather to watch and talk about video games with 
+        more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire 
+        video game industry, including game developers, publishers, media outlets, events, casual content 
+        creators, and the entire esports scene."</i><a href="https://www.twitch.tv/p/about"> Source</a><br /><br />
 
-           Check out our Twitch channel here: <a href"https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
+        Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
+        Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
+        directly support Polarity.<br /><br />
+
+        Check out our Twitch channel here: <a href="https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
+        If you like what you see, Follow the channel! If you love what you see, Subcribe! Subscribers get 
+        access to our emotes below:
+
+        <div class="container-fluid">
+          <img src="images/polFlako.png" alt="polFlako" />
+          <img src="images/polPappa.png" alt="polPappa" />
+          <img src="images/polBruh.png" alt="polBruh" />
+          <img src="images/polPlup.png" alt="polPlup" />
+        </div>
            
         </p> 
       </div>
+    </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs">
-        <img class="img-responsive" src="images/hands.jpg" />
+<!--     <div class="col-xs-12 col-sm-6 col-sm-6 col-lg-6 no-padding">
+      <div class="content-box">
+        <img src="images/Twitch_logo_black.svg" alt="Twitch.tv"/>
       </div>
+    </div> -->
 
-    </div>           
   </div>
 </div>
 <!-- end twtich -->
 
 <!-- begin discord -->
-<div class="container-fluid content-section content-section-right">
+<div class="container-fluid content-section content-section-dark">
   <div class="container">
-    <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 hidden-xs">
-        <img class="img-responsive" src="images/hands.jpg" />
+    <div class="col-xs-12 col-sm-6 col-sm-6 col-lg-6 no-padding">
+      <div class="content-box-dark">
+        <img src="images/hands.jpg" alt="Twitch.tv"/>
       </div>
+    </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box-dark">
         <h1>Discord</h1>
-        <p>Discord is also a partner. They provide ??
+        <p>"Founded in June 2011, Twitch is the world’s leading social video platform and community for gamers. 
+        Each month, more than 100 million community members gather to watch and talk about video games with 
+        more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire 
+        video game industry, including game developers, publishers, media outlets, events, casual content 
+        creators, and the entire esports scene." <a href="https://www.twitch.tv/p/about"><i>Source</i></a><br /><br />
+
+        Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
+        Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
+        directly support Polarity.<br /><br />
+
+        Check out our Twitch channel here: <a href="https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
+        If you like what you see, Follow the channel! If you love what you see, Subcribe! Subscribers get 
+        access to our emotes below:
+          
         </p> 
       </div>
+    </div>
 
-    </div>           
   </div>
 </div>
 <!-- end discord -->
 
 <!-- begin partner with us -->
-<div class="container-fluid content-section" style="padding-top:30px; padding-bottom:30px">
+<div class="container-fluid content-section no-padding">
   <div class="container">
-    <div class="row">
 
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 style="text-align:center">Partner with Polarity</h1>
-        <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h1 style="text-align:center">Partner with Polarity</h1>
+      <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
 
-           We look forward to working with you!
-        </p> 
-      </div>
-
-    </div>           
+         We look forward to working with you!
+      </p> 
+    </div>
+  
   </div>
 </div>
 <!-- end partner with us -->

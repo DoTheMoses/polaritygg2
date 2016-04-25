@@ -22,7 +22,7 @@ body {
 
 #header-logo {
   padding-top: 25px;
-  padding-left: 40px;
+  padding-left: 25px;
   padding-bottom: 25px;
 }
 
@@ -35,21 +35,11 @@ body {
   border: 0px;
   border-radius: 0px;
   margin-bottom: 0;
-  background: #930000; /* For browsers that do not support 
-
-gradients */
-  background: -webkit-linear-gradient(#930000, #440000); /* 
-
-For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#930000, #440000); /* For 
-
-Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#930000, #440000); /* 
-
-For Firefox 3.6 to 15 */
-  background: linear-gradient(#930000, #440000); /* 
-
-Standard syntax */
+  background: #930000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#930000, #440000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#930000, #440000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#930000, #440000); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#930000, #440000); /* Standard syntax */
   z-index: 100;
 }
 
@@ -216,50 +206,52 @@ apply opacity
     }
 }
 
-/* melee */
-.melee-content {
-  padding: 20px;
-}
-.melee-content h1{
-  font-family: 'Telemarines', sans-serif;
-  font-size: 2.5em;
-}
-.melee-content p {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.25em;
-}
-
-#Testing123 {
-  position: relative;
+.no-padding {
+  padding: 0px;
 }
 
 .content-section {
   padding: 0px;
-
   background-color: #ffffff;
   background-image: url("images/grid.png");
   color: #000000;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
+.content-box {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.35);
 
+  padding: 10px;
+  margin: 10px;
+}
+
+.content-box-dark {
+  background: rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 3px rgba(200, 200, 200, 0.35);
+
+  padding: 10px;
+  margin: 10px;
+}
 
 .content-section h1 {
-  font-size: 2.25em;
-  font-family: Telemarines, sans-serif; 
-  text-align: center;
-}
-.content-section p {
-  font-size: 1.5em;
-}
+    font-size: 2.25em;
+    font-family: Telemarines, sans-serif; 
+    text-align: center;
+  }
+  
+.content-section  p {
+    font-size: 1.5em;
+  }
 
-.content-section img {
-  max-width:100%; 
-  max-height:100%;
+.content-section  img {
+    max-width:100%; 
+    max-height:100%;
+  }
 
-}
-
-.content-section-right {
+.content-section-dark {
   background-color: #000000;
   color: #ffffff;
 }
@@ -303,16 +295,16 @@ For Firefox 3.6 to 15 */
   color: #ffffff;
 }
 #Footer h2{
-  font-family: 'Oswald', sans-serif;
-  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.25em;
 }
 #Footer h1{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
 }
 #Footer p{
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.75em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
 }
 .footer-contact-link a {
   position: absolute;
@@ -322,9 +314,10 @@ For Firefox 3.6 to 15 */
   
   padding: 10px;
 }
-<!-- social media -->
+
+/*-- social media */
 .footer-follow-us a {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
 } 
 .footer-follow-us ul {
@@ -341,7 +334,7 @@ For Firefox 3.6 to 15 */
   background: url(twitprof.png); 
 } 
 .footer-follow-us a.linkedin {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
 } 
 .footer-about-company-row {
   border-bottom: 1px solid #ffffff;

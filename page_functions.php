@@ -1,10 +1,10 @@
 <?php function get_pol_navbar() { ?>
 
-<div class="row">
+<!-- <div class="row"> -->
   <div id="header-logo">
     <a href="index.php"><img src="images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
   </div>
-</div> 
+<!-- </div>  -->
 
 <nav class="nav navbar-default" data-spy="affix" data-offset-top="75">
   <div class="container-fluid" id="navbar-container" style="padding:0px">
@@ -33,6 +33,7 @@
         <li><a href="blog_wp.php">Announcements</a></li>
         <li><a href="store.php">Store</a></li>
         <li><a href="about.php">About</a></li>
+        <li><a href="contact.php">Contact Us</a></li>
       </ul>
     </div>
   </div>
@@ -98,13 +99,13 @@ function get_pol_footer() {
           <div class="footer-copy-rights">
             <div class="region region-footer-trademark-copyright">
                 <div class="content">
-                  <p>Polarity is a registered trademarks of Polarity, Inc.</p>
+                  <p>Polarity is a registered trademark of Polarity, Inc.</p>
                   <p>All rights reserved.</p>
                 </div>
               </div>
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<!--         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="footer-rhs-links">
             <div class="region region-footer-other-links-mandator-link">
                 <div class="content">
@@ -122,7 +123,7 @@ function get_pol_footer() {
                 </div>
               </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
