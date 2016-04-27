@@ -6,6 +6,7 @@
 body {
   font-size: 100%;
 }
+
 @media (max-width: 800px) {
 #polarity_navbar {padding:15px;}
 }
@@ -128,33 +129,19 @@ html, body {
   top: 0;
   left: 0;
   text-decoration: none; /* No underlines on the link */
-  z-index: 10; /* Places the link above everything else in 
-
-the div */
-  background-color: #FFF; /* Fix to make div clickable in 
-
-IE */
+  z-index: 10; /* Places the link above everything else in the div */
+  background-color: #FFF; /* Fix to make div clickable in IE */
   opacity: 0; /* Fix to make div clickable in IE */
-  filter: alpha(opacity=1); /* Fix to make div clickable in 
-
-IE */
+  filter: alpha(opacity=1); /* Fix to make div clickable in IE */
 }
-
 
 /*
   Bootstrap Carousel Fade Transition (for Bootstrap 3.3.x)
-  CSS from:       
-
-http://codepen.io/transportedman/pen/NPWRGq
-  and:            
-
-http://stackoverflow.com/questions/18548731/bootstrap-3-
-
-carousel-fading-to-new-slide-instead-of-sliding-to-new-
-
-slide
+  CSS from: http://codepen.io/transportedman/pen/NPWRGq 
+  and: http://stackoverflow.com/questions/18548731/bootstrap-3-carousel-fading-to-new-slide-instead-of-sliding-to-new-slide
   Inspired from:  http://codepen.io/Rowno/pen/Afykb 
 */
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
@@ -181,13 +168,10 @@ slide
 }
 
 /*
-  WHAT IS NEW IN 3.3: "Added transforms to improve carousel 
-
-performance in modern browsers."
-  Need to override the 3.3 new styles for modern browsers & 
-
-apply opacity
+  WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+  Need to override the 3.3 new styles for modern browsers & apply opacity
 */
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
@@ -250,11 +234,7 @@ apply opacity
     text-align: center;
   }
 
-/*h2 { font-size: 2em; }
-h3 { font-size: 1.75em; }
-h4 { font-size: 1.5em; }
-h5 { font-size: 1.25em; }
-h6 { font-size: 1em; }*/
+
 
 
 .content-section  p {
@@ -284,12 +264,6 @@ h6 { font-size: 1em; }*/
 }
 
 
-
-
-
-
-
-
 /* ====================================================================================== 
 footer 
 ========================================================================================= */
@@ -302,20 +276,18 @@ footer
   background: -moz-linear-gradient(#530000, #100000); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#530000, #100000);
   color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 
 #Footer h2 {
-  font-family: 'Roboto', sans-serif;
   font-size: 2.25em;
 }
 
 #Footer h1 {
-  font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
 }
 
 #Footer p {
-  font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
 
