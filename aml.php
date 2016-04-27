@@ -64,10 +64,10 @@
         </p> 
 
         <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 no-padding">
             <div class="content-box">
               <h1><a href="#season_1">Season 1</a></h1>
-              <h2>July 2015 - September 13th 2015</h2>
+              <h2>August 4th, 2015 - September 13th, 2015</h2>
                 <ul>
                   <li>Pools</li>
                   <li><a href="http://challonge.com/AMLs1finals">Final Bracket</a></li>
@@ -77,9 +77,10 @@
             </div>
           </div>
 
-          <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 no-padding">
             <div class="content-box">
               <h1><a href="#season_2">Season 2</a></h1>
+              <h2>November 14th, 2015 - February 6th, 2016</h2>
                 <ul>
                   <li>Regular Season Results</li>
                   <li><a href="http://challonge.com/amlseason2finals">Final Bracket</a></li>

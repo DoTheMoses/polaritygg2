@@ -150,15 +150,9 @@
 <div class="container-fluid content-section content-section-dark">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-6 col-sm-6 col-lg-6 no-padding">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box-dark">
-        <img src="images/hands.jpg" alt="Twitch.tv"/>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-      <div class="content-box-dark">
-        <h1>Discord</h1>
+        <h1 style="text-align: center;"><img src="images/Discord-Logo.png" style="max-height: 150px;" alt="Discord"/></h1>
         <p>"Founded in June 2011, Twitch is the world’s leading social video platform and community for gamers. 
         Each month, more than 100 million community members gather to watch and talk about video games with 
         more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire 
@@ -168,11 +162,6 @@
         Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
         Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
         directly support Polarity.<br /><br />
-
-        Check out our Twitch channel here: <a href="https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
-        If you like what you see, Follow the channel! If you love what you see, Subcribe! Subscribers get 
-        access to our emotes below:
-          
         </p> 
       </div>
     </div>
@@ -182,17 +171,19 @@
 <!-- end discord -->
 
 <!-- begin partner with us -->
-<div class="container-fluid content-section no-padding">
+<div class="container-fluid content-section content-section">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <h1 style="text-align:center">Partner with Polarity</h1>
-      <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+      <div class="content-box">
+        <h1 style="text-align: center;">Partner with Polarity</h1>
+          <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
 
-         We look forward to working with you!
-      </p> 
+          We look forward to working with you!
+          </p>  
+      </div>
     </div>
-  
+
   </div>
 </div>
 <!-- end partner with us -->

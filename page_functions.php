@@ -45,67 +45,59 @@
 function get_pol_footer() {
 ?>
 
-<div class="section" id="FooterBottom" data-type="footer">
-  <section id="Footer" class="container-fluid">
-    <div class="container">
+<div class="container-fluid" id="Footer">
+  <div id="Footer" class="container">
 
-      <div class="row footer-about-company-row">
+    <div class="container footer-top-row no-padding no-margin">
 
-        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+      <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+        <div class="footer-about">
+          <h1>About Polarity</h1>
+          <p>Polarity is an Orlando, Florida based gaming organization specializing
+          in Super Smash Brothers tournaments and production for other gaming events. 
+          We've got a talented staff that has grown with the community.
+          Find out more <a href="index.php">here</a>.
+          </p>
+        </div>
+      </div>
 
-          <div class="footer-about-company">
-            <div class="region region-footer-about-mindtree">
-                <div class="content">
-                  <h2>About Polarity</h2> <!-- size doesnt change with window width -->
-                  <p>Polarity is an Orlando, Florida based gaming organization specializing
-                  in Super Smash Brothers tournaments and production for other gaming events. 
-                  We've got a talented staff that has grown with the community.
-                  Find out more <a href="index.html">here</a>.</p> <!-- size changes to bigger size with bigger window font -->
-                </div>
-              </div>
+      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="height: 100%;">
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="footer-contact-link">
+            <a href="/contact.php">CONTACT US</a>
           </div>
-        </div>  
+        </div>
 
-        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-          <div class="row footer-contact-row">
-            <div class="region region-footer-contactus-social-links">
-                <div class="content">
-                  <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
-                    <div class="footer-contact-link">
-                      <a href="/contact-us">CONTACT US</a>
-                    </div>
-                  </div>
-                  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
-                    <div class="footer-follow-us">
-                      <h1>Follow Us</h1>
-                      <ul>
-                        <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter"></></a></li>
-                        <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_logo.png" alt="Instagram"></></a></li>
-                        <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_logo.png" alt="Facebook"></></a></li>
-                        <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_logo.png" alt="Twitch"></></a></li>
-                        <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_logo.png" /></a></li>
-                      </ul>
-                    </div>
-                </div>
-              </div>
-            </div>
+        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+          <div class="footer-follow-us">
+            <h1>Follow Us</h1>
+            <ul class="no-padding">
+              <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter"></></a></li>
+              <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_logo.png" alt="Instagram"></></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_logo.png" alt="Facebook"></></a></li>
+              <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_logo.png" alt="Twitch"></></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_logo.png" /></a></li>
+            </ul>
+          </div>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="container footer-bottom-row no-padding no-margin">
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <div class="footer-copy-rights">
+          <div class="content">
+            <p>Polarity is a registered trademark of Polarity, Inc.<br />
+            All rights reserved.
+            </p>
           </div>
         </div>
       </div>
-           
-      <div class="row">
 
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          <div class="footer-copy-rights">
-            <div class="region region-footer-trademark-copyright">
-                <div class="content">
-                  <p>Polarity is a registered trademark of Polarity, Inc.</p>
-                  <p>All rights reserved.</p>
-                </div>
-              </div>
-          </div>
-        </div>
-<!--         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="footer-rhs-links">
             <div class="region region-footer-other-links-mandator-link">
                 <div class="content">
@@ -123,10 +115,9 @@ function get_pol_footer() {
                 </div>
               </div>
           </div>
-        </div> -->
-      </div>
-    </div>
-  </section>
+        </div>
+
+
 </div>
 
 <?php } ?>

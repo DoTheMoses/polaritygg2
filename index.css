@@ -11,6 +11,10 @@ body {
 }
 .row { width: 100% }
 
+html, body {
+   height: 100%;
+}
+
  /* ================================================ */
  /* navbar css                                       */
  /* ================================================ */
@@ -210,6 +214,10 @@ apply opacity
   padding: 0px;
 }
 
+.no-margin {
+  margin: 0px;
+}
+
 .content-section {
   padding: 0px;
   background-color: #ffffff;
@@ -241,7 +249,14 @@ apply opacity
     font-family: Telemarines, sans-serif; 
     text-align: center;
   }
-  
+
+/*h2 { font-size: 2em; }
+h3 { font-size: 1.75em; }
+h4 { font-size: 1.5em; }
+h5 { font-size: 1.25em; }
+h6 { font-size: 1em; }*/
+
+
 .content-section  p {
     font-size: 1.5em;
   }
@@ -275,43 +290,40 @@ apply opacity
 
 
 
-/* footer */
+/* ====================================================================================== 
+footer 
+========================================================================================= */
+
 #Footer {
   position: relative;
-  background: #530000; /* For browsers that do not support 
-
-gradients */
-  background: -webkit-linear-gradient(#530000, #100000); /* 
-
-For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#530000, #100000); /* For 
-
-Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#530000, #100000); /* 
-
-For Firefox 3.6 to 15 */
+  background: #530000; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#530000, #100000); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#530000, #100000); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#530000, #100000); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#530000, #100000);
-  padding: 1px;
   color: #ffffff;
 }
-#Footer h2{
+
+#Footer h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.25em;
 }
-#Footer h1{
+
+#Footer h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
 }
-#Footer p{
+
+#Footer p {
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
 }
+
 .footer-contact-link a {
   position: absolute;
   border-style: solid;
   border-width: 2px;
   border-color: #fffff;
-  
   padding: 10px;
 }
 
@@ -330,16 +342,7 @@ For Firefox 3.6 to 15 */
   width: 25px; 
   height:25px;
 }
-.footer-follow-us ul li a.youtube {
-  background: url(twitprof.png); 
-} 
-.footer-follow-us a.linkedin {
-  font-family: 'Roboto', sans-serif;
-} 
-.footer-about-company-row {
-  border-bottom: 1px solid #ffffff;
-  margin-bottom: 2.5%;
-}
+
 .footer-rhs-links ul {
   list-style-type: none;
 }

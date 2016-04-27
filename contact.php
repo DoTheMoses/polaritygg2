@@ -50,13 +50,7 @@
 <div class="container-fluid content-section">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box">
-        <img src="images/staff/Matt_Kiep.png" alt="Twitch.tv"/>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
         <h1>Contact Us</h1>
         <p>If you have anything you'd like to discuss with us, let us know!
