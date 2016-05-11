@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
 
 <!-- =================================================================== -->
 <head>
@@ -13,6 +12,7 @@
 <meta name="author" content="Matt Kiep" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -21,9 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css" />
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -33,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("page_functions.php"); ?>
+<?php include("include/page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->

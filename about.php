@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
 
 <!-- =================================================================== -->
 <head>
@@ -22,9 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css" />
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -34,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("page_functions.php"); ?>
+<?php include("include/page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->
@@ -47,12 +50,12 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section" id="top">
+<div class="container-fluid content-section top-content" id="top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
-        <h1 style="text-align: center;">About Polarity</h1>
+        <h1>About Polarity</h1>
         <p>In nature, polarity is created when opposites come together, and our community 
         is a reflection of that polarity. We are your source for premiere central Florida 
         events.<br /><br />                
@@ -74,32 +77,32 @@
         <div class="container-fluid no-padding">
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
             <div class="content-box">
-              <h1>Tournaments Team</h1>
+              <h4>Tournaments Team</h4>
                 <ul>
-                  <li>Kelly</li>
-                  <li>Colin</li>
-                  <li>Lindsay</li>
+                  <li><a href="#kelly">Kelly</a></li>
+                  <li><a href="#colin">Colin</a></li>
+                  <li><a href="#lindsay">Lindsay</a></li>
                 </ul>
             </div>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
             <div class="content-box">
-              <h1>Production Team</h1>
+              <h4>Production Team</h4>
                 <ul>
-                  <li>Gavin</li>
-                  <li>Mohamed</li>
-                  <li>Gabriel B.</li>
+                  <li><a href="#gavin">Gavin</a></li>
+                  <li><a href="#mohamed">Mohamed</a></li>
+                  <li><a href="#gabe_b">Gabriel B.</a></li>
                 </ul>
             </div>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
             <div class="content-box" style="padding-bottom: 22px;">
-              <h1>Operations Team</h1>
+              <h4>Operations Team</h4>
                 <ul>
                   <li><a href="#matt">Matt</a></li>
-                  <li>Gabriel N.</li>
+                  <li><a href="#gabe_n">Gabriel N.</a></li>
                 </ul>
             </div>
           </div>
@@ -113,7 +116,8 @@
 <!-- end top -->
 
 <!-- begin matt -->
-<div class="container-fluid content-section" id="matt">
+<span class="anchor" id="matt"></span>
+<div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
@@ -131,8 +135,8 @@
         Gainesville. He graduated in 2012 and moved to Orlando soon after to work full 
         time.<br /><br />
 
-        In summer 2015, He joined the team that would become Polarity. He started the 
-        Amateur Melee League with Fearless later that year.<br /><br />
+        In summer 2015, he joined the team that would become Polarity. He also started the 
+        Amateur Melee League with Fearless that summer.<br /><br />
 
         In the past he has played Halo and Halo 2, both competitively. He has also played 
         Diablo 2 and Starcraft extensively. Matt currently plays DotA (occasionally 
@@ -145,33 +149,7 @@
         <b>Favorite Game:</b> Super Smash Brothers Melee<br />
         <p style="margin-bottom: 0px;" id="matt_script"></p>
 
-        <script type="text/javascript">
-          
-          var matt_fact = [
-            "Favorite Movie: The Emperor's New Groove",
-            "Favorite Fast Food: Chipotle",
-            "Favorite Book: The Mill on the Floss",
-            "Favorite TV Show: Futurama",
-            "Favorite Smasher: Harriet",
-            "Favorite Hearthstone Streamer: Kripparian",
-            "Favorite DotA 2 Team: Team Empire",
-            "Favorite DotA 2 Player: Resolution",
-            "Favorite Pokemon: Zapdos",
-            "Favorite Ice Cream: Cookie Dough",
-            "Favorite Band: Motion City Soundtrack",
-          ];
-
-          function myFunction() {
-          var x = document.getElementById("matt_script")
-          x.innerHTML = matt_fact[Math.floor((Math.random() * 10) + 1)];
-          }
-
-          window.onload = function() {
-            myFunction();
-          };
-        </script> 
-
-        <a href="#top" style="text-align: center;">Back to top</a>
+        <p class="centered"><a href="#top">Back to top</a></p>
         </p> 
       </div>
     </div>

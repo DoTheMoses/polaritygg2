@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
 
 <!-- =================================================================== -->
 <head>
@@ -8,7 +7,7 @@
 
 <title>Polarity Website 2.0</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament Source" /> 
+<meta name="description" content="CFL-Based Tournament & Production Source" /> 
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
 <meta name="author" content="Matt Kiep" />
 
@@ -22,10 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css" />
-<link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -35,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("page_functions.php"); ?>
+<?php include("include/page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->
@@ -49,7 +51,7 @@
 
 <!-- begin carousel -->
 <div id="Carousel" class="container-fluid">
-  <div class="row">
+  <div class="container">
 
     <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
       <!-- indicators -->
@@ -103,28 +105,44 @@
 </div>
 <!-- end carousel -->
 
-<div class="container-fluid">
-  <div class="row">
-    <h1>Some text to enable scrolling 1</h1>
-    <h1>Some text to enable scrolling 2</h1>
-    <h1>Some text to enable scrolling 3</h1>
-    <h1>Some text to enable scrolling 4</h1>
-    <h1>Some text to enable scrolling 5</h1>
-    <h1>Some text to enable scrolling 6</h1>
-    <h1>Some text to enable scrolling 7</h1>
-    <h1>Some text to enable scrolling 8</h1>
-    <h1>Some text to enable scrolling 9</h1>
-    <h1>Some text to enable scrolling 0</h1>
-    <h1>Some text to enable scrolling 1</h1>
-    <h1>Some text to enable scrolling 2</h1>
-    <h1>Some text to enable scrolling 3</h1>
-    <h1>Some text to enable scrolling 4</h1>
-    <h1>Some text to enable scrolling 5</h1>
-    <h1>Some text to enable scrolling 6</h1>
-    <h1>Some text to enable scrolling 7</h1>
-    <h1>Some text to enable scrolling 8</h1>
-    <h1>Some text to enable scrolling 9</h1>
-    <h1>Some text to enable scrolling 0</h1>  
+<!-- begin recent brackets -->
+<span class="anchor" id="recent_brackets"></span>
+<div class="container-fluid content-section content-section-dark">
+  <div class="container">
+      
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding hidden-xs">
+      <div class="content-box-dark">
+        <h1>Recent Brackets</h1>
+        <p>Looking for a bracket from a recent event? Check <a href="https://t.polarity.gg">here</a>!</p>
+      </div>
+    </div>
+      
+  </div>
+</div>
+<!-- end communiities & resources -->
+
+<div class="container">
+  <div class="container-fluid">
+    <a class="twitter-timeline" 
+    href="https://twitter.com/PolarityGG" 
+    data-widget-id="730171926224719872" 
+    width="1300"
+    height="250">
+    Tweets by @PolarityGG</a>
+    <script>
+      !function(d,s,id) {
+        var js,fjs=d.getElementsByTagName(s)[0],
+        p=/^http:/.test(d.location)?'http':'https';
+
+        if(!d.getElementById(id)) {
+            js=d.createElement(s);
+            js.id=id;
+            js.src=p+"://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
+          }
+        }
+      (document,"script","twitter-wjs");
+    </script>
   </div>
 </div>
 

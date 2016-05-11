@@ -5,9 +5,9 @@
 <head>
 <!-- =================================================================== -->
 
-<title>Polarity: Contact Us</title>
+<title>Polarity: News</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament & Production Source" /> 
+<meta name="description" content="CFL-Based Tournament & Production Source" />
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
 <meta name="author" content="Matt Kiep" />
 
@@ -49,51 +49,71 @@
 <!-- content                                                   -->
 <!-- ========================================================= -->
 
+<?php 
+/* Short and sweet */
+define('WP_USE_THEMES', false);
+require('../wp/wp-blog-header.php');
+?>
+
 <!-- begin top -->
 <div class="container-fluid content-section top-content">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
-        <h1>Contact Us</h1>
-        <p>If you have anything you'd like to discuss with us, let us know! You can email general questions to
-        <a href="mailto:admin@polarity.gg?Subject=General%20Information" target="_top">admin@polarity.gg</a>.<br /><br />
-        </p>
-
-  <div class="container-fluid no-padding">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-      	  <p>If you'd like to talk to us about 
-      	  	
-      	  </p>
-       	  </div>
-    	</div>
-
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
-
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
-
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
+        <h1>News & Blog</h1>
       </div>
-      </div>
-    </div>
+     </div>
 
   </div>
 </div>
 <!-- end top -->
+
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <?php
+    $posts = get_posts('numberposts=2&order=DSC&orderby=post_date');
+    foreach ($posts as $post) : setup_postdata( $post ); ?>
+
+      <div class="container-fluid no-padding">       
+        <div class="container no-padding content-box" style="margin-bottom:15px;">        
+
+          <div class="col-md-7">
+            <a href="<?php the_permalink(); ?>">
+              <img class="img-responsive" src=<?php the_post_thumbnail(full); ?>
+            </a>
+          </div>
+          <div class="col-md-5">
+            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+            <h4><?php the_date(); ?></h4>
+            <p><?php the_excerpt(); ?></p>
+          </div>
+        </div>
+      </div>
+
+    <?php
+    endforeach;
+    ?>
+
+    <!-- Pagination -->
+<!--     <div class="row text-center">
+      <div class="col-lg-12">
+        <ul class="pagination">
+          <li><a href="#">&laquo;</a></li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">&raquo;</a></li>
+        </ul>
+      </div>
+    </div> -->
+
+  </div>  
+</div>
+<!-- /.container -->
 
 <!-- ========================================================= -->
 <!-- footer                                                    -->

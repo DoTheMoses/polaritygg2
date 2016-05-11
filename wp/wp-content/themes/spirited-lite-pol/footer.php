@@ -1,87 +1,80 @@
-<?php
-/**
- * The template for displaying the footer.
- *
- * Contains the closing of the #content div and all content after
- *
- * @package SKT Spiritedlite
- */
-?>
-<div id="footer-wrapper">
-    	<div class="container">
-             <div class="cols-4 widget-column-1">   
-             <?php if ( '' !== get_theme_mod( 'about_title' ) ){  ?>
-             <h5><?php echo esc_attr_e( get_theme_mod( 'about_title', __('About Spirited','spirited-lite'))); ?></h5>
-             <?php } ?>
-             
-             <?php if ( '' !== get_theme_mod( 'about_description' ) ){  ?>
-             <div class="footerdesc">
-			 <?php echo esc_attr_e( get_theme_mod( 'about_description', __('Sed suscipit mauris nec mauris vulputate, a posuere libero congue. Nam laoreet elit eu erat pulvinar, et efficitur nibh euismod.Nam metus lorem, hendrerit quis ante eget, lobortis elementum neque. Aliquam in ullamcorper quam. Integer euismod ligula in mauris vehic.','spirited-lite')));
-			  ?>
-              </div>
-              <?php } ?>
-              
-                <div class="clear"></div>
-                <?php if( '' !== get_theme_mod('contact_add')){?>
-                <div class="footeradrs"><i class="fa fa-map-marker fa-2x"></i><span><?php echo esc_attr( get_theme_mod('contact_add', 'Spirited 532, Premium Plaza, New York, NY 1203', 'spirited-lite' )); ?></span></div>
-                <?php } ?>
-                <?php if( '' !== get_theme_mod('contact_no')){ ?>
-               <div class="footeradrs"><i class="fa fa-phone fa-2x"></i><span><?php echo esc_attr( get_theme_mod('contact_no', '+1 800 234 568', 'spirited-lite' )); ?></span></div>
-                <?php } ?>              
-
-              </div>                  
-               <div class="cols-4 widget-column-2">
-                 <?php if ( '' !== get_theme_mod( 'recent_title' ) ){  ?>
-             		<h5><?php echo esc_attr_e( get_theme_mod( 'recent_title', __('Recent Posts','spirited-lite'))); ?></h5>
-            	 <?php } ?>
-                              	
-					<?php $args = array( 'posts_per_page' => 2, 'post__not_in' => get_option('sticky_posts'), 'orderby' => 'date', 'order' => 'desc' );
-					$the_query = new WP_Query( $args );
-					?>
-                    <?php while ( $the_query->have_posts() ) :  $the_query->the_post(); ?>
-                        <div class="recent-post">
-                         <a href="<?php the_permalink(); ?>"><h6><?php the_title(); ?></h6></a>  
-                        </div>
-                    <?php endwhile; ?>
-                </div>
-                
-                <div class="cols-4 widget-column-3">                   
-                   <?php if ( '' !== get_theme_mod( 'social_title' ) ){  ?>
-             		<h5><?php echo esc_attr_e( get_theme_mod( 'social_title', __('Get Some Social','spirited-lite'))); ?></h5>
-            	 <?php } ?>
-                   
-                <div class="somesocial">
-					<?php if ( '' !== get_theme_mod( 'fb_link' ) ) { ?>
-                    <a title="facebook" class="fa fa-facebook fa-2x" target="_blank" href="<?php echo esc_url(get_theme_mod('fb_link','#facebook')); ?>"></a> 
-                    <?php } ?>
-                    
-                    <?php if ( '' !== get_theme_mod( 'twitt_link' ) ) { ?>
-                    <a title="twitter" class="fa fa-twitter fa-2x" target="_blank" href="<?php echo esc_url(get_theme_mod('twitt_link','#twitter')); ?>"></a>
-                    <?php } ?> 
-                    
-                    <?php if ( '' !== get_theme_mod('gplus_link') ) { ?>
-                    <a title="google-plus" class="fa fa-google-plus fa-2x" target="_blank" href="<?php echo esc_url(get_theme_mod('gplus_link','#gplus')); ?>"></a>
-                    <?php }?>
-                    
-                    <?php if ( '' !== get_theme_mod('linked_link') ) { ?> 
-                    <a title="linkedin" class="fa fa-linkedin fa-2x" target="_blank" href="<?php echo esc_url(get_theme_mod('linked_link','#linkedin')); ?>"></a>
-                    <?php } ?>
-					
-                    <a title="linkedin" class="fa fa-twitch fa-2x" target="_blank" href="http://www.twitch.tv/PolarityGG"></a>
-					
-                    <a title="linkedin" class="fa fa-youtube fa-2x" target="_blank" href="http://youtube.com/PolarityGG"></a>
-                </div>     
-                </div><!--end .widget-column-4-->
-            <div class="clear"></div>
-        </div><!--end .container-->
-        
-        <?php /* <div class="copyright-wrapper">
-        	<div class="container">
-                <div class="design-by"><?php printf( esc_html__( 'Theme %1$s %2$s', 'spirited-lite' ), 'By : ', '<a href="'.esc_url(SKT_URL).'">SKT Themes</a>' ); ?></div>
-            </div>
-            <div class="clear"></div>
-        </div> */ ?>
-    </div>
-<?php wp_footer(); ?>
-</body>
+<?php
+
+/**
+ * The template for displaying the footer.
+ *
+ * Contains the closing of the #content div and all content after
+ *
+ * @package SKT Spiritedlite
+ */
+
+?>
+
+<div class="container-fluid" id="Footer">
+  <div class="container">
+
+    <div class="container footer-top-row no-padding no-margin">
+
+      <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+        <div class="footer-about">
+          <h1>About Polarity</h1>
+          <p>Polarity is an Orlando, Florida based gaming organization specializing
+          in Super Smash Brothers tournaments and production for other gaming events. 
+          We've got a talented staff that has grown with the community.
+          Find out more at <a href="/2">www.polarity.gg</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-top: 13px;">
+
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
+          <div class="footer-contact-link">
+          <div class="no-padding success">
+            <a href="contact">CONTACT US</a>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
+          <div class="footer-follow-us">
+            <h1 class="centered">Follow Us</h1>
+            <div class= "container-fluid centered no-padding">
+            <ul class="no-padding">
+              <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter" /></a></li>
+              <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_logo.png" alt="Instagram" /></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_logo.png" alt="Facebook" /></a></li>
+              <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_logo.png" alt="Twitch" /></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_logo.png" alt="YouTube" /></a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="container footer-bottom-row no-padding no-margin">
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <div class="footer-copy-rights">
+          <div class="content">
+            <p>Polarity is a registered trademark of Polarity, Inc.<br />
+            All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div class="clear"></div>
+
+</body>
+
 </html>

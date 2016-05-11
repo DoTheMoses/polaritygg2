@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
 
 <!-- =================================================================== -->
 <head>
 <!-- =================================================================== -->
-
-<head>
 
 <title>Polarity: Partners</title>
 <meta charset="utf-8" />
@@ -24,9 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="index.css" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -36,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("page_functions.php"); ?>
+<?php include("include/page_functions.php"); ?>
 
 <!-- ================================================ -->
 <!-- header and navbar                                -->
@@ -48,61 +49,21 @@
 <!-- content                                          -->
 <!-- ================================================ -->
 
-<!-- begin carousel -->
-<div id="Carousel" class="container-fluid">
-  <div class="row">
+<!-- begin top -->
+<div class="container-fluid content-section top-content">
+  <div class="container">
 
-    <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-      <!-- indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#main_carousel" data-slide-to="1"></li>
-        <li data-target="#main_carousel" data-slide-to="2"></li>
-      </ol>
-
-      <div class="carousel-inner" role="listbox"> 
-        
-        <!-- slide 0 -->
-        <div class="item active">
-          <img src="images/hands.jpg" alt="Grid">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Polarity Southeast Melee Invitational</h1>
-              <p>July 30th - 31st in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
-          </div>
-        </div>
-
-        <!-- slide 1 -->
-        <div class="item">
-          <img src="images/plup.jpg" alt="Dudes">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>The FBC Presents: Come to Papa</h1>
-              <p>March 19th-20th in Orlando, Florida</p>
-              <a href="https://smash.gg/tournament/the-fbc-presents-come-to-papa-1"></a>
-            </div>  
-          </div>
-        </div>
-
-        <!-- slide 2 -->
-        <div class="item">
-          <img src="images/hands.jpg" alt="Hands">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Impact 2016</h1>
-              <p>April 9th-10th in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
-          </div>
-        </div>
-
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+      <div class="content-box">
+        <h1>Partners</h1>
+        <p>We can't do this alone, but luckily we've got some help from our partners!
+        </p> 
       </div>
     </div>
+
   </div>
 </div>
-<!-- end carousel -->
+<!-- end top -->
 
 <!-- begin twtich -->
 <div class="container-fluid content-section">
@@ -115,7 +76,7 @@
         Each month, more than 100 million community members gather to watch and talk about video games with 
         more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire 
         video game industry, including game developers, publishers, media outlets, events, casual content 
-        creators, and the entire esports scene."</i><a href="https://www.twitch.tv/p/about"> Source</a><br /><br />
+        creators, and the entire esports scene."</i> - <a href="https://www.twitch.tv/p/about/">Source</a><br /><br />
 
         Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
         Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
@@ -153,11 +114,13 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box-dark">
         <h1 style="text-align: center;"><img src="images/Discord-Logo.png" style="max-height: 150px;" alt="Discord"/></h1>
-        <p>"Founded in June 2011, Twitch is the world’s leading social video platform and community for gamers. 
-        Each month, more than 100 million community members gather to watch and talk about video games with 
-        more than 1.7 million broadcasters. Twitch’s live and video on demand platform caters to the entire 
-        video game industry, including game developers, publishers, media outlets, events, casual content 
-        creators, and the entire esports scene." <a href="https://www.twitch.tv/p/about"><i>Source</i></a><br /><br />
+        <p><i>"We think it's time to ditch Skype and Teamspeak. Two hundred seventy million PC 
+        gamers use these apps to communicate while playing online games yet they haven't been 
+        updated in years and no longer meet our needs. As gamers ourselves, we got fed up with 
+        these tools and decided to fix the problem ourselves. As a result, we've built the 
+        best all-in-one voice and text chat app for gamers that's free, secure, and works on 
+        both desktop and phone. It's called Discord. Fortunately, a lot of people love it."</i> -  
+        <a href="https://discordapp.com/company/">Source</a><br /><br />
 
         Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
         Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
@@ -176,8 +139,9 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
-        <h1 style="text-align: center;">Partner with Polarity</h1>
-          <p style="text-align:center">If you would like to discuss partnership options, please email us at partnership@polarity.gg.<br /><br />
+        <h1 style="text-align: center;">Partner With Polarity</h1>
+          <p style="text-align:center">If you would like to discuss partnership options, please 
+          email us at <a href="mailto:partners@polarity.gg?Subject=Partner%20With%20Polarity" target="_top">partners@polarity.gg</a>.<br /><br />
 
           We look forward to working with you!
           </p>  

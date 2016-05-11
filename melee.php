@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<html>
   
 <!-- =================================================================== -->
 <head>
@@ -22,9 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css" />
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+<script type="text/javascript" src="js/index.js"></script>
+
+<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -34,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("page_functions.php"); ?>
+<?php include("include/page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->
@@ -46,63 +49,38 @@
 <!-- content                                                   -->
 <!-- ========================================================= -->
 
-<!-- begin carousel -->
-<div id="Carousel" class="container-fluid">
-  <div class="row">
+<!-- begin top -->
+<div class="container-fluid content-section">
+  <div class="container">
 
-    <div id="main_carousel" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-      <!-- indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#main_carousel" data-slide-to="1"></li>
-        <li data-target="#main_carousel" data-slide-to="2"></li>
-      </ol>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+      <div class="content-box">
+        <img class="img-responsive" src="images/games/melee.png" alt="Super Smash Brothers Melee Logo" style="margin: auto; max-height: 130px;" />
 
-      <div class="carousel-inner" role="listbox"> 
-        
-        <!-- slide 0 -->
-        <div class="item active">
-          <img src="images/hands.jpg" alt="Grid">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Polarity Southeast Melee Invitational</h1>
-              <p>July 30th - 31st in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h4 style="text-align: center; font-family: 'Exo 2', sans-serif;"><a href="#tournaments_events">Tournaments & Events</a></h4>
           </div>
-        </div>
-
-        <!-- slide 1 -->
-        <div class="item">
-          <img src="images/plup.jpg" alt="Dudes">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>The FBC Presents: Come to Papa</h1>
-              <p>March 19th-20th in Orlando, Florida</p>
-              <a href="https://smash.gg/tournament/the-fbc-presents-come-to-papa-1"></a>
-            </div>  
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h4 style="text-align: center; font-family: 'Exo 2', sans-serif;"><a href="#communities_resources">Communities & Resources</a></h4>
           </div>
-        </div>
-
-        <!-- slide 2 -->
-        <div class="item">
-          <img src="images/hands.jpg" alt="Hands">
-          <div class="carousel-caption-plus">
-            <div class="carousel-caption-plus-link">
-              <h1>Impact 2016</h1>
-              <p>April 9th-10th in Orlando, Florida</p>
-              <a href="https://www.facebook.com/events/1661446734125439/"></a>
-            </div>  
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h4 style="text-align: center; font-family: 'Exo 2', sans-serif;"><a href="#players_rankings_results">Players, Rankings & Results</a></h4>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h4 style="text-align: center; font-family: 'Exo 2', sans-serif;"><a href="#commentary">Commentary</a></h4>
           </div>
         </div>
 
       </div>
     </div>
+
   </div>
 </div>
-<!-- end carousel -->
+<!-- end top -->
 
 <!-- begin tournaments & events -->
+<span class="anchor" id="tournaments_events"></span>
 <div class="container-fluid content-section">
   <div class="container">
 
@@ -119,14 +97,17 @@
            
         Click <a href="events.html/">here</a> to see our event calendar.<br /><br />
            
-        To keep up with our events, follow us and subscribe to our events on <a href="https://www.facebook.com/PolarityGG/">Facebook</a>.
-        </p>
+        To keep up with our events, follow us and subscribe to our events on 
+        <a href="https://www.facebook.com/PolarityGG/">Facebook</a>.<br /></p>
+
+        <p class="centered"><a href="#">Back to top</a></p>
+
       </div>
     </div>
     
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
       <div class="content-box">
-        <img class="img-responsive" src="images/hands.jpg" />
+        <img class="img-responsive" src="images/plup_colbol.jpg" alt="Plup vs. Colbol" />
       </div>
     </div>
 
@@ -135,12 +116,13 @@
 <!-- end tournaments & events -->
 
 <!-- begin communiities & resources -->
+<span class="anchor" id="communities_resources"></span>
 <div class="container-fluid content-section content-section-dark">
   <div class="container">
       
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
       <div class="content-box-dark">
-        <img class="img-responsive" src="images/hands.jpg" />
+        <img class="img-responsive" src="images/hands.jpg" alt="Hands" />
       </div>
     </div>
 
@@ -158,8 +140,9 @@
             
         <a href="https://smashboards.com/">Smashboards</a> - The original source for everything Smash<br />
         <a href="https://www.reddit.com/r/ssbm/">/r/ssbm</a> - Subreddit specifically about Melee<br />
-        <a href="https://www.reddit.com/r/smashbros/">/r/smashbros</a> - Subreddit with all Smash games showcased
-        </p> 
+        <a href="https://www.reddit.com/r/smashbros/">/r/smashbros</a> - Subreddit with all Smash games showcased<br /></p>
+        
+        <p class="centered"><a href="#">Back to top</a></p> 
       </div>
     </div>
       
@@ -168,6 +151,7 @@
 <!-- end communiities & resources -->
 
 <!-- begin players, rankings & results -->
+<span class="anchor" id="players_rankings_results"></span>
 <div class="container-fluid content-section">
   <div class="container">
 
@@ -181,14 +165,15 @@
         List of power rankings here: <br />
         <a href="https://scontent.ftpa1-2.fna.fbcdn.net/hphotos-xpt1/t31.0-8/12710950_10207357560790068_6471042268359962421_o.jpg">Winter 2016</a><br /> 
         <a href="https://scontent.ftpa1-2.fna.fbcdn.net/hphotos-xta1/t31.0-8/12032764_10153633146993608_2666297324690424398_o.jpg">Fall 2015</a><br />
-        <a href="https://scontent.ftpa1-2.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/10313786_1016650911701175_1831039713454587116_n.jpg?oh=89c532c1c08d890144676ce584785faa&oe=57A62BAD">Summer 2015</a>
-        </p> 
+        <a href="https://scontent.ftpa1-2.fna.fbcdn.net/hphotos-xpt1/v/t1.0-9/10313786_1016650911701175_1831039713454587116_n.jpg?oh=89c532c1c08d890144676ce584785faa&oe=57A62BAD">Summer 2015</a><br /></p> 
+
+        <p class="centered"><a href="#">Back to top</a></p>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
       <div class="content-box">
-        <img class="img-responsive" src="images/hands.jpg" />
+        <img class="img-responsive" src="images/hands.jpg" alt="Hands" />
       </div>
     </div>
        
@@ -197,12 +182,13 @@
 <!-- end players, rankings & results -->
 
 <!-- begin commentary -->
+<span class="anchor" id="commentary"></span>
 <div class="container-fluid content-section content-section-dark">
   <div class="container">
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
       <div class="content-box-dark">
-        <img class="img-responsive" src="images/hands.jpg" />
+        <img class="img-responsive" src="images/ruler.jpg" alt="Hands" />
       </div>
     </div>        
 
@@ -217,8 +203,9 @@
         List of our approved melee commentators:<br />
         Marsfool <a href="https://www.twitter.com/20XXLIVINGROOM/">@20XXLIVINGROOM</a><br />
         Dr4gonblitz <a href="https://www.twitter.com/Dr4gonblitz/">@Dr4gonBlitz</a><br />
-        Moses <a href="https://www.twitter.com/DoTheMoses/">@DoTheMoses</a>
-        </p> 
+        Moses <a href="https://www.twitter.com/DoTheMoses/">@DoTheMoses</a></br /></p> 
+        
+        <p class="centered"><a href="#">Back to top</a></p>
       </div>
     </div>
           
