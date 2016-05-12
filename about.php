@@ -50,7 +50,7 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section top-content" id="top">
+<div class="container-fluid content-section top-content">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
@@ -76,35 +76,29 @@
 
         <div class="container-fluid no-padding">
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <div class="content-box">
-              <h4>Tournaments Team</h4>
-                <ul>
-                  <li><a href="#kelly">Kelly</a></li>
-                  <li><a href="#colin">Colin</a></li>
-                  <li><a href="#lindsay">Lindsay</a></li>
-                </ul>
-            </div>
+            <h1>Tournaments Team</h1>
+              <ul style="text-align: center; padding-left: 0px;">
+                <li style="display: inline;"><a href="#kelly"><b>Kelly</b></a> &squf;</li>
+                <li style="display: inline;"><a href="#colin"><b>Colin</b></a> &squf;</li>
+                <li style="display: inline;"><a href="#lindsay"><b>Lindsay</b></a></li>
+              </ul>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <div class="content-box">
-              <h4>Production Team</h4>
-                <ul>
-                  <li><a href="#gavin">Gavin</a></li>
-                  <li><a href="#mohamed">Mohamed</a></li>
-                  <li><a href="#gabe_b">Gabriel B.</a></li>
-                </ul>
-            </div>
+            <h1>Production Team</h1>
+              <ul style="text-align: center; padding-left: 0px;">
+                <li style="display: inline;"><a href="#gavin"><b>Gavin</b></a> &squf;</li>
+                <li style="display: inline;"><a href="#mohamed"><b>Mohamed</b></a> &squf;</li>
+                <li style="display: inline;"><a href="#gabe_b"><b>Gabriel B.</b></a></li>
+              </ul>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <div class="content-box" style="padding-bottom: 22px;">
-              <h4>Operations Team</h4>
-                <ul>
-                  <li><a href="#matt">Matt</a></li>
-                  <li><a href="#gabe_n">Gabriel N.</a></li>
-                </ul>
-            </div>
+            <h1>Operations Team</h1>
+              <ul style="text-align: center; padding-left: 0px;">
+                <li style="display: inline;"><a href="#gabe_n"><b>Gabriel N.</b></a> &squf;</li>
+                <li style="display: inline;"><a href="#matt"><b>Matt</b></a></li>
+              </ul>
           </div>
 
         </div>
@@ -115,6 +109,266 @@
 </div>
 <!-- end top -->
 
+<!-- begin kelly -->
+<span class="anchor" id="kelly"></span>
+<div class="container-fluid content-section content-section-dark">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box-dark">
+        <img src="images/staff/Kelly_Goodchild.png" alt="Kelly"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box-dark">
+        <h1>Kelly Goodchild</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/polarity_kupo/">@polarity_kupo</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:kelly@polarity.gg?" target="_top">kelly@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Kelly first discovered competitive smash in 2011 when she attended her 
+        first “Monday Night Melee” (RIP Next Level Lan). She started as a spectator, 
+        but in 2013 she became a Tournament Organizer (TO) with the UCF Gaming 
+        Knights. She continues to organize Smash events for Polarity, and one day 
+        hopes that Polarity will host a super national.</p>
+
+        <p>Besides Smash, she really enjoys RPGs (tabletop & digital), anime, and Blizzard games.<p>
+
+        <p>Also is “cat af”.</p>
+
+        <p><b>Birthday:</b> August 10th<br />
+        <b>Favorite Games:</b> Super Smash Brothers Melee, Overwatch, Final Fantasy (8 & 10), Halo 3<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end kelly -->
+
+<!-- begin colin -->
+<span class="anchor" id="colin"></span>
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box">
+        <img src="images/staff/Colin_Green.png" alt="Colin"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box">
+        <h1>Colin "Colbol" Green</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/Colbol725/">@Colbol725</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:colin@polarity.gg?" target="_top">colin@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Is a super weenie.</p>
+
+        <p><b>Birthday:</b> ??<br />
+        <b>Favorite Games:</b> ??<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end colin -->
+
+<!-- begin lindsay -->
+<span class="anchor" id="lindsay"></span>
+<div class="container-fluid content-section content-section-dark">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box-dark">
+        <img src="images/staff/Lindsay_Gonshak.png" alt="Kelly"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box-dark">
+        <h1>Lindsay Gonshak</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/lovelylinds29/">@lovelylinds29</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:lindsay@polarity.gg?" target="_top">lindsay@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Lindsay got involved with competitive Smash in 2014, helping the 
+        UCF Gaming Knights run tournaments at events such as #SmashTheRecord.  
+        In April of 2015 she began attending the CFL Smackdown weeklies 
+        mainly to hang out and spectate, but eventually started to take on 
+        Tournament Organizer duties, and became a part of the team that
+        would soon turn into the Polarity crew.</p>
+
+        <p>She really only plays Melee and Smash 4 casually, but still 
+        loves the competitive scene and enjoys getting to participate on 
+        the staff side of events.</p>
+
+        <p>In addition to Smash, Lindsay has a passion for music, and currently works 
+        for Sony as their Orlando College Marketing Rep.</p>
+
+        <p><b>Birthday:</b> April 29<br />
+        <b>Favorite Games:</b> Skyrim, Portal, Super Smash Brothers Melee, Far Cry 3: Blood Dragon<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end lindsay -->
+
+<!-- begin gavin -->
+<span class="anchor" id="gavin"></span>
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box">
+        <img src="images/staff/Gavin_Kuhl.png" alt="Gavin"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box">
+        <h1>Gavin "Azzy" Kuhl</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/PolarityAzzy/">@PolarityAzzy</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:azzy@polarity.gg?" target="_top">azzy@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Gavin began his venture into competitive Smash in 2009 playing Brawl 
+        somewhat competitively, then his love for melee was rekindled in 2013 
+        when Melee made it's way into Evo, and was introduced Orlando's competitive 
+        scene with the UCF Gaming Knights. There he began helping to organize 
+        events and then slowly shift more into broadcasting.</p>
+
+        <p>He also indulges in RPGs and Dota aside from smash, and is into Anime.</p>
+
+        <p>
+          <b>Birthday:</b> September 10th<br />
+          <b>Favorite Games:</b> Super Smash Brothers Melee, Fallout NV, Dota 2
+        </p>
+        <p style="margin-bottom: 0px;" id="matt_script"></p>
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end gavin -->
+
+<!-- begin mohamed -->
+<span class="anchor" id="mohamed"></span>
+<div class="container-fluid content-section content-section-dark">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box-dark">
+        <img src="images/staff/Mohamed_Hachem.png" alt="Mohamed"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box-dark">
+        <h1>Mohamed "Blast" Hussien</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/BlastMohamed/">@BlastMohamed</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:mohamed@polarity.gg?" target="_top">mohamed@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Is a super weenie.</p>
+
+        <p><b>Birthday:</b> ??<br />
+        <b>Favorite Games:</b> ??<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end mohamed -->
+
+<!-- begin gabe_b -->
+<span class="anchor" id="gabe_b"></span>
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box">
+        <img src="images/staff/Gabriel_Batista.png" alt="Gabriel"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box">
+        <h1>Gabe "Rula" Batista</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/EXG_Rula/">@EXG_Rula</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:gabe_b@polarity.gg?" target="_top">gabe_b@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Is a super weenie.</p>
+
+        <p><b>Birthday:</b> ??<br />
+        <b>Favorite Games:</b> ??<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end gabe_b -->
+
+<!-- begin gabe_n -->
+<span class="anchor" id="gabe_n"></span>
+<div class="container-fluid content-section content-section-dark">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
+      <div class="content-box-dark">
+        <img src="images/staff/Gabriel_Nieves.png" alt="Gabriel"/>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
+      <div class="content-box-dark">
+        <h1>Gabe "Taerk" Nieves</h1>
+
+        <ul style="text-align: center; padding-left: 0px;">
+<!--           <li style="display: inline;"><b><a href="https://www.twitter.com/EXG_Rula/">@EXG_Rula</a> &squf;</b></li> -->
+          <li style="display: inline;"><b><a href="mailto:gabe_n@polarity.gg?" target="_top">gabe_n@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Is a super weenie.</p>
+
+        <p><b>Birthday:</b> ??<br />
+        <b>Favorite Games:</b> ??<br />
+
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end gabe_n -->
+
 <!-- begin matt -->
 <span class="anchor" id="matt"></span>
 <div class="container-fluid content-section">
@@ -122,35 +376,41 @@
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box">
-        <img src="images/staff/Matt_Kiep.png" alt="Twitch.tv"/>
+        <img src="images/staff/Matt_Kiep.png" alt="Matt"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box">
         <h1>Matt "Moses" Kiep</h1>
-        <p style="margin-bottom: 0px;">Matt has played video games for forever. He began playing Melee casually upon 
+
+        <ul style="text-align: center; padding-left: 0px;">
+          <li style="display: inline;"><b><a href="https://www.twitter.com/DoTheMoses/">@DoTheMoses</a> &squf;</b></li>
+          <li style="display: inline;"><b><a href="mailto:matt@polarity.gg?" target="_top">matt@polarity.gg</a></b></li>
+        </ul>
+
+        <p>Matt has played video games for forever. He began playing Melee casually upon 
         release in 2001, and picked it up competitively in 2009 after meeting Harriet 
         and Rockcrock at UF. After that, he organized Smash fests and tournaments in 
         Gainesville. He graduated in 2012 and moved to Orlando soon after to work full 
-        time.<br /><br />
+        time.</p>
 
-        In summer 2015, he joined the team that would become Polarity. He also started the 
-        Amateur Melee League with Fearless that summer.<br /><br />
+        <p>In summer 2015, he joined the team that would become Polarity. He also started the 
+        Amateur Melee League with Fearless that summer.</p>
 
-        In the past he has played Halo and Halo 2, both competitively. He has also played 
+        <p>In the past he has played Halo and Halo 2, both competitively. He has also played 
         Diablo 2 and Starcraft extensively. Matt currently plays DotA (occasionally 
-        competitively) and Hearthstone casually.<br /><br />
+        competitively) and Hearthstone casually.</p>
 
-        He has an affinity for pop-punk and Taylor Swift. You can follow him 
-        on twitter at <a href="https://www.twitter.com/DoTheMoses">twitter.com/DoTheMoses</a>.<br /><br />
+        <p>He has an affinity for pop-punk and Taylor Swift.</p>
 
-        <b>Birthday:</b> May 8th<br />
-        <b>Favorite Game:</b> Super Smash Brothers Melee<br />
-        <p style="margin-bottom: 0px;" id="matt_script"></p>
+        <p>
+          <b>Birthday:</b> May 8th<br />
+          <b>Favorite Games:</b> Super Smash Brothers Melee, Dota 2, Diablo 2, Ogre Battle 64<br />
+          <span id="matt_script"></span>
+        </p>
 
-        <p class="centered"><a href="#top">Back to top</a></p>
-        </p> 
+        <p class="back-to-top"><a href="#top">Back to top</a></p>
       </div>
     </div>
 
