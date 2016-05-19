@@ -50,14 +50,38 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section top-content" id="top">
+<div class="container-fluid content-section-top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
+      <div class="container content-section-top-title">
         <h1>Events</h1>
-      </div>
-    </div>
+      </div> 
+
+      <div class="content-section-top-text">
+        <p>This page contains everything you need to know about events
+        that Polarity runs and is involved with, including upcoming events, past
+        events' results, and more.</p>
+
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#CFL_Smackdown">CFL Smackdown</a></h2>
+            <p>CFL's Longest Running Smash Weekly Series</p>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#wiiu">Wii U</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#64">Smash 64</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#pm">Project: Melee</a></h2>
+          </div>
+        </div>
+
+      </div> <!-- content-section-top-text -->
+
+    </div> <!-- cols -->
 
   </div>
 </div>
@@ -78,18 +102,25 @@
   </div>
 </div>
 
-<span class="anchor" id="cfl_smackdown"></span>
+<span class="anchor" id="CFL_Smackdown"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-      <div class="content-box">
-        <h3>Tournaments & Events</h3>
+      <div class="content-box back-to-top">
+        <h3>CFL Smackdown</h3>
         <p>Polarity currently runs an ongoing weekly series in Orlando, Florida called CFL Smackdown.
-        It is held at Campus Cards & Games every Monday & Tuesday night, with Melee featured on Monday
-        nights. Turnout each week can reach upwards of 60-75 entrants, and it features some of the best 
-        players in the world.</p>
+        It is held at <a href="https://goo.gl/maps/oFFg3nwYEm12">Campus Cards & Games</a> every* Monday 
+        & Tuesday night. It is the longest and most successful Smash weekly series in Central Florida.</p>
+        
+        <p>We host Melee singles every Monday night, with other events featured like Melee doubles, or 
+        Project: Melee singles. Tuesday nights we host Smash 4 singles along with Smash 64 singles. Entrants
+        to Melee and Smash 4 singles usually averages around 50 entrants, but can easily reach 70 to 80 any
+        given week.</p>
+        
+        <p><i>*We hold CFL Smackdown almost every week, and will make an announcement if we need to cancel
+        the CFL Smackdown (usually due to working events the previous weekend).</i></p>
            
         <p>We also hold monthly CFL Smackdown tournaments in the same location. Entrants for Melee at these monthly
         events can easily reach 100 or more people.<p/>
@@ -100,7 +131,6 @@
         <a href="https://www.facebook.com/PolarityGG/">Facebook</a>.</p>
 
         <p><a href="#">Back to top</a></p>
-
       </div>
     </div>
     
