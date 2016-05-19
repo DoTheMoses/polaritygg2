@@ -75,17 +75,17 @@
 
         <div class="container no-padding">
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-              <h2><a href="#season_1">Season 1</a></h2>
+              <h2><a href="#Season_1">Season 1</a></h2>
               <h3>August 4th, 2015 - September 13th, 2015</h3>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-              <h2><a href="#season_2">Season 2</a></h2>
+              <h2><a href="#Season_2">Season 2</a></h2>
               <h3>November 14th, 2015 - February 6th, 2016</h3>
           </div>
 
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-              <h2><a href="#season_3">Season 3</a></h2>
+              <h2><a href="#Season_3">Season 3</a></h2>
               <h3>Coming Soon!</h3>
           </div>
         </div>
@@ -116,8 +116,8 @@
 </div>
 <!-- end hype_video -->
 
-<!-- begin season_1 -->
-<span class="anchor" id="season_1"></span>
+<!-- begin Season_1 -->
+<span class="anchor" id="Season_1"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -178,10 +178,10 @@
 
   </div>
 </div>
-<!-- end season_1 -->
+<!-- end Season_1 -->
 
-<!-- begin season_2 -->
-<span class="anchor" id="season_2"></span>
+<!-- begin Season_2 -->
+<span class="anchor" id="Season_2"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -237,10 +237,10 @@
 
   </div>
 </div>
-<!-- end season_2 -->
+<!-- end Season_2 -->
 
-<!-- begin season_3 -->
-<span class="anchor" id="season_3"></span>
+<!-- begin Season_3 -->
+<span class="anchor" id="Season_3"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -270,7 +270,7 @@
 
   </div>
 </div>
-<!-- end season_2 -->
+<!-- end Season_3 -->
 
 </content>
 
