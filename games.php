@@ -68,16 +68,16 @@
 
         <div class="container-fluid no-padding">
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#melee">Melee</a></h2>
+            <h2><a href="#Melee">Melee</a></h2>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#wiiu">Wii U</a></h2>
+            <h2><a href="#WiiU">Wii U</a></h2>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
             <h2><a href="#64">Smash 64</a></h2>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#pm">Project: Melee</a></h2>
+            <h2><a href="#PM">Project: Melee</a></h2>
           </div>
         </div>
 
@@ -89,8 +89,8 @@
 </div>
 <!-- end top -->
 
-<!-- begin melee -->
-<span class="anchor" id="melee"></span>
+<!-- begin Melee -->
+<span class="anchor" id="Melee"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -135,10 +135,10 @@
       
   </div>
 </div>
-<!-- end melee -->
+<!-- end Melee -->
 
-<!-- begin wiiu -->
-<span class="anchor" id="wiiu"></span>
+<!-- begin WiiU -->
+<span class="anchor" id="WiiU"></span>
 <div class="container-fluid content-section">
   <div class="container">
       
@@ -170,7 +170,7 @@
       
   </div>
 </div>
-<!-- end wiiu -->
+<!-- end WiiU -->
 
 <!-- begin 64 -->
 <span class="anchor" id="64"></span>
@@ -207,8 +207,8 @@
 </div>
 <!-- end 64 -->
 
-<!-- begin pm -->
-<span class="anchor" id="pm"></span>
+<!-- begin PM -->
+<span class="anchor" id="PM"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -240,7 +240,7 @@
       
   </div>
 </div>
-<!-- end pm -->
+<!-- end PM -->
 
 </content>
 
