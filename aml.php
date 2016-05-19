@@ -67,6 +67,8 @@
         <p>The AML was started in July 2015 by Matt "Moses" Kiep, and Steven "Fearless" Belowsky. After
         both contributed to a discussion in CFL Melee about giving newer players a better way to play 
         thrilling matches outside tournament play, they began work on what became the AML.</p>
+        
+        <h3>Season 3 is currently in the works so stay tuned for more info!</h3>
           
         <h3><a href="https://www.facebook.com/groups/1132977010049649/">
         Click here to join the Facebook group and keep up to date on the AML!</a></h3>
