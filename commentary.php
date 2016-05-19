@@ -50,12 +50,22 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section">
+<div class="container-fluid content-section-top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box back-to-top">
-        <img class="img-responsive" src="images/games/melee.png" alt="Super Smash Brothers Melee Logo" style="margin: auto; max-height: 130px;" />
+      <div class="container content-section-top-title">
+        <h1>Commentary</h1>
+      </div> 
+
+      <div class="content-section-top-text">
+        <p>Ever had the itch to get on the mic and spit hype play-by-play or
+        drop mad analysis?</p>
+        
+        <p>>Or maybe you just want to talk about video games?</p>
+        
+        <p>Either way, this page has everything you need to know about commentating
+        at Polarity events.</p>
 
         <div class="container-fluid no-padding">
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -72,8 +82,9 @@
           </div>
         </div>
 
-      </div>
-    </div>
+      </div> <!-- content-section-top-text -->
+
+    </div> <!-- cols -->
 
   </div>
 </div>
