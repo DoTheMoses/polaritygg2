@@ -126,7 +126,6 @@
       <div class="content-box back-to-top">
         <h3>Season 1</h3>
         <h5>August 4th, 2015 - September 13th, 2015</h5>
-        
         <ul>
           <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-1-cfl.410319/">Rules</a> &squf;</li>
           <li><a href="https://challonge.com/users/themeleeleague">Pools</a> &squf;</li>
@@ -147,14 +146,23 @@
 
         <h4>Season 1 Top 8</h4>
         <ul>
-          <li>1. <img src="/2/images/ssbm_heads/CaptainFalconHeadSSBM.png" /> <b>G0D</b>, The Champion, $146</li>
-          <li>2. <img src="/2/images/ssbm_heads/FoxHeadSSBM.png" /> <b>Lad</b>, Our Fine, fiery, Fox, $91</li>
-          <li>3. <img src="/2/images/ssbm_heads/PeachHeadSSBM.png" /> <b>DoomChickens</b>, The Best Tag in Smash, $55</li>
-          <li>4. <img src="/2/images/ssbm_heads/FalcoHeadSSBM.png" /> <b>Kaike</b>, The Falco You Didn't Know You Feared, $37</li>
-          <li>5. <img src="/2/images/ssbm_heads/SheikHeadSSBM.png" /> <b>Eclipsing Binary</b>, The Beast From South Florida, $18</li>
-          <li>5. <img src="/2/images/ssbm_heads/SheikHeadSSBM.png" /> <b>Hiroshi</b>, The Old Dog Showing Us New Tricks, $18</li>
-          <li>7. <img src="/2/images/ssbm_heads/IceClimbersHeadSSBM.png" /> <b>Derdian</b>, The Voice of Reason</li>
-          <li>7. <img src="/2/images/ssbm_heads/PeachHeadSSBM.png" /> <b>Oaty</b>, The Beardless Wonder</li>
+          <li>1. <b>G0D</b> <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          The Champion, $146</li>
+          <li>2. <b>Lad</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          Our Fine, fiery, Fox, $91</li>
+          <li>3. <b>DoomChickens</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          The Best Tag in Smash, $55</li>
+          <li>4. <b>Kaike</b> <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          The Falco You Didn't Know You Feared, $37</li>
+          <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/sheik.png alt="Melee Icon - Sheik"" />, 
+          The Beast From South Florida, $18</li>
+          <li>5. <b>Hiroshi</b> <img src="/2/images/ssbm_icons/sheik.png" alt="Melee Icon - Sheik" />, 
+          The Old Dog Showing Us New Tricks, $18</li>
+          <li>7. <b>Derdian</b> <img src="/2/images/ssbm_icons/ics.png" alt="Melee Icon - Ice Climbers" /> / 
+          <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          The Voice of Reason</li>
+          <li>7. <b>Oaty</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          The <i>(at the time)</i> Beardless Wonder</li>
         </ul>
 
         <p><a href="#">Back to top</a></p> 
@@ -163,7 +171,7 @@
 
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
-        <img src="images/ranch.jpg" alt="Ranch"/>
+        <img class="img-responsive" src="images/aml_ranch.jpg" alt="Player 'Ranch' plays in AML Season 1"/>
         <p>Ranch is no amateur at mustache grooming.</p>
       </div>
     </div>
@@ -174,13 +182,14 @@
 
 <!-- begin season_2 -->
 <span class="anchor" id="season_2"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
-        <img src="images/oatymike.jpg" alt="Oaty vs. Mike"/>
-        <p>OC Mike just crouch-canelled Peach's downsmash. You can see it in his eyes.</p>
+        <img class="img-responsive" src="images/aml_oaty_vs_mike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
+        <p>Oaty and OC Mike struggle mightily to contain the hype they feel inside.</p>
       </div>
     </div>
 
@@ -188,7 +197,6 @@
       <div class="content-box back-to-top">
         <h3>Season 2</h3>
         <h5>November 14th, 2015 - February 6th, 2016</h5>
-
         <ul>
           <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-2-cfl.422603/">Rules</a> &squf;</li>
           <li><a href="https://docs.google.com/spreadsheets/d/1SSOA6QJm5pG-0t3xZpVmeQCWhNfnXSmIgRA7VFvA0fs/edit?usp=sharing/">Final ELO Standings</a> &squf;</li>
@@ -204,14 +212,56 @@
 
         <h4>Season 2 Top 8</h4>
         <ul>
-          <li>1. Mr Lz, Lz stands for Look the Fuck Out Peoplez, $165</li>
-          <li>2. OC Mike, the Cold Stone Killer, $84</li>
-          <li>3. Oaty, the Floaty Goaty like Whoa-ty, $62</li>
-          <li>4. Lad, Hype Incarnate, $41</li>
-          <li>5. Ridz, Sloth Inside, Lightning Speed Space Animal Outside, $21</li>
-          <li>5. G0D, (insert badass falcon screech as it divebombs its prey here), $21</li>
-          <li>7. Envy, Who Needs a Nickname When Your Actual Name is Matt Fucking Powers, $10</li>
-          <li>7. Kaike, Son of Father and Father of Falco Beatdowns, $10</li>
+          <li>1. <b>Mr Lz</b> <img src="/2/images/ssbm_icons/marth.png" alt="Melee Icon - Marth" />, 
+          Lz stands for Look the Fuck Out Peoplez, $165</li>
+          <li>2. <b>OC Mike</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          the Cold Stone Killer, $84</li>
+          <li>3. <b>Oaty</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          the Floaty Goaty like Whoa-ty, $62</li>
+          <li>4. <b>Lad</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          Hype Incarnate, $41</li>
+          <li>5. <b>Ridz</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" /> / 
+          <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          Sloth Inside, Lightning Speed Space Animal Outside, $21</li>
+          <li>5. <b>G0D</b> <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          (insert badass falcon screech as it divebombs its prey here), $21</li>
+          <li>7. <b>Envy</b> <img src="/2/images/ssbm_icons/jiggly.png" alt="Melee Icon - Jigglypuff" />, 
+          Who Needs a Nickname When Your Actual Name is Matt Fucking Powers?, $10</li>
+          <li>7. <b>Kaike</b> <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          Son of Father and Father of Falco Beatdowns, $10</li>
+        </ul>  
+
+        <p><a href="#">Back to top</a></p> 
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end season_2 -->
+
+<!-- begin season_3 -->
+<span class="anchor" id="season_3"></span>
+
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
+      <div class="content-box content-box-image">
+        <img class="img-responsive" src="images/oatymike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
+        <p>Oaty and OC Mike struggle mightily to contain the hype they feel inside.</p>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
+      <div class="content-box back-to-top">
+        <h3>Season 3</h3>
+        <h5>?? - ??</h5>
+
+        <p>Season 3 is in the works!</p>
+
+        <h4>Season 3 Top 8</h4>
+        <ul>
+          <li>1. <b>You?</b></li>
         </ul>  
 
         <p><a href="#">Back to top</a></p> 
