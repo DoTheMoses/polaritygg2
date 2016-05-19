@@ -24,7 +24,7 @@
 <link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="css/index.css" type="text/css" />
+<link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="js/index.js"></script>
 
 <link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
@@ -37,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("include/page_functions.php"); ?>
+<?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->
@@ -46,7 +46,7 @@
 <?php get_pol_navbar(); ?>
 
 <!-- ========================================================= -->
-<!-- content                                                   -->
+<content>
 <!-- ========================================================= -->
 
 <!-- begin carousel -->
@@ -145,6 +145,8 @@
     </script>
   </div>
 </div>
+
+</content>
 
 <!-- ========================================================= -->
 <!-- footer                                                    -->

@@ -21,10 +21,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="css/index.css" type="text/css" />
+<link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="js/index.js"></script>
 
 <link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
@@ -37,7 +37,7 @@
 <body>
 <!-- =================================================================== -->
 
-<?php include("include/page_functions.php"); ?>
+<?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
 <!-- header and navbar                                         -->
@@ -46,7 +46,7 @@
 <?php get_pol_navbar(); ?>
 
 <!-- ========================================================= -->
-<!-- content                                                   -->
+<content>
 <!-- ========================================================= -->
 
 <!-- begin top -->
@@ -60,40 +60,38 @@
         <a href="mailto:admin@polarity.gg?Subject=General%20Information" target="_top">admin@polarity.gg</a>.<br /><br />
         </p>
 
-  <div class="container-fluid no-padding">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-      	  <p>If you'd like to talk to us about 
-      	  	
-      	  </p>
-       	  </div>
-    	</div>
+        <div class="container-fluid no-padding">
+          
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+        	  <h2>Partners</h2>
+        	  <p>If you'd like to talk to us about</p>
+    	    </div>
 
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
+    	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+      	    <h2>Streams</h2>
+            <p>If you'd like to talk to us about</p>
+    	    </div>
 
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
+    	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+      	    <h2>Events</h2>
+       	    <p>If you'd like to talk to us about</p>
+    	    </div>
 
-    	<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-      	  <div class="content-box">
-      	  <h1>Partners</h1>
-       	  </div>
-    	</div>
-      </div>
+    	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+      	    <h2>Join</h2>
+            <p>If you'd like to talk to us about</p>
+          </div>
+
+        </div>
+
       </div>
     </div>
 
   </div>
 </div>
 <!-- end top -->
+
+</content>
 
 <!-- ========================================================= -->
 <!-- footer                                                    -->

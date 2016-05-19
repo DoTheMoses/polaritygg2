@@ -23,10 +23,6 @@ html {
     margin-top: 0px;
 }
 
-.row { 
-  width: 100% 
-}
-
 .no-padding {
   padding: 0px;
 }
@@ -42,6 +38,10 @@ html {
  /* ================================================ */
  /* all link defaults                                */
  /* ================================================ */
+
+a {
+  font-weight: bold;
+}
 
 /* unvisited link */
 a:link {
@@ -82,12 +82,72 @@ a:active {
   padding-bottom: 20px;
 }
 
+.test p {
+padding: 0; 
+margin:0;
+}
+
+.stream-badge {
+float:right;
+}
+
+#right-bax {
+  float:right;
+  margin-top:-60px;
+  padding-bottom: 5px;
+}
+
+#left-bax {
+  margin-right: 200px;
+}
+
+#left-bax img {
+  height: 60px; 
+  width: 60px;
+  margin-top:10px;
+}
+
+.stream-badge .status {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.stream-badge .title, .game, .viewers {
+  font-family: "Roboto";
+  font-size: 10px;
+}
+
+.stream-badge ul {
+  padding: 0;
+  margin: 0;
+}
  /* ================================================ */
  /* navbar                                           */
  /* ================================================ */
 
 #navbar-container {
   padding: 0px;
+}
+
+.nav-justified li a:hover {
+  -ms-transform: scale(1.1, 1.1); /* IE 9 */
+  -webkit-transform: scale(1.1, 1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 8px black;
+}
+.nav-justified li a {
+  color: #ffffff;
+  font-weight: bold;
+  font-family:"Raleway";
+  font-size: 1.5em;
+  display: inline-block;
+  padding: 15px;
+  margin:-2px;
+  background: linear-gradient(#930000 35%, #530000 65%);
+
+  -webkit-transition-property: transform; /* Safari */ 
+  transition-property: transform;
 }
 
 .navbar-default {
@@ -139,9 +199,11 @@ button {
     border-radius: 1px;
 }
 
-.nav>li>a:hover {
+/*.nav>li>a:hover {
   background-color: #430000;
-}
+}*/
+
+
 
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #530000;
@@ -185,6 +247,8 @@ button {
 
 }
 
+
+
 /* navbar fixed to top of page */
 .affix {
   top: 0;
@@ -195,9 +259,9 @@ button {
   padding-top: 50px;
 }
 
- /* ================================================ */
- /* carousel                                         */
- /* ================================================ */
+/* ================================================ */
+/* carousel                                         */
+/* ================================================ */
 
 .carousel-inner { 
   height: 700px; 
@@ -330,6 +394,77 @@ button {
  /* content                                          */
  /* ================================================ */
 
+.title-section-outer {
+  background: linear-gradient(rgba(0, 0, 0, 0.9) 3%, 
+                              rgba(0, 0, 0, 0) 50%, 
+                              rgba(240, 240, 240, 0.9) 92%, 
+                              rgba(240, 240, 240, 0.97) 98%), 
+                              url(/2/images/smaller.jpg);
+  background-position: 50% 100%; 
+}
+
+.title-section-inner {
+  margin: 0px;
+  border: 0px;
+  opacity: 1;
+}
+
+/* h1 is used for the title at the top of the page */
+h1 {
+  padding: 125px;
+  margin: 0px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vw;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+/* h2 is used for any subheaders in the top section*/
+h2 {
+  font-size: 2.25em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* h3 is used for content section titles */
+h3 {
+  font-size: 2.25em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* h4 is used for any subheaders inside a content section */
+h4 {
+  margin-top: 0px;
+  font-size: 1.65em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+/* h5 is used for any secondary titles of content section */
+h5 {
+  margin-top: 0px;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+      font-size: 2.25em;
+  }
+  p {
+      font-size: 1.15em;
+  }
+}
+
 .anchor {
   display: block;
   height: 38px;
@@ -343,16 +478,105 @@ button {
     margin-top: -55px;
   }
 }
-
-.content-section {
-  padding: 0px;
-  background-color: #ffffff;
-  background-image: url("../images/grid.png");
-  color: #000000;
-  font-family: 'Roboto', sans-serif;
+/* style the links right below a section header */
+h2 + ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+h2 + ul li {
+  display: inline;
+    text-align: center; 
+}
+/* style the links right below a section header */
+h3 + ul {
+  list-style-type: none;
+  text-align: center; 
+  padding-left: 0px;
 }
 
-.content-box {
+h5 + ul li {
+  display: inline;
+}
+/* style the links right below a section sub-header */
+
+h5 + ul {
+  list-style-type: none;
+  text-align: center; 
+  padding-left: 0px;
+}
+
+h3 + ul li {
+  display: inline;
+}
+
+/* for all lists inside a content box, usually a list of links*/
+h4 + ul {
+  padding-left: 0px;
+}
+
+h4 + ul li {
+  display:block;
+}
+
+/* style the back to top link*/
+.back-to-top p:last-of-type {
+  text-align: center;
+}
+
+/* all content sections */
+
+/* very top section of content */
+.content-section-top {
+  background-image: url("images/stream.jpg");
+  background-color: #000000;
+
+}
+.content-section-top-title {
+  padding:10px;
+  margin: 10px;
+}
+
+.content-section-top-title img {
+  margin:auto;
+  max-height: 400px;
+
+}
+.content-section-top-text {
+  color: #ffffff;
+  background: rgba(0, 0, 0, 1);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px 3px rgba(200, 200, 200, 0.35);
+  padding:10px;
+  margin: 10px;
+}
+
+content .content-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content-box ul, .content-box-dark ul {
+  font-size: 1.5em;
+}
+
+.content-box-image p {
+  text-align: center;
+  margin: 10px 0 0 0;
+  font-style: italic;
+}
+
+/* light background for content*/
+content .content-section:nth-of-type(even) {
+  background-image: url("images/grid.png"); 
+  background: linear-gradient(rgba(240, 240, 240, 0) 3%, 
+                              rgba(240, 240, 240, 0) 50%, 
+                              rgba(0, 0, 0, 0) 92%, 
+                              rgba(0, 0, 0, 0) 98%);
+
+
+}
+
+content .content-section:nth-of-type(even) .content-box {
   background: rgba(255, 255, 255, 1);
   border-radius: 0px;
   box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.35);
@@ -361,75 +585,20 @@ button {
   margin: 10px;
 }
 
-.content-box-dark {
+/* dark background for content*/
+content .content-section:nth-of-type(odd) {
+  background-image: url("images/grid.png");
+  background-color: #000000;
+}
+
+content .content-section:nth-of-type(odd) .content-box {
+  color: #ffffff;
   background: rgba(0, 0, 0, 1);
   border-radius: 3px;
   box-shadow: 0px 0px 5px 3px rgba(200, 200, 200, 0.35);
 
   padding: 10px;
   margin: 10px;
-}
-
-.content-box ul, .content-box-dark ul {
-  font-size: 1.5em;
-}
-
-ul.no-list-style {
-  list-style-type: none;
-}
-
-.top-content.content-section h1 {
-  font-size: 2.25em;
-  font-family: 'Exo 2', sans-serif;
-  text-align: center;
-}
-
-.content-section h1 {
-  font-size: 2.25em;
-  font-family: 'Exo 2', sans-serif;
-  text-align: center;
-}
-
-.content-section h2 {
-  margin-top: 0px;
-  font-size: 1.65em;
-  font-family: 'Exo 2', sans-serif;
-  text-align: center;
-}
-
-.top-content h1 {
-  font-size: 5em;
-  color: #930000;
-  text-shadow: 2px 2px 5px #BCBCBC;
-  text-align: center;
-}
-
-.content-section  p {
-  font-size: 1.5em;
-}
-
-.content-section  img {
-  max-width:100%; 
-  max-height:100%;
-}
-
-.content-section-dark {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-@media only screen and (max-width: 767px) {
-  .content-section h1 {
-      font-size: 2.25em;
-  }
-  .content-section p {
-      font-size: 1.15em;
-  }
-}
-
-.back-to-top {
-  text-align: center;
-  font-weight: bold;
 }
 
 /* Responsive iFrame */

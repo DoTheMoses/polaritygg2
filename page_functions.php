@@ -1,11 +1,73 @@
 <?php function get_pol_navbar() { ?>
 
-<div>
-<div id="header-logo">
-  <a href="/2/"><img src="images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
-<iframe src="http://streambadge.com/twitch/custom/2b2b2b/930000/808080/polaritygg/" style="border:none;height:4em;width:100%"></iframe>
+<!-- <header> -->
+<div class="container">
+  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+    <div id="header-logo">
+      <a href="/2/">
+        <img src="images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" />
+      </a> 
+    </div>
+  </div>
+    
+<?php
+  $channel = "polaritygg";
+  try {
+    $api = json_decode(file_get_contents("https://api.twitch.tv/kraken/streams/" . $channel), true);
+    $streaming = (is_array($api['stream']) ? true : false);
+    $current_game = $api['stream']['channel']['game'];
+    $channel_title = $api['stream']['channel']['display_name'];
+    $stream_title = $api['stream']['channel']['status'];
+    $viewers = $api['stream']['viewers'];
+  } catch (Exception $e) {
+    $api = array();
+    $streaming = false;
+  }
+
+  if($streaming) { ?>
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 no-padding test">
+    <div class="stream-badge">
+
+      <div id="left-bax">
+        <img src="images/fav_icon.png" />
+      </div>
+      <div id="right-bax">
+        <ul style="list-style-type: none;">
+          <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Live!</a></li>
+          <li class="title"><?php echo("$stream_title") ?></li>
+          <li class="game"><?php echo("$current_game") ?></li>
+          <li class="viewers"><?php echo("$viewers") ?> viewers</li>    
+        </ul>
+      </div>
+ 
+    </div>
+  </div>
 </div>
+
+  <?php } else { ?>
+
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 no-padding test">
+    <div class="stream-badge">
+    <a href="https://www.twitch.tv/polaritygg">
+      <ul>
+        <li style="display:inline"><img src="images/fav_icon.png" style="height: 40px; width: 40px;" /></li>
+        <li style="display:inline">
+          <ul style="list-style-type: none;">
+            <li class="status">Stream Status: Offline</li>
+            <li class="title">Follow us on twitch to be notified when we go live</li>
+            <li class="game"><?php echo("$current_game") ?></li>
+            <li class="viewers"><?php echo("$viewers") ?> viewers</li>    
+          </ul>
+        </li>
+      </ul>
+    </a>   
+    </div>
+  </div>     
+  </div>
+
 </div>
+
+<?php } ?>
 
 <nav class="nav navbar-default" data-spy="affix" data-offset-top="75">
   <div class="container-fluid" id="navbar-container" style="padding:0px">
@@ -20,31 +82,44 @@
     <div class="collapse navbar-collapse" id="polarity_navbar" style="padding:0px">
       <ul class="nav nav-justified">
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Play<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="wiiu">Super Smash Brothers WiiU</a></li>
-            <li><a href="pm">Project Melee</a></li> 
-            <li><a href="melee">Super Smash Brothers Melee</a></li>
-            <li><a href="64">Super Smash Brothers (64)</a></li> 
+            <li><a href="games">Games</a></li>
+            <li><a href="events">Events</a></li>
+            <li><a href="aml">Amateur Melee League</a></li> 
           </ul>
         </li>
-        <li><a href="events">Events</a></li>
-        <li><a href="aml">AML</a></li>
-        <li><a href="partners">Partners</a></li>
-        <li><a href="news">News</a></li>
-        <!-- <li><a href="store">Store</a></li> -->
-        <li><a href="about">About</a></li>
-        <li><a href="contact">Contact Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="stream">Stream</a></li>
+            <li><a href="commentary">Commentary</a></li>
+            <li><a href="news">News</a></li> 
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Polarity<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="partners">Partners</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="contact">Contact</a></li> 
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
 </nav>
+
+<!-- </header> -->
 
 <?php
 }
 
 function get_pol_footer() {
 ?>
+
+<footer>
 
 <div class="container-fluid" id="Footer">
   <div class="container">
@@ -104,27 +179,11 @@ function get_pol_footer() {
         </div>
       </div>
 
-<!--       <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-          <div class="footer-rhs-links">
-            <div class="region region-footer-other-links-mandator-link">
-                <div class="content">
-                  <ul class="footer-rhs-links-two no-padding">
-                  <li><a href="joinpolarity.html">Join the Polarity Team</a> | </li>
-                  <li><a href="/terms-use">Terms of Use</a> | </li>
-                  <li><a href="/accessibility-statement">Accessibility Statement</a> | </li>
-                  <li><a href="/privacy-policy">Privacy Policy</a> | </li>
-                  <li><a href="/corporate-social-responsibility-policy">CSR Policy</a> | </li>
-                  <li><a href="/cookie-policy">Cookie Policy</a> | </li>
-                  <li><a href="/sitemap">Sitemap</a></li>
-                  </ul>  
-                </div>
-              </div>
-          </div>
-        </div> -->
-
     </div>
 
   </div>
 </div>
+
+</footer>
 
 <?php } ?>

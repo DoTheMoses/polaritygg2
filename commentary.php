@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+  
 <!-- =================================================================== -->
 <head>
 <!-- =================================================================== -->
 
-<title>Polarity: News</title>
+<title>Polarity: Commentary</title>
 <meta charset="utf-8" />
 <meta name="description" content="CFL-Based Tournament & Production Source" />
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
@@ -49,71 +49,70 @@
 <content>
 <!-- ========================================================= -->
 
-<?php 
-/* Short and sweet */
-define('WP_USE_THEMES', false);
-require('../wp/wp-blog-header.php');
-?>
-
 <!-- begin top -->
-<div class="container-fluid content-section top-content">
+<div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
-        <h1>News & Blog</h1>
+        <img class="img-responsive" src="images/games/melee.png" alt="Super Smash Brothers Melee Logo" style="margin: auto; max-height: 130px;" />
+
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#tournaments_events">Tournaments & Events</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#communities_resources">Communities & Resources</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#players_rankings_results">Players, Rankings & Results</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#commentary">Commentary</a></h2>
+          </div>
+        </div>
+
       </div>
-     </div>
+    </div>
 
   </div>
 </div>
 <!-- end top -->
 
+<!-- begin commentary -->
+<span class="anchor" id="commentary"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
-    <?php
-    $posts = get_posts('numberposts=2&order=DSC&orderby=post_date');
-    foreach ($posts as $post) : setup_postdata( $post ); ?>
-
-      <div class="container-fluid no-padding">       
-        <div class="container no-padding content-box" style="margin-bottom:15px;">        
-
-          <div class="col-md-7">
-            <a href="<?php the_permalink(); ?>">
-              <img class="img-responsive" src=<?php the_post_thumbnail(full); ?>
-            </a>
-          </div>
-          <div class="col-md-5">
-            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-            <h4><?php the_date(); ?></h4>
-            <p><?php the_excerpt(); ?></p>
-          </div>
-        </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
+      <div class="content-box">
+        <img class="img-responsive" src="images/ruler.jpg" alt="Hands" />
       </div>
+    </div>        
 
-    <?php
-    endforeach;
-    ?>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box">          
+        <h3>Commentary</h3>
+        <p>Our commentators are some of the best around, and our commentary community has a lot going on. 
+        Our weekly CFL Smackdown series keeps things light, but for larger events we require prior approval.</p>
 
-    <!-- Pagination -->
-<!--     <div class="row text-center">
-      <div class="col-lg-12">
-        <ul class="pagination">
-          <li><a href="#">&laquo;</a></li>
-          <li class="active"><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-          <li><a href="#">&raquo;</a></li>
+        <p>Want to give it a shot on the mic? Click here to fill out our <a href="google.com">Commentary Form</a>.</p>
+
+        <h4>List of our approved melee commentators:</h4>
+        <ul>
+          <li>Marsfool <a href="https://www.twitter.com/20XXLIVINGROOM/">@20XXLIVINGROOM</a></li>
+          <li>Dr4gonblitz <a href="https://www.twitter.com/Dr4gonblitz/">@Dr4gonBlitz</a></li>
+          <li>Moses <a href="https://www.twitter.com/DoTheMoses/">@DoTheMoses</a></li>
         </ul>
+        
+        <p><a href="#">Back to top</a></p>
       </div>
-    </div> -->
-
-  </div>  
+    </div>
+          
+  </div>
 </div>
-<!-- /.container -->
+<!-- end commentary -->
 
 </content>
 
