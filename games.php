@@ -97,7 +97,7 @@
       
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
       <div class="content-box">
-        <img class="img-responsive" src="images/hands.jpg" alt="Hands" />
+        <img class="img-responsive" src="images/games_controllers.jpg" alt="Hands work controllers silly playing Melee" />
       </div>
     </div>
 
@@ -107,7 +107,7 @@
         <p>Whether you're learning to wavedash or shield drop, seeking yet another 
         strategy for the Fox matchup, or just want to find a place to hang out 
         and chat about Melee, you can find what you're looking for in the links 
-        we've provided below. <p>
+        we've provided below.<p>
 
         <h4>Local Communities</h4>
         <ul>
