@@ -143,7 +143,7 @@
         <h4>List of Polarity Approved Commentators:</h4>
   
         <ul>
-          <li>&squf; = Smash 64, &squf; = Melee, &squf; = Smash 4</li>
+          <li><b>Games:</b> Smash 64 Melee Smash 4</li>
           <li>&squf; &#x2714 &squf; BiggPappa <a href="https://www.twitter.com/c0llinmari0tti/">@c0llinmari0tti</a></li>
           <li>&squf; &#x2714 &squf; Dr4gonblitz <a href="https://www.twitter.com/dr4gonBlitz/">@dr4gonBlitz</a></li>
           <li>&squf; &squf; &#x2714 EE | Duelist <a href="https://www.twitter.com/EE_Duelist/">@EE_Duelist</a></li>
