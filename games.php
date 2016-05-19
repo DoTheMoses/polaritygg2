@@ -50,12 +50,21 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section">
+<div class="container-fluid content-section-top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
-        <img class="img-responsive" src="images/games/wiiu.png" alt="Super Smash Brothers for WiiU Logo" style="margin: auto; max-height: 130px;" />
+      <div class="container content-section-top-title">
+        <h1>Games</h1>
+      </div> 
+
+      <div class="content-section-top-text">
+        <p>Polarity currently runs events for 4 different games: Super Smash Bros (64),
+        Super Smash Bros Melee, Project: Melee, and Smash 4. We've providied some useful
+        content about each game below, including links to communities to connect with
+        other players, links to guides on how to improve, and links to some entertaining content
+        as well. We take no credit for creating any of this content, but we couldn't let you 
+        miss out on some of the best that smash content creators have to offer!</p>
 
         <div class="container-fluid no-padding">
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -72,8 +81,9 @@
           </div>
         </div>
 
-      </div>
-    </div>
+      </div> <!-- content-section-top-text -->
+
+    </div> <!-- cols -->
 
   </div>
 </div>
