@@ -64,22 +64,32 @@
           
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
         	  <h2>Partners</h2>
-        	  <p>If you'd like to talk to us about</p>
+        	  <p>If you'd like to talk to us about a partnership opportunity, contact
+        	  <a href="mailto:admin@polarity.gg?Subject=Partnership%20Opportunity" target="_top">
+        	  admin@polarity.gg</a>.
+        	  </p>
     	    </div>
 
     	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
       	    <h2>Streams</h2>
-            <p>If you'd like to talk to us about</p>
+            <p>If you'd like to talk to us about producing (streaming) your event, contact
+            <a href="mailto:admin@polarity.gg?Subject=Event%20Production/Streaming" target="_top">
+        	  admin@polarity.gg</a>.
+            </p>
     	    </div>
 
     	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
       	    <h2>Events</h2>
-       	    <p>If you'd like to talk to us about</p>
+            <p>If you have an event you need help with (planning, day-of-duties), contact
+            <a href="mailto:admin@polarity.gg?Subject=Event%20Help" target="_top">
+        	  admin@polarity.gg</a>.
     	    </div>
 
     	    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
       	    <h2>Join</h2>
-            <p>If you'd like to talk to us about</p>
+            <p>Are you passionate about gaming and want to help give back to the community? Contact
+            <a href="mailto:admin@polarity.gg?Subject=Work%20With%20Polarity" target="_top">
+        	  admin@polarity.gg</a>.
           </div>
 
         </div>
