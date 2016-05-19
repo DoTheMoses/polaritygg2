@@ -55,7 +55,7 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="container content-section-top-title">
-        <img class="img-responsive" src="images/aml.gif" alt="AML Logo" />
+        <img class="img-responsive" src="images/aml_logo.png" alt="AML Logo" />
       </div> 
 
       <div class="content-section-top-text">
