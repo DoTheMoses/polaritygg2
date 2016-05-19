@@ -141,20 +141,16 @@
         </ul>
 
         <h4>List of Polarity Approved Commentators:</h4>
-        
-        <style>
-          .111 { }
-        
-        </style>
+  
         <ul>
-          <li><span class="111">&squf; = Smash 64, &squf; = Melee, &squf; = Smash 4</li>
-          <li><span class="010">&squf; &squf; &squf; </span>BiggPappa <a href="https://www.twitter.com/c0llinmari0tti/">@c0llinmari0tti</a></li>
-          <li><span class="010">&squf; &squf; &squf; </span>Dr4gonblitz <a href="https://www.twitter.com/dr4gonBlitz/">@dr4gonBlitz</a></li>
-          <li><span class="001">&squf; &squf; &squf; </span>EE | Duelist <a href="https://www.twitter.com/EE_Duelist/">@EE_Duelist</a></li>
-          <li><span class="010">&squf; &squf; &squf; </span>Oaty <a href="https://www.twitter.com/ProbablyOaty/">@ProbablyOaty</a></li>
-          <li><span class="101">&squf; &squf; &squf; </span>Rematch <a href="https://www.twitter.com/WannaRematch/">@WannaRematch</a></li>
-          <li><span class="010">&squf; &squf; &squf; </span>Steele <!-- <a href="https://www.twitter.com/?/">?</a> --></li>
-          <li><span class="011">&squf; &squf; &squf; </span>OHS | The Toolbag <a href="https://www.twitter.com/the_toolbag/">@the_toolbag</a></li>          
+          <li>&squf; = Smash 64, &squf; = Melee, &squf; = Smash 4</li>
+          <li>&squf; &#x2714 &squf; BiggPappa <a href="https://www.twitter.com/c0llinmari0tti/">@c0llinmari0tti</a></li>
+          <li>&squf; &#x2714 &squf; Dr4gonblitz <a href="https://www.twitter.com/dr4gonBlitz/">@dr4gonBlitz</a></li>
+          <li>&squf; &squf; &#x2714 EE | Duelist <a href="https://www.twitter.com/EE_Duelist/">@EE_Duelist</a></li>
+          <li>&squf; &#x2714 &squf; Oaty <a href="https://www.twitter.com/ProbablyOaty/">@ProbablyOaty</a></li>
+          <li>&#x2714 &squf; &#x2714 Rematch <a href="https://www.twitter.com/WannaRematch/">@WannaRematch</a></li>
+          <li>&squf; &#x2714 &squf; Steele <!-- <a href="https://www.twitter.com/?/">?</a> --></li>
+          <li>&squf; &#x2714 &#x2714 OHS | The Toolbag <a href="https://www.twitter.com/the_toolbag/">@the_toolbag</a></li>          
         </ul>
         
         <p><a href="#">Back to top</a></p>
