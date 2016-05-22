@@ -11,7 +11,7 @@
   </div>
     
 <?php
-  $channel = "polaritygg";
+  $channel = "playhearthstone";
   try {
     $api = json_decode(file_get_contents("https://api.twitch.tv/kraken/streams/" . $channel), true);
     $streaming = (is_array($api['stream']) ? true : false);
@@ -25,52 +25,38 @@
   }
 
   if($streaming) { ?>
-  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 no-padding test">
-    <div class="stream-badge">
-
-      <div id="left-bax">
-        <img src="images/fav_icon.png" />
-      </div>
-      <div id="right-bax">
-        <ul style="list-style-type: none;">
-          <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Live!</a></li>
-          <li class="title"><?php echo("$stream_title") ?></li>
-          <li class="game"><?php echo("$current_game") ?></li>
-          <li class="viewers"><?php echo("$viewers") ?> viewers</li>    
-        </ul>
-      </div>
- 
+<!--   <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-padding test stream-badge">
+    <div id="compass-logo">
+      <img src="images/fav_icon.png" />
     </div>
+  </div> -->
+
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
+    <ul style="list-style-type: none;" id="stream-info">
+      <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Live!</a></li>
+      <li class="title"><?php echo("$stream_title") ?></li>
+      <li class="game"><?php echo("$current_game") ?></li>
+    </ul>
   </div>
+ 
 </div>
 
   <?php } else { ?>
 
-  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 no-padding test">
-    <div class="stream-badge">
-    <a href="https://www.twitch.tv/polaritygg">
-      <ul>
-        <li style="display:inline"><img src="images/fav_icon.png" style="height: 40px; width: 40px;" /></li>
-        <li style="display:inline">
-          <ul style="list-style-type: none;">
-            <li class="status">Stream Status: Offline</li>
-            <li class="title">Follow us on twitch to be notified when we go live</li>
-            <li class="game"><?php echo("$current_game") ?></li>
-            <li class="viewers"><?php echo("$viewers") ?> viewers</li>    
-          </ul>
-        </li>
-      </ul>
-    </a>   
-    </div>
-  </div>     
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
+    <ul style="list-style-type: none;" id="stream-info">
+      <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Offline</a></li>
+      <li class="title">Be sure to follow the channel on twitch</li>
+      <li class="game">to keep up with when we go live!</li>
+    </ul>
   </div>
-
+ 
 </div>
 
 <?php } ?>
 
-<nav class="nav navbar-default" data-spy="affix" data-offset-top="75">
-  <div class="container-fluid" id="navbar-container" style="padding:0px">
+<nav class="nav navbar-default" data-spy="affix" data-offset-top="70">
+  <div class="container-fluid" id="navbar-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#polarity_navbar">
         <span class="icon-bar"></span>
@@ -128,7 +114,7 @@ function get_pol_footer() {
 
       <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
         <div class="footer-about">
-          <h1>About Polarity</h1>
+          <h2>About Polarity</h2>
           <p>Polarity is an Orlando, Florida based gaming organization specializing
           in Super Smash Brothers tournaments and production for other gaming events. 
           We've got a talented staff that has grown with the community.
@@ -149,7 +135,7 @@ function get_pol_footer() {
 
         <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
           <div class="footer-follow-us">
-            <h1 class="centered">Follow Us</h1>
+            <h3 class="centered">Follow Us</h3>
             <div class= "container-fluid centered no-padding">
             <ul class="no-padding">
               <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter" /></a></li>
@@ -164,10 +150,10 @@ function get_pol_footer() {
 
       </div>
     </div>
-
+<!--  
     <hr />
 
-    <div class="container footer-bottom-row no-padding no-margin">
+   <div class="container footer-bottom-row no-padding no-margin">
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <div class="footer-copy-rights">
@@ -179,7 +165,7 @@ function get_pol_footer() {
         </div>
       </div>
 
-    </div>
+    </div> -->
 
   </div>
 </div>

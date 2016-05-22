@@ -21,13 +21,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Exo+2:900' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>

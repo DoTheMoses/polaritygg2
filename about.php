@@ -25,9 +25,9 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -50,18 +50,15 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="title-section-outer">
-  <div class="title-section-inner">
-
-    <h1>About Polarity</h1>
-  </div>
-</div>
-
-<div class="container-fluid content-section top-content">
+<div class="container-fluid content-section-top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
+      <div class="container content-section-top-title">
+        <h1>About Polarity</h1>
+      </div> 
+
+      <div class="content-section-top-text">
         <p>In nature, polarity is created when opposites come together, and our community 
         is a reflection of that polarity. We are your source for premiere central Florida 
         events.</p>                
@@ -92,7 +89,7 @@
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
             <h2>Production Team</h2>
               <ul>
-                <li><a href="#Gavin"><b>Gavin</b></a> &squf;</li>
+                <li><a href="#Gavin">Gavin</a> &squf;</li>
                 <li><a href="#Mohamed">Mohamed</a></li>
               </ul>
           </div>
@@ -115,8 +112,10 @@
           </div>
 
         </div>
-      </div>
-    </div>
+
+      </div> <!-- content-section-top-text -->
+
+    </div> <!-- cols -->
 
   </div>
 </div>
@@ -128,17 +127,18 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box">
-        <img src="images/staff/Kelly_Goodchild.png" alt="Kelly Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Kelly_Goodchild.jpg" alt="Kelly Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box back-to-top">
+
         <h3>Kelly Goodchild</h3>
         <ul>
-          <li><a href="https://www.twitter.com/polarity_kupo/">
-              <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/polarity_kupo/" target="blank">
+              <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
               @polarity_kupo</a> &squf;
           </li>
           <li><a href="mailto:kelly@polarity.gg?" target="_top">kelly@polarity.gg</a></li>
@@ -174,17 +174,18 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box">
-        <img src="images/staff/Colin_Green.png" alt="Colin Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Colin_Green.jpg" alt="Colin Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box back-to-top">
+
         <h3>Colin "Colbol" Green</h3>
         <ul>
-          <li><a href="https://www.twitter.com/Colbol725/">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/Colbol725/" target="blank">
+            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
             @Colbol725</a> &squf;
           </li>
           <li><a href="mailto:colin@polarity.gg?" target="_top">colin@polarity.gg</a></li>
@@ -222,17 +223,18 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box">
-        <img src="images/staff/Lindsay_Gonshak.png" alt="Lindsay Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Lindsay_Gonshak.jpg" alt="Lindsay Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box back-to-top">
+
         <h3>Lindsay Gonshak</h3>
         <ul>
-          <li><a href="https://www.twitter.com/lovelylinds29/">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/lovelylinds29/" target="_blank">
+            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
             @lovelylinds29</a> &squf;
           </li>
           <li><a href="mailto:lindsay@polarity.gg?" target="_top">lindsay@polarity.gg</a></li>
@@ -272,17 +274,18 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box back-to-top">
-        <img src="images/staff/Gavin_Kuhl.png" alt="Gavin Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Gavin_Kuhl.jpg" alt="Gavin Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box back-to-top">
+
         <h3>Gavin "Azzy" Kuhl</h3>
         <ul>
-          <li><a href="https://www.twitter.com/PolarityAzzy/">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/PolarityAzzy/" target="blank">
+            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
             @PolarityAzzy</a> &squf;
           </li>
           <li><a href="mailto:azzy@polarity.gg?" target="_top">azzy@polarity.gg</a></li>
@@ -316,18 +319,18 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box">
-        <img src="images/staff/Mohamed_Hachem.png" alt="Mohamed Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Mohamed_Hachem.jpg" alt="Mohamed Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
       <div class="content-box back-to-top">
-        <h3>Mohamed "Blast" Hussien</h3>
 
+        <h3>Mohamed "Blast" Hussien</h3>
         <ul>
-          <li><a href="https://www.twitter.com/BlastMohamed/">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/BlastMohamed/" target="blank">
+            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
             @BlastMohamed</a> &squf;
           </li>
           <li><a href="mailto:mohamed@polarity.gg?" target="_top">mohamed@polarity.gg</a></li>
@@ -355,15 +358,15 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box back-to-top">
-        <img src="images/staff/Gabriel_Nieves.png" alt="Gabriel N. Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Gabriel_Nieves.jpg" alt="Gabriel N. Staff Photo"/>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
-      <div class="content-box">
-        <h3>Gabriel "Taerk" Nieves</h3>
+      <div class="content-box back-to-top">
 
+        <h3>Gabriel "Taerk" Nieves</h3>
         <ul>
           <li><a href="mailto:gabe_n@polarity.gg?" target="_top">gabe_n@polarity.gg</a></li>
         </ul>
@@ -380,8 +383,8 @@
 
         <ul>
           <li><b>Birthday:</b> Dec 20th</li>
-          <li><b>Favorite Games:</b> Mega Man Battle Network 3, Sonic 3 & Knuckles, Project: M, 
-          Team Fortress 2</li>
+          <li><b>Favorite Games:</b> Mega Man Battle Network 3, Sonic 3 & Knuckles, 
+          Project: Melee, Team Fortress 2</li>
         </ul>
 
         <p><a href="#top">Back to top</a></p>
@@ -399,18 +402,19 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
-      <div class="content-box back-to-top">
-        <img src="images/staff/Matt_Kiep.png" alt="Matt Staff Photo" />
+      <div class="content-box content-box-image">
+        <img src="images/staff/Matt_Kiep.jpg" alt="Matt Staff Photo"/>
+        <p id="matt_fun_fact"></p>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 no-padding">
-      <div class="content-box">
-        <h3>Matt "Moses" Kiep</h3>
+      <div class="content-box back-to-top">
 
+        <h3>Matt "Moses" Kiep</h3>
         <ul>
-          <li><a href="https://www.twitter.com/DoTheMoses/">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo" />
+          <li><a href="https://www.twitter.com/DoTheMoses/" target="blank">
+            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
             @DoTheMoses</a> &squf;
           </li>
           <li><a href="mailto:matt@polarity.gg?" target="_top">matt@polarity.gg</a></li>
@@ -435,7 +439,6 @@
         <ul>
           <li><b>Birthday:</b> May 8th</li>
           <li><b>Favorite Games:</b> Super Smash Bros. Melee, Dota 2, Diablo 2, Ogre Battle 64</li>
-          <li><span id="matt_script"></span></li>
         </ul>
 
         <p><a href="#top">Back to top</a></p>
@@ -452,7 +455,7 @@
 <div class="container-fluid content-section">
   <div class="container">
     
-    <div class="container content-box">
+    <div class="container-fluid content-box">
       <h3>Staff Hall of Fame</h3>
 
       <p>These staff members have moved onto other things, either permanentaly, or just for 
@@ -460,44 +463,50 @@
       capacities to us, and we're very grateful for their help.</p>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-        <img src="../images/staff/Alex_Chiricosta.jpg" alt="Alex Chiricosta Staff Photo" />
-        <h4>Alex "RagingCherry" Chiricosta</h4>
+        <div class="content-box content-box-image">
+          <img src="/2/images/staff/Alex_Chiricosta.jpg" alt="Alex Chiricosta Staff Photo"/>
+        </div>
 
+        <h3>Alex "RagingCherry" Chiricosta</h3>
         <ul>
           <li><a href="https://www.twitter.com/RagingCherry">@RagingCherry</a></li>
-          <li><a href=mailto:"RagingCherry@gmail.com">RagingCherry@gmail.com</a></li>
         </ul>
 
         <p>Alex started the whole ball rolling years ago when he created Gaming Knights at 
         UCF. He later started CFL Smackdown, which Polarity eventually took over. He has helped 
         us financially, and has been a more than invaluable resource for, and friend to, Polarity. 
-        He currently works for <a href="https://www.esl.com">ESL</a> and is the head cheese for 
-        <a href="https://www.smashtherecord.com">Smash the Record</a>.</p>
+        He currently works for <a href="http://www.eslgaming.com/" target="_blank">ESL</a> and is the creator and 
+        man in charge of <a href="http://www.smashtherecord.com/" target="_blank">#SmashTheRecord</a>.</p>
 
         <p>We will always be grateful for everything he's done and continues to do for us.</p>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-        <img src="/2/images/staff/Gabriel_Batista.png" alt="Gabriel Bautista Staff Photo" />
-        <h4>Gabriel "Rula" Bautista</h4>
+        <div class="content-box content-box-image">
+          <img src="/2/images/staff/Gabriel_Batista.jpg" alt="Gabriel Bautista Staff Photo"/>
+        </div>
+
+        <h3>Gabriel "Rula" Bautista</h3>
         <ul>
           <li><a href="https://www.twitter.com/EXG_Rula">@EXG_Rula</a></li>
-          <li><a href=mailto:"EXG_Rula@gmail.com" target="_blank">EXG_Rula@gmail.com</a></li>
         </ul>
 
         <p>Gabe uploaded hundreds of Melee VODs to our YouTube channel, and always in a   
         very timely manner. He is currently taking a break but we look forward to working 
         with him again in the future.</p>
 
-        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/polFlako.png" /></p>
+        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/polFlako.png"/>
+        <i>(which is clearly the best one - Moses)</i></p>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-        <img src="/2/images/staff/Keith_Kelly.png" alt="Keith Kelly Staff Photo" />
-        <h4>Keith "GDX"Kelly</h4>
+        <div class="content-box content-box-image">
+          <img src="/2/images/staff/Keith_Kelly.jpg" alt="Keith Kelly Staff Photo"/>
+        </div>
+
+        <h3>Keith "GDX"Kelly</h3>
         <ul>
           <li><a href="https://www.twitter.com/GameDragonX">@GameDragonX</a></li>
-          <li><a href=mailto:"GameDragonX@gmail.com" target="_blank">GameDragonX@gmail.com</a></li>
         </ul>
 
         <p>Keith did a little bit of everything for Polarity, including TOing, directing the stream, 

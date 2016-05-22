@@ -25,9 +25,9 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -50,27 +50,45 @@
 <!-- ========================================================= -->
 
 <!-- begin top -->
-<div class="container-fluid content-section top-content">
+<div class="container-fluid content-section-top">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
+      <div class="container content-section-top-title">
         <h1>Partners</h1>
-        <p>We can't do this alone, but luckily we've got some help from our partners!
-        </p> 
-      </div>
-    </div>
+      </div> 
+
+      <div class="content-section-top-text">
+        <p>We can't do this alone, but luckily we've got some help from our partners!</p>
+
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <h2><a href="#Twitch">Twitch</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <h2><a href="#Discord">Discord</a></h2>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+            <h2><a href="#Partner">Partner With Polarity</a></h2>
+          </div>
+        </div>
+
+      </div> <!-- content-section-top-text -->
+
+    </div> <!-- cols -->
 
   </div>
 </div>
 <!-- end top -->
 
-<!-- begin twtich -->
+<!-- begin Twtich -->
+<span class="anchor" id="Twitch"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
+      <div class="content-box back-to-top">
         <h3><img src="images/Twitch_logo_black.svg" style="max-height: 150px;" alt="Twitch.tv"/></h3>
         <p><i>"Founded in June 2011, Twitch is the world’s leading social video platform and community for gamers. 
         Each month, more than 100 million community members gather to watch and talk about video games with 
@@ -80,18 +98,18 @@
 
         <p>Polarity's first major partnership began in early 2016 with <a href="https://www.twitch.tv/">Twitch</a>. 
         Our Twitch partnership allows us to better serve viewers watching our stream and enables our viewers to 
-        directly support Polarity.<p/>
+        directly support Polarity through subscriptions.<p/>
 
-        <p>Check out our Twitch channel here: <a href="https://www.twitch.tv/PolarityGG/">twitch.tv/PolarityGG</a>.
-        If you like what you see, Follow the channel! If you love what you see, Subcribe! Subscribers get 
-        access to our emotes below:
+        <p><a href="https://www.twitch.tv/PolarityGG/">Check out our Twitch channel here.</a>
+        If you like what you see, Follow the channel! If you love what you see, Subcribe! 
 
-          <div class="container-fluid">
-            <img src="images/polFlako.png" alt="polFlako" />
-            <img src="images/polPappa.png" alt="polPappa" />
-            <img src="images/polBruh.png" alt="polBruh" />
-            <img src="images/polPlup.png" alt="polPlup" />
-          </div>
+        <h4>Subcriber Benefits</h4>
+        <ul>
+          <li>Twtich Emotes<img src="images/polFlako.png" alt="polFlako" /> &squf;
+            <img src="images/polPappa.png" alt="polPappa" /> &squf;
+            <img src="images/polBruh.png" alt="polBruh" /> &squf;
+            <img src="images/polPlup.png" alt="polPlup" /></li>
+         </ul>
     
         </p> 
 
@@ -104,11 +122,13 @@
 <!-- end twtich -->
 
 <!-- begin discord -->
+<span class="anchor" id="Discord"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box">
+      <div class="content-box back-to-top">
         <h3><img src="images/Discord-Logo.png" style="max-height: 150px;" alt="Discord"/></h3>
         <p><i>"We think it's time to ditch Skype and Teamspeak. Two hundred seventy million PC 
         gamers use these apps to communicate while playing online games yet they haven't been 
@@ -130,23 +150,25 @@
 </div>
 <!-- end discord -->
 
-<!-- begin partner with us -->
+<!-- begin Partner -->
+<span class="anchor" id="Partner"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box">
         <h3>Partner With Polarity</h3>
-          <p style="text-align:center">If you would like to discuss partnership options, please 
-          email us at <a href="mailto:partners@polarity.gg?Subject=Partner%20With%20Polarity" target="_top">partners@polarity.gg</a>.</p>
+        <p style="text-align:center">If you would like to discuss partnership options, please 
+        email us at <a href="mailto:partners@polarity.gg?Subject=Partner%20With%20Polarity" target="_top">partners@polarity.gg</a>.</p>
 
-          <p>We look forward to working with you!</p>  
+        <p style="text-align:center">We look forward to working with you!</p>  
       </div>
     </div>
 
   </div>
 </div>
-<!-- end partner with us -->
+<!-- end Partner -->
 
 </content>
 

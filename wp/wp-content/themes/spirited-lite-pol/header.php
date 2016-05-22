@@ -30,11 +30,17 @@
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<link rel="stylesheet" href="https://www.polarity.gg/2/css/index.css" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="https://www.polarity.gg/2/index.css" type="text/css" />
+<script type="text/javascript" src="https://www.polarity.gg/2/index.js"></script>
 
 <link rel="shortcut icon" href="https://www.polarity.gg/2/images/favicon_animated.ico" type="image/x-icon" />
-
-<base href="https://www.polarity.gg/2/" />
 
 <?php wp_head(); ?>
 
@@ -42,14 +48,63 @@
 
 <body <?php body_class(); ?>>
 
-<!-- <div class="row"> -->
-  <div id="header-logo">
-    <a href="https://polarity.gg/2"><img src="https://polarity.gg/2/images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" class="no-svg" /></a> <!-- add svg and no svg options here, see comment below-->
+<!-- <header> -->
+<div class="container">
+  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+    <div id="header-logo">
+      <a href="/2/">
+        <img src="https://www.polarity.gg/images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" />
+      </a> 
+    </div>
   </div>
-<!-- </div>  -->
+    
+<?php
+  $channel = "playhearthstone";
+  try {
+    $api = json_decode(file_get_contents("https://api.twitch.tv/kraken/streams/" . $channel), true);
+    $streaming = (is_array($api['stream']) ? true : false);
+    $current_game = $api['stream']['channel']['game'];
+    $channel_title = $api['stream']['channel']['display_name'];
+    $stream_title = $api['stream']['channel']['status'];
+    $viewers = $api['stream']['viewers'];
+  } catch (Exception $e) {
+    $api = array();
+    $streaming = false;
+  }
 
-<nav class="nav navbar-default" data-spy="affix" data-offset-top="75">
-  <div class="container-fluid no-padding" id="navbar-container" style="padding:0px">
+  if($streaming) { ?>
+<!--   <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-padding test stream-badge">
+    <div id="compass-logo">
+      <img src="images/fav_icon.png" />
+    </div>
+  </div> -->
+
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
+    <ul style="list-style-type: none;" id="stream-info">
+      <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Live!</a></li>
+      <li class="title"><?php echo("$stream_title") ?></li>
+      <li class="game"><?php echo("$current_game") ?></li>
+    </ul>
+  </div>
+ 
+</div>
+
+  <?php } else { ?>
+
+  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
+    <ul style="list-style-type: none;" id="stream-info">
+      <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Offline</a></li>
+      <li class="title">Be sure to follow the channel on twitch</li>
+      <li class="game">to keep up with when we go live!</li>
+    </ul>
+  </div>
+ 
+</div>
+
+<?php } ?>
+
+<nav class="nav navbar-default" data-spy="affix" data-offset-top="70">
+  <div class="container-fluid" id="navbar-container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#polarity_navbar">
         <span class="icon-bar"></span>
@@ -61,25 +116,36 @@
     <div class="collapse navbar-collapse" id="polarity_navbar" style="padding:0px">
       <ul class="nav nav-justified">
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Games<span class="caret"></span></a>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Play<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="wiiu">Super Smash Brothers WiiU</a></li>
-            <li><a href="pm">Project Melee</a></li> 
-            <li><a href="melee">Super Smash Brothers Melee</a></li>
-            <li><a href="64">Super Smash Brothers (64)</a></li> 
+            <li><a href="https://www.polarity.gg/2/games">Games</a></li>
+            <li><a href="https://www.polarity.gg/2/events">Events</a></li>
+            <li><a href="https://www.polarity.gg/2/aml">Amateur Melee League</a></li> 
           </ul>
         </li>
-        <li><a href="events">Events</a></li>
-        <li><a href="aml">AML</a></li>
-        <li><a href="partners">Partners</a></li>
-        <li><a href="news">News</a></li>
-        <!-- <li><a href="store">Store</a></li> -->
-        <li><a href="about">About</a></li>
-        <li><a href="contact">Contact Us</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.polarity.gg/2/stream">Stream</a></li>
+            <li><a href="https://www.polarity.gg/2/commentary">Commentary</a></li>
+            <li><a href="https://www.polarity.gg/2/news">News</a></li> 
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Polarity<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://www.polarity.gg/2/partners">Partners</a></li>
+            <li><a href="https://www.polarity.gg/2/about">About</a></li>
+            <li><a href="https://www.polarity.gg/2/contact">Contact</a></li> 
+          </ul>
+        </li>
+
       </ul>
     </div>
   </div>
 </nav>
+
+<!-- </header> -->
 
 <?php if ( is_front_page() && ! is_home() ) { ?>
 

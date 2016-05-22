@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="js/index.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>

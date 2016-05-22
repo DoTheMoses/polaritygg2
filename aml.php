@@ -7,27 +7,27 @@
 
 <title>Polarity: Amateur Melee League</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament & Production Source" />
-<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
-<meta name="author" content="Matt Kiep" />
+<meta name="description" content="CFL-Based Tournament & Production Source"/>
+<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv"/>
+<meta name="author" content="Matt Kiep"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
 
-<link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<link rel="stylesheet" href="index.css" type="text/css"/>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="/images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon"/>
 
 <!-- =================================================================== -->
 </head>
@@ -55,38 +55,43 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="container content-section-top-title">
-        <img class="img-responsive" src="images/aml_logo.png" alt="AML Logo" />
+        <img class="img-responsive" src="images/aml_logo.png" alt="AML Logo"/>
       </div> 
 
       <div class="content-section-top-text">
         <p>The Amateur Melee League, or AML, was designed to give up-and-coming players more chances 
         to play meaningful matches against players of their own caliber. Currently based in 
-        Orlando, FL, we aim to grow the melee scene and give the new school the push it needs 
+        Orlando, FL, we aim to grow the Melee scene and give the new school the push it needs 
         to take it to the next level!</p>
 
-        <p>The AML was started in July 2015 by Matt "Moses" Kiep, and Steven "Fearless" Belowsky. After
-        both contributed to a discussion in CFL Melee about giving newer players a better way to play 
-        thrilling matches outside tournament play, they began work on what became the AML.</p>
-        
+        <p>The first rule of AML is <b>all currently or previously ranked players are banned</b></p>
+
+        <p>The AML was started in July 2015 by Matt <b>"Moses"</b> Kiep, and Steven <b>"Fearless"</b> 
+        Belowsky. After both contributed to a discussion in CFL Melee about giving newer players a 
+        better way to play thrilling matches outside tournament play, they began work on what 
+        became the AML.</p>
+
         <h3>Season 3 is currently in the works so stay tuned for more info!</h3>
           
         <h3><a href="https://www.facebook.com/groups/1132977010049649/">
         Click here to join the Facebook group and keep up to date on the AML!</a></h3>
 
-        <div class="container no-padding">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+        <div class="container-fluid no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+              <h2><a href="#Hall_of_Champions">Hall of Champions</a></h2>
+              <p>1st Place Finishers</p>
+          </div>        
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
               <h2><a href="#Season_1">Season 1</a></h2>
-              <h3>August 4th, 2015 - September 13th, 2015</h3>
+              <p>August 4th, 2015 - September 13th, 2015</p>
           </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
               <h2><a href="#Season_2">Season 2</a></h2>
-              <h3>November 14th, 2015 - February 6th, 2016</h3>
+              <p>November 14th, 2015 - February 6th, 2016</p>
           </div>
-
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
               <h2><a href="#Season_3">Season 3</a></h2>
-              <h3>Coming Soon!</h3>
+              <p>Coming Soon!</p>
           </div>
         </div>
 
@@ -105,16 +110,62 @@
 
     <div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12 no-padding">
       <div class="content-box">
-        <h1>Season 1 & 2 Hype Video</h1>
+        <h3>Season 1 & 2 Hype Video</h3>
 
-        <p class="centered">
-          <iframe width="640" height="390" src="https://www.youtube.com/embed/mrqpw-CImQ4" frameborder="0" allowfullscreen></iframe>
-        </p>
+        <div class="video-container">
+          <iframe width="640" height="390" src="https://www.youtube.com/embed/mrqpw-CImQ4" frameborder="0" allowfullscreen>
+          </iframe>
+        </div>
       </div>
     </div>
   </div>
 </div>
 <!-- end hype_video -->
+
+<!-- begin Hall_of_Champions -->
+<span class="anchor" id="Hall_of_Champions"></span>
+
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="container-fluid content-box">
+      <h3>Hall of Champions</h3>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+        <div class="content-box content-box-image">
+          <img src="/2/images/staff/??.jpg" alt="?? Photo"/>
+        </div>
+        <h3>Season 1 Champion</h3>
+        <h3>G0D</h3>
+        <ul>
+          <li><a href="https://www.twitter.com/??">@??</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+        <div class="content-box content-box-image">
+          <img src="/2/images/aml_lz.jpg" alt="Mr Lz was the Season 2 Champion"/>
+        </div>
+        <h3>Season 2 Champion</h3>
+        <h3>Mr Lz</h3>
+        <ul>
+          <li><a href="https://www.twitter.com/MrLzSSBM">@MrLzSSBM</a></li>
+        </ul>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+        <div class="content-box content-box-image">
+          <img src="/2/images/staff/??.jpg" alt="??"/>
+        </div>
+        <h3>Season 3 Champion</h3>
+        <h3>?</h3>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end Season_1 -->
 
 <!-- begin Season_1 -->
 <span class="anchor" id="Season_1"></span>
@@ -142,7 +193,7 @@
         the matches, and the Winner's Finals, Loser's Finals, and Grand Finals 
         were played on stream. However, due to technical issues at the venue, the 
         VODs for the finals were lost. Grand Finals was a close set between G0D
-        and Lad, with G0D scraping out a victory to end Season 1.</p>
+        and Lad, with G0D scraping out a victory to become the Champion of Season 1.</p>
 
         <h4>Season 1 Top 8</h4>
         <ul>
@@ -154,7 +205,7 @@
           The Best Tag in Smash, $55</li>
           <li>4. <b>Kaike</b> <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
           The Falco You Didn't Know You Feared, $37</li>
-          <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/sheik.png alt="Melee Icon - Sheik"" />, 
+          <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/sheik.png" alt="Melee Icon - Sheik" />, 
           The Beast From South Florida, $18</li>
           <li>5. <b>Hiroshi</b> <img src="/2/images/ssbm_icons/sheik.png" alt="Melee Icon - Sheik" />, 
           The Old Dog Showing Us New Tricks, $18</li>
@@ -171,7 +222,7 @@
 
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/aml_ranch.jpg" alt="Player 'Ranch' plays in AML Season 1"/>
+        <img class="img-responsive" src="images/aml_ranch.jpg" alt="Ranch plays in AML Season 1"/>
         <p>Ranch is no amateur at mustache grooming.</p>
       </div>
     </div>
@@ -189,7 +240,8 @@
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
         <img class="img-responsive" src="images/aml_oaty_vs_mike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
-        <p>Oaty and OC Mike struggle mightily to contain the hype they feel inside.</p>
+        <p>Oaty and OC Mike struggle mightily to contain the immense amount of hype they feel inside
+        during Season 2 Finals Day.</p>
       </div>
     </div>
 
@@ -209,6 +261,13 @@
         idea to get rid of pools, and instead use an Elo ranking system. He wrote custom
         software to handle this new system, and the players loved it. Find out more about
         the system at the <b>Rules</b> link above.</p>
+
+        <p>Season 2 Finals day was held at the CFL Smackdown February Monthly. We were able 
+        to get way more matches on stream (found in the VODs link above), and plenty of the 
+        matches went to three games, which indicated to us that the seeding from the season's 
+        final results was pretty close to ideal. There was an outlier, however. Mr Lz finished 
+        the season in 9th place, but ended up taking a pretty clean ride to Grand Finals. 
+        There, he took only 10 minutes to 3-0 OC Mike to become the Season 2 Champion.</p>
 
         <h4>Season 2 Top 8</h4>
         <ul>
@@ -245,24 +304,22 @@
 <div class="container-fluid content-section">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
-      <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/oatymike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
-        <p>Oaty and OC Mike struggle mightily to contain the hype they feel inside.</p>
-      </div>
-    </div>
-
-    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box back-to-top">
         <h3>Season 3</h3>
         <h5>?? - ??</h5>
 
-        <p>Season 3 is in the works!</p>
+        <p class="centered">Season 3 is in the works!</p>
 
-        <h4>Season 3 Top 8</h4>
-        <ul>
-          <li>1. <b>You?</b></li>
-        </ul>  
+        <p class="centered">Click the button below to register for Season 3!</p>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+        ">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
 
         <p><a href="#">Back to top</a></p> 
       </div>

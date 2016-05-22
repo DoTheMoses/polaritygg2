@@ -1,7 +1,6 @@
  /* ================================================ */
  /* page defaults                                    */
  /* ================================================ */
-
 @font-face {
   font-family:Telemarines;
   src: url(fonts/telemarines/telemarinesbold1.ttf);
@@ -20,7 +19,7 @@ html, body {
 }
 
 html {
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .no-padding {
@@ -82,29 +81,29 @@ a:active {
   padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 767px) {
+  #header-logo a {
+    margin:auto;
+  }
+}
+
 .test p {
 padding: 0; 
 margin:0;
 }
 
-.stream-badge {
-float:right;
-}
-
-#right-bax {
-  float:right;
-  margin-top:-60px;
+#compass-logo img {
+  height: 60px; 
+  width: 60px;
+  float: right;
+  padding-top: 5px;
   padding-bottom: 5px;
 }
 
-#left-bax {
-  margin-right: 200px;
-}
+#stream-info {
+      float: right;
+  padding-left: 5px;
 
-#left-bax img {
-  height: 60px; 
-  width: 60px;
-  margin-top:10px;
 }
 
 .stream-badge .status {
@@ -115,7 +114,7 @@ float:right;
 
 .stream-badge .title, .game, .viewers {
   font-family: "Roboto";
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .stream-badge ul {
@@ -134,16 +133,24 @@ float:right;
   -ms-transform: scale(1.1, 1.1); /* IE 9 */
   -webkit-transform: scale(1.1, 1.1); /* Chrome, Safari, Opera */
   transform: scale(1.1, 1.1);
-  box-shadow: 0px 0px 8px black;
+  box-shadow: 0px 0px 10px black;
 }
+
+.nav-justified li a:active {
+  -ms-transform: scale(1.1, 1.1); /* IE 9 */
+  -webkit-transform: scale(1.1, 1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 10px black;
+}
+
 .nav-justified li a {
   color: #ffffff;
   font-weight: bold;
   font-family:"Raleway";
   font-size: 1.5em;
-  display: inline-block;
-  padding: 15px;
-  margin:-2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: linear-gradient(#930000 35%, #530000 65%);
 
   -webkit-transition-property: transform; /* Safari */ 
@@ -203,8 +210,6 @@ button {
   background-color: #430000;
 }*/
 
-
-
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #530000;
 }
@@ -246,8 +251,6 @@ button {
     color: #ffffff;
 
 }
-
-
 
 /* navbar fixed to top of page */
 .affix {
@@ -411,11 +414,11 @@ button {
 
 /* h1 is used for the title at the top of the page */
 h1 {
-  padding: 125px;
+  padding: 50px;
   margin: 0px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
-  font-size: 5vw;
+  font-size: 8vw;
   text-align: center;
   color: #ffffff;
   text-shadow: 2px 2px 5px #000000;
@@ -467,8 +470,8 @@ p {
 
 .anchor {
   display: block;
-  height: 38px;
-  margin-top: -38px;
+  height: 90px;
+  margin-top: -90px;
   visibility: hidden;
 }
 
@@ -478,33 +481,27 @@ p {
     margin-top: -55px;
   }
 }
-/* style the links right below a section header */
+
+/* style the links right below a title sub header */
 h2 + ul {
   list-style-type: none;
+  text-align: center; 
   padding-left: 0px;
 }
 h2 + ul li {
   display: inline;
-    text-align: center; 
 }
+
+h2 + p {
+  text-align: center;
+}
+
 /* style the links right below a section header */
 h3 + ul {
   list-style-type: none;
   text-align: center; 
   padding-left: 0px;
 }
-
-h5 + ul li {
-  display: inline;
-}
-/* style the links right below a section sub-header */
-
-h5 + ul {
-  list-style-type: none;
-  text-align: center; 
-  padding-left: 0px;
-}
-
 h3 + ul li {
   display: inline;
 }
@@ -513,9 +510,24 @@ h3 + ul li {
 h4 + ul {
   padding-left: 0px;
 }
-
 h4 + ul li {
   display:block;
+}
+
+/* style the links right below a section sub-header */
+h5 + ul {
+  list-style-type: none;
+  text-align: center; 
+  padding-left: 0px;
+}
+h5 + ul li {
+  display: inline;
+}
+
+/* style a list right after a paragraph w/ no header for staff page*/
+.content-box p + ul {
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 /* style the back to top link*/
@@ -567,12 +579,12 @@ content .content-section img {
 
 /* light background for content*/
 content .content-section:nth-of-type(even) {
-  background-image: url("images/grid.png"); 
-  background: linear-gradient(rgba(240, 240, 240, 0) 3%, 
+  background-image: url("https://www.polarity.gg/2/images/grid.png"); 
+/*  background: linear-gradient(rgba(240, 240, 240, 0) 3%, 
                               rgba(240, 240, 240, 0) 50%, 
                               rgba(0, 0, 0, 0) 92%, 
-                              rgba(0, 0, 0, 0) 98%);
-
+                              rgba(0, 0, 0, 0) 98%);*/
+  background-color: #ffffff;
 
 }
 
@@ -587,7 +599,7 @@ content .content-section:nth-of-type(even) .content-box {
 
 /* dark background for content*/
 content .content-section:nth-of-type(odd) {
-  background-image: url("images/grid.png");
+  background-image: url("https://www.polarity.gg/2/images/grid.png");
   background-color: #000000;
 }
 
@@ -621,6 +633,52 @@ content .content-section:nth-of-type(odd) .content-box {
   height: 100%;
 }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wp-content h1 {
+  font-size: 2.25em;
+  padding:0;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+.wp-content h2 {
+  font-size: 2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.wp-content h3 {
+  font-size: 1.75em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.wp-content h4 {
+  font-size: 2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;  
+}
+.wp-content li {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
+.wp-content ol {
+  margin-left:10px;
+}
  /* ================================================ */
  /* footer                                           */
  /* ================================================ */

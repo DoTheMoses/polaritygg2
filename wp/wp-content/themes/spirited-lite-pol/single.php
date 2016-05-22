@@ -11,24 +11,26 @@
  */
 
 get_header(); ?>
+<link rel="stylesheet" property="stylesheet" href="https://www.polarity.gg/2/index.css">
+
+<content>
 
 <div class="container-fluid content-section">
   <div class="container">
     <?php while ( have_posts() ) : the_post(); ?>
 
-      <div class="container-fluid no-padding">  
-        <div class="container no-padding content-box" style="margin-top:10px; margin-bottom:15px;">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
+        <div class="content-box wp-content">
 
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h1 style="font-size:7em; font-style: bold;"><?php the_title(); ?></h1>
-<!--             <p><img class="img-responsive no-padding" style ="max-width: 600px; margin:auto;" src=
-            <?php the_post_thumbnail(full); ?>
-            </p> -->
-            <h2 style="font-size:2em;"><?php the_date(); ?></h2>
-            <h2 style="font-size:2em;">by <?php the_author(); ?></h2>
-            <?php the_content();?>
-          </div>
-        </div>  
+          <img src="<?php the_post_thumbnail(full); ?>
+
+          <h1><?php the_title(); ?></h1>
+
+          <h2><?php the_date(); ?></h2>
+          <h3>by <?php the_author(); ?></h3>
+          <?php the_content();?>
+        </div>
+
       <?php endwhile; // end of the loop. ?>          
     </div>
 
@@ -37,6 +39,6 @@ get_header(); ?>
   </div>
 </div>
 
-
+</content>
 
 <?php get_footer(); ?>
