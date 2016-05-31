@@ -48,18 +48,19 @@
 
 <body <?php body_class(); ?>>
 
+<header>
+
 <!-- <header> -->
 <div class="container">
-  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-    <div id="header-logo">
-      <a href="/2/">
-        <img src="https://www.polarity.gg/images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" />
+
+  <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 logo">
+      <a href="https://www.polarity.gg/2/">
+        <img class="center-block" src="https://www.polarity.gg/2/images/polarity_logo.png" alt="Polarity: Tournament and Streaming Exellence" />
       </a> 
-    </div>
   </div>
     
 <?php
-  $channel = "playhearthstone";
+  $channel = "polaritygg";
   try {
     $api = json_decode(file_get_contents("https://api.twitch.tv/kraken/streams/" . $channel), true);
     $streaming = (is_array($api['stream']) ? true : false);
@@ -73,17 +74,11 @@
   }
 
   if($streaming) { ?>
-<!--   <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-padding test stream-badge">
-    <div id="compass-logo">
-      <img src="images/fav_icon.png" />
-    </div>
-  </div> -->
-
-  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
-    <ul style="list-style-type: none;" id="stream-info">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-6 ol-md-offset-3 col-lg-6 col-lg-offset-3 stream-badge">
+    <ul>
       <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Live!</a></li>
       <li class="title"><?php echo("$stream_title") ?></li>
-      <li class="game"><?php echo("$current_game") ?></li>
+      <li class="game">Streaming <b><?php echo("$current_game") ?></b> to <?php echo("$viewers")?> viewers!</li>
     </ul>
   </div>
  
@@ -91,11 +86,11 @@
 
   <?php } else { ?>
 
-  <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9 test stream-badge" >
-    <ul style="list-style-type: none;" id="stream-info">
-      <li class="status">Stream Status: <a href="https://www.twitch.tv/polaritygg">Offline</a></li>
-      <li class="title">Be sure to follow the channel on twitch</li>
-      <li class="game">to keep up with when we go live!</li>
+  <div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-6 ol-md-offset-3 col-lg-6 col-lg-offset-3 stream-badge">
+    <ul>
+      <li class="status">Stream Status: Offline</a></li>
+      <li class="title">Follow our <a href="https://twitch.tv/polaritygg">Twitch Channel</a> to keep up with our broadcasts</li>
+      <li class="game"> and check out our <a href="https://www.youtube.com/PolarityGG">YouTube Channel</a> for VODs!</li>
     </ul>
   </div>
  
@@ -113,39 +108,25 @@
       </button>
     </div>
             
-    <div class="collapse navbar-collapse" id="polarity_navbar" style="padding:0px">
+    <div class="collapse navbar-collapse no-padding" id="polarity_navbar">
       <ul class="nav nav-justified">
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Play<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://www.polarity.gg/2/games">Games</a></li>
-            <li><a href="https://www.polarity.gg/2/events">Events</a></li>
-            <li><a href="https://www.polarity.gg/2/aml">Amateur Melee League</a></li> 
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Media<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://www.polarity.gg/2/stream">Stream</a></li>
-            <li><a href="https://www.polarity.gg/2/commentary">Commentary</a></li>
-            <li><a href="https://www.polarity.gg/2/news">News</a></li> 
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Polarity<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="https://www.polarity.gg/2/partners">Partners</a></li>
-            <li><a href="https://www.polarity.gg/2/about">About</a></li>
-            <li><a href="https://www.polarity.gg/2/contact">Contact</a></li> 
-          </ul>
-        </li>
-
+        <li><a href="games">Games</a></li>
+        <li><a href="events">Events</a></li>
+        <li><a href="aml">AML</a></li>
+        <li><a href="stream">Stream</a></li>
+        <li><a href="commentary">Commentary</a></li>
+        <li><a href="news">News</a></li>
+        <li><a href="partners">Partners</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
 <!-- </header> -->
+
+</header>
 
 <?php if ( is_front_page() && ! is_home() ) { ?>
 

@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,59 +40,66 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-commentary">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>Commentary</h1>
-      </div> 
-
-      <div class="content-section-top-text">
-        <p>Ever had the itch to get on the mic and spit hype play-by-play or
-        drop mad analysis?</p>
-        
-        <p>Or maybe you just want to talk about video games?</p>
-        
-        <p>Either way, this page has everything you need to know about commentating
-        at Polarity events.</p>
-
-        <h3><a href="https://www.facebook.com/groups/PolarityCommentators">
-        Be sure to join thePolarity Commentators Facebook group to keep up 
-        to date and connect with other commentators!</a></h3>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#how">How Can I Commentate?</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#pacs">Polarity Approved Commentators</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#rules">Commentary Rules</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#resources">Resources</a></h2>
-          </div>
-        </div>
-
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <h1>Commentary</h1>
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>Ever had the itch to get on the mic and spit hype play-by-play or
+      drop mad analysis?</p>
+      
+      <p>Or maybe you just want to talk about video games?</p>
+      
+      <p>Either way, this page has everything you need to know about commentating
+      at Polarity events.</p>
+
+      <h3><a href="https://www.facebook.com/groups/PolarityCommentators">
+      Be sure to join thePolarity Commentators Facebook group to keep up 
+      to date and connect with other commentators!</a></h3>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#how">How Can I Commentate?</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#pacs">Polarity Approved Commentators</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#rules">Commentary Rules</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#resources">Resources</a></h2>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
 
 <!-- begin how -->
 <span class="anchor" id="how"></span>
@@ -146,9 +153,10 @@
 <div class="container-fluid content-section">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding hidden-xs">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/comm.jpg" alt="Hands" />
+        <img class="img-responsive" src="images/pages/commentary/azzy_toolbag_swagrhino.jpg" 
+        alt="Azzy, Toolbag and Swagrhino hold down the stream" />
         <p>Azzy, Toolbag and SwagRhino will be the faces of our pending line of 
         Polarity hair-care products.</p>
       </div>
@@ -186,31 +194,33 @@
         <table style="width:100%">
           <tr>
             <td><a href="https://www.twitter.com/c0llinmari0tti/">BiggPappa</a></td>
-            <td><img src="images/melee_small.png"></td>
+            <td><img src="images/game_icons/small_melee.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/dr4gonBlitz/">Dr4gonblitz</a></td>
-            <td><img src="images/melee_small.png"></td>
+            <td><img src="images/game_icons/small_melee.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/EE_Duelist/">EE | Duelist</a></td>
-            <td><img src="images/wiiu_small.png"></td>
+            <td><img src="images/game_icons/small_wiiu.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/ProbablyOaty/">Oaty</a></td>
-            <td><img src="images/melee_small.png"></td>
+            <td><img src="images/game_icons/small_melee.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/WannaRematch/">Rematch</a></td>
-            <td><img src="images/64_small.png"> <img src="images/wiiu_small.png"></td>
+            <td><img src="images/game_icons/small_64.png"> &squf;
+            <img src="images/game_icons/small_wiiu.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/??/">Steele</a></td>
-            <td><img src="images/melee_small.png"></td>
+            <td><img src="images/game_icons/small_melee.png"></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/the_toolbag/">OHS | The Toolbag</a></td>
-            <td><img src="images/melee_small.png"> <img src="images/wiiu_small.png"></td>
+            <td><img src="images/game_icons/small_melee.png" /> &squf;
+            <img src="images/game_icons/small_wiiu.png" /></td>
           </tr>                                           
         </table>
         
@@ -227,7 +237,7 @@
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding hidden-xs">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/ruler.jpg" alt="Hands" />
+        <img class="img-responsive" src="images/pages/commentary/rula_hbox.jpg" alt="Rula & Hungrybox commentate at Frame One" />
         <p>Rula stares off into the distance, reflecting on his entire life 
         and what led him to have to share commentary time with this amateur.</p>
       </div>

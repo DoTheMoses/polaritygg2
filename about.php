@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,86 +40,93 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-commentary">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>About Polarity</h1>
-      </div> 
-
-      <div class="content-section-top-text">
-        <p>In nature, polarity is created when opposites come together, and our community 
-        is a reflection of that polarity. We are your source for premiere central Florida 
-        events.</p>                
-
-        <p>Polarity is for the players. We want the best for every player, no matter if 
-        you're the best player, or if you could stand to improve. We want everyone's 
-        tournament experience to be the best, and will treat every players' concerns 
-        equally.</p>  
-
-        <p>Polarity is for the viewers. Whether you tune into our stream every time we 
-        broadcast, or if you're only here once, we want your time spent watching our 
-        stream to be enjoyable and memorable.</p>  
-
-        <p>Polarity is who we are. We consider all ideas from our own staff and from the 
-        community, and we use every piece of information we can to make the best decisions 
-        for our players, for our stream, and for the community.</p>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2>Tournaments Team</h2>
-              <ul>
-                <li><a href="#Kelly">Kelly</a> &squf;</li>
-                <li><a href="#Colin">Colin</a> &squf;</li>
-                <li><a href="#Lindsay">Lindsay</a></li>
-              </ul>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2>Production Team</h2>
-              <ul>
-                <li><a href="#Gavin">Gavin</a> &squf;</li>
-                <li><a href="#Mohamed">Mohamed</a></li>
-              </ul>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2>Operations Team</h2>
-              <ul>
-                <li><a href="#Gabe">Gabriel N.</a> &squf;</li>
-                <li><a href="#Matt">Matt</a></li>
-              </ul>
-          </div>
-
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2>Staff Hall of Fame</h2>
-              <ul>
-                <li><a href="#Hall_of_Fame">Cherry</a> &squf;</li>
-                <li><a href="#Hall_of_Fame">Rula</a> &squf;</li>
-                <li><a href="#Hall_of_Fame">GDX</a></li>
-              </ul>
-          </div>
-
-        </div>
-
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <h1>About Polarity</h1>
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>In nature, polarity is created when opposites come together, and our community 
+      is a reflection of that polarity. We are your source for premiere central Florida 
+      events.</p>                
+
+      <p>Polarity is for the players. We want the best for every player, no matter if 
+      you're the best player, or if you could stand to improve. We want everyone's 
+      tournament experience to be the best, and will treat every players' concerns 
+      equally.</p>  
+
+      <p>Polarity is for the viewers. Whether you tune into our stream every time we 
+      broadcast, or if you're only here once, we want your time spent watching our 
+      stream to be enjoyable and memorable.</p>  
+
+      <p>Polarity is who we are. We consider all ideas from our own staff and from the 
+      community, and we use every piece of information we can to make the best decisions 
+      for our players, for our stream, and for the community.</p>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2>Tournaments Team</h2>
+            <ul>
+              <li><a href="#Kelly">Kelly</a> &squf;</li>
+              <li><a href="#Colin">Colin</a> &squf;</li>
+              <li><a href="#Lindsay">Lindsay</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2>Production Team</h2>
+            <ul>
+              <li><a href="#Gavin">Gavin</a> &squf;</li>
+              <li><a href="#Mohamed">Mohamed</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2>Operations Team</h2>
+            <ul>
+              <li><a href="#Gabe">Gabriel N.</a> &squf;</li>
+              <li><a href="#Matt">Matt</a></li>
+            </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2>Staff Hall of Fame</h2>
+            <ul>
+              <li><a href="#Hall_of_Fame">Cherry</a> &squf;</li>
+              <li><a href="#Hall_of_Fame">Rula</a> &squf;</li>
+              <li><a href="#Hall_of_Fame">GDX</a></li>
+            </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
 
 <!-- begin Kelly -->
 <span class="anchor" id="Kelly"></span>
@@ -129,6 +136,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Kelly_Goodchild.jpg" alt="Kelly Staff Photo"/>
+        <p><?php echo get_kelly_facts(); ?></p>              
       </div>
     </div>
 
@@ -138,10 +146,10 @@
         <h3>Kelly Goodchild</h3>
         <ul>
           <li><a href="https://www.twitter.com/polarity_kupo/" target="blank">
-              <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-              @polarity_kupo</a> &squf;
-          </li>
-          <li><a href="mailto:kelly@polarity.gg?" target="_top">kelly@polarity.gg</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:kelly@polarity.gg?" target="_top">kelly@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/colbol/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>          
         </ul>
 
         <p>Kelly first discovered competitive smash in 2011 when she attended her 
@@ -176,6 +184,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Colin_Green.jpg" alt="Colin Staff Photo"/>
+        <p><?php echo get_colin_facts(); ?></p>         
       </div>
     </div>
 
@@ -185,10 +194,10 @@
         <h3>Colin "Colbol" Green</h3>
         <ul>
           <li><a href="https://www.twitter.com/Colbol725/" target="blank">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-            @Colbol725</a> &squf;
-          </li>
-          <li><a href="mailto:colin@polarity.gg?" target="_top">colin@polarity.gg</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:colin@polarity.gg?" target="_top">colin@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/colbol/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>          
         </ul>
           
         <p>Colin has been playing Smash ever since Super Smash Brothers for the Nintendo 64 
@@ -225,6 +234,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Lindsay_Gonshak.jpg" alt="Lindsay Staff Photo"/>
+        <p><?php echo get_lindsay_facts(); ?></p>         
       </div>
     </div>
 
@@ -234,10 +244,10 @@
         <h3>Lindsay Gonshak</h3>
         <ul>
           <li><a href="https://www.twitter.com/lovelylinds29/" target="_blank">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-            @lovelylinds29</a> &squf;
-          </li>
-          <li><a href="mailto:lindsay@polarity.gg?" target="_top">lindsay@polarity.gg</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:lindsay@polarity.gg?" target="_top">lindsay@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/aliendaze/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Lindsay got involved with competitive Smash in 2014, helping the 
@@ -276,6 +286,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Gavin_Kuhl.jpg" alt="Gavin Staff Photo"/>
+        <p><?php echo get_gavin_facts(); ?></p>         
       </div>
     </div>
 
@@ -285,10 +296,10 @@
         <h3>Gavin "Azzy" Kuhl</h3>
         <ul>
           <li><a href="https://www.twitter.com/PolarityAzzy/" target="blank">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-            @PolarityAzzy</a> &squf;
-          </li>
-          <li><a href="mailto:azzy@polarity.gg?" target="_top">azzy@polarity.gg</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:azzy@polarity.gg?" target="_top">azzy@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/azzyssb/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Gavin began his venture into competitive Smash in 2009 playing Brawl 
@@ -321,6 +332,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Mohamed_Hachem.jpg" alt="Mohamed Staff Photo"/>
+        <p><?php echo get_mohamed_facts(); ?></p>         
       </div>
     </div>
 
@@ -330,17 +342,26 @@
         <h3>Mohamed "Blast" Hussien</h3>
         <ul>
           <li><a href="https://www.twitter.com/BlastMohamed/" target="blank">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-            @BlastMohamed</a> &squf;
-          </li>
-          <li><a href="mailto:mohamed@polarity.gg?" target="_top">mohamed@polarity.gg</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:mohamed@polarity.gg?" target="_top">mohamed@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/blasted101/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
-        <p>Is a super weenie.</p>
+        <p>Mohamed got into competitive Smash in 2012 with Gaming Knights. He, along with 
+        Alex "RagingCherry" Chiricosta, started CFL Smackdown Weekly and Monthly series we 
+        have today. He fell in love with Melee and the community almost instantly, and has 
+        been helping to grow the Smash scene ever since.</p>
+
+        <p>Alongside Smash, Mohamed plays Starcraft 2 at a professional level and travels to compete. 
+        He is currently ranked number 4 in Florida for Starcraft 2.</p>
+
+        <p>In addition to all of this Mohamed is also the Vice-President of Gaming Knights, one of 
+        the biggest student run gaming clubs in the nation.</p>
 
         <ul>
-          <li><b>Birthday:</b> ??</li>
-          <li><b>Favorite Games:</b> ??</li>
+          <li><b>Birthday:</b> August 8th</li>
+          <li><b>Favorite Games:</b> Starcraft series, Super Smash Bros. Melee, Fallout 3, Overwatch</li>
         </ul>
         
         <p><a href="#top">Back to top</a></p>
@@ -360,6 +381,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Gabriel_Nieves.jpg" alt="Gabriel N. Staff Photo"/>
+        <p><?php echo get_gabe_facts(); ?></p>         
       </div>
     </div>
 
@@ -368,7 +390,9 @@
 
         <h3>Gabriel "Taerk" Nieves</h3>
         <ul>
-          <li><a href="mailto:gabe_n@polarity.gg?" target="_top">gabe_n@polarity.gg</a></li>
+          <li><a href="mailto:gabe_n@polarity.gg?" target="_top">gabe_n@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/taerknet/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Gabriel started playing competitive Smash in 2011 as a part of a fundraiser, and 
@@ -404,7 +428,7 @@
     <div class="col-xs-12 col-sm-4 col-sm-4 col-lg-4 no-padding">
       <div class="content-box content-box-image">
         <img src="images/staff/Matt_Kiep.jpg" alt="Matt Staff Photo"/>
-        <p id="matt_fun_fact"></p>
+        <p><?php echo get_matt_facts(); ?></p>         
       </div>
     </div>
 
@@ -414,11 +438,10 @@
         <h3>Matt "Moses" Kiep</h3>
         <ul>
           <li><a href="https://www.twitter.com/DoTheMoses/" target="blank">
-            <img class="hidden-xs" src="images/social_media/twitter_logo.png" alt="Twitter Logo"/>
-            @DoTheMoses</a> &squf;
-          </li>
-          <li><a href="mailto:matt@polarity.gg?" target="_top">matt@polarity.gg</a></li>
-          <li><a href="https://www.twitch.tv/dothemoses" target="_top">DoTheMoses</a></li>
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="mailto:matt@polarity.gg?" target="_top">matt@polarity.gg</a> &squf; </li>
+          <li><a href="https://www.twitch.tv/dothemoses/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Matt has played video games for forever. He began playing Melee casually upon 
@@ -469,7 +492,10 @@
 
         <h3>Alex "RagingCherry" Chiricosta</h3>
         <ul>
-          <li><a href="https://www.twitter.com/RagingCherry">@RagingCherry</a></li>
+          <li><a href="https://www.twitter.com/RagingCherry/" target="blank">
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="https://www.twitch.tv/ragingcherry/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Alex started the whole ball rolling years ago when he created Gaming Knights at 
@@ -486,16 +512,17 @@
           <img src="/2/images/staff/Gabriel_Batista.jpg" alt="Gabriel Bautista Staff Photo"/>
         </div>
 
-        <h3>Gabriel "Rula" Bautista</h3>
+        <h3>Gabriel "Rula" Batista</h3>
         <ul>
-          <li><a href="https://www.twitter.com/EXG_Rula">@EXG_Rula</a></li>
+          <li><a href="https://www.twitter.com/EXG_Rula/" target="blank">
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a></li>          
         </ul>
 
         <p>Gabe uploaded hundreds of Melee VODs to our YouTube channel, and always in a   
         very timely manner. He is currently taking a break but we look forward to working 
         with him again in the future.</p>
 
-        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/polFlako.png"/>
+        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/twitch_emotes/polFlako.png"/>
         <i>(which is clearly the best one - Moses)</i></p>
       </div>
 
@@ -504,15 +531,18 @@
           <img src="/2/images/staff/Keith_Kelly.jpg" alt="Keith Kelly Staff Photo"/>
         </div>
 
-        <h3>Keith "GDX"Kelly</h3>
+        <h3>Keith "GDX" Kelly</h3>
         <ul>
-          <li><a href="https://www.twitter.com/GameDragonX">@GameDragonX</a></li>
+          <li><a href="https://www.twitter.com/GameDragonX/" target="blank">
+            <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
+          <li><a href="https://www.twitch.tv/gamedragonx/" target="_top">
+            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Keith did a little bit of everything for Polarity, including TOing, directing the stream, 
         commentating, planning, uploading Smash 4 VODs, being the source of one of our twitch subsciber 
-        emotes: (<img src="/2/images/polBruh.png" alt="polBruh Twitch Subcriber emote"/>) and making 
-        sure that Smash 4 was treated faily among staff who didn't know Smash 4 very well. He had to take
+        emotes: (<img src="/2/images/twitch_emotes/polBruh.png" alt="polBruh Twitch Subcriber emote"/>) and making 
+        sure that Smash 4 was treated faily amo123ng staff who didn't know Smash 4 very well. He had to take
         a hiatus due to personal reasons, but we look forward to his eventual return to the scene.</p>
       </div>
 

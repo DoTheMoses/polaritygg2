@@ -25,9 +25,9 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,10 +40,12 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
@@ -55,20 +57,17 @@ define('WP_USE_THEMES', false);
 require('../wp/wp-blog-header.php');
 ?>
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-news">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>News & Blog</h1>
-      </div> 
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <h1>News & Blog</h1>
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
 
 <?php $posts = get_posts('numberposts=2&order=DSC&orderby=post_date');
       foreach ($posts as $post) : setup_postdata( $post ); ?>

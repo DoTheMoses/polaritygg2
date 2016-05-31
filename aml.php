@@ -7,27 +7,27 @@
 
 <title>Polarity: Amateur Melee League</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament & Production Source"/>
-<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv"/>
-<meta name="author" content="Matt Kiep"/>
+<meta name="description" content="CFL-Based Tournament & Production Source" />
+<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
+<meta name="author" content="Matt Kiep" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'/>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css"/>
+<link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,68 +40,75 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-aml">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <img class="img-responsive" src="images/aml_logo.png" alt="AML Logo"/>
-      </div> 
-
-      <div class="content-section-top-text">
-        <p>The Amateur Melee League, or AML, was designed to give up-and-coming players more chances 
-        to play meaningful matches against players of their own caliber. Currently based in 
-        Orlando, FL, we aim to grow the Melee scene and give the new school the push it needs 
-        to take it to the next level!</p>
-
-        <p>The first rule of AML is <b>all currently or previously ranked players are banned</b></p>
-
-        <p>The AML was started in July 2015 by Matt <b>"Moses"</b> Kiep, and Steven <b>"Fearless"</b> 
-        Belowsky. After both contributed to a discussion in CFL Melee about giving newer players a 
-        better way to play thrilling matches outside tournament play, they began work on what 
-        became the AML.</p>
-
-        <h3>Season 3 is currently in the works so stay tuned for more info!</h3>
-          
-        <h3><a href="https://www.facebook.com/groups/1132977010049649/">
-        Click here to join the Facebook group and keep up to date on the AML!</a></h3>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-              <h2><a href="#Hall_of_Champions">Hall of Champions</a></h2>
-              <p>1st Place Finishers</p>
-          </div>        
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-              <h2><a href="#Season_1">Season 1</a></h2>
-              <p>August 4th, 2015 - September 13th, 2015</p>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-              <h2><a href="#Season_2">Season 2</a></h2>
-              <p>November 14th, 2015 - February 6th, 2016</p>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-              <h2><a href="#Season_3">Season 3</a></h2>
-              <p>Coming Soon!</p>
-          </div>
-        </div>
-
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <img class="img-responsive" src="images/pages/aml/aml_logo.png" alt="AML Logo" />
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>The Amateur Melee League, or AML, was designed to give up-and-coming players more chances 
+      to play meaningful matches against players of their own caliber. Currently based in 
+      Orlando, FL, we aim to grow the Melee scene and give the new school the push it needs 
+      to take it to the next level!</p>
+
+      <p>The first rule of AML is <b>all currently or previously ranked players are banned</b></p>
+
+      <p>The AML was started in July 2015 by Matt <b>"Moses"</b> Kiep, and Steven <b>"Fearless"</b> 
+      Belowsky. After both contributed to a discussion in CFL Melee about giving newer players a 
+      better way to play thrilling matches outside tournament play, they began work on what 
+      became the AML.</p>
+
+      <h3>Season 3 is currently in the works so stay tuned for more info!</h3>
+        
+      <h3><a href="https://www.facebook.com/groups/1132977010049649/">
+      Click here to join the Facebook group and keep up to date on the AML!</a></h3>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#Hall_of_Champions">Hall of Champions</a></h2>
+            <p>1st Place Finishers</p>
+        </div>        
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#Season_1">Season 1</a></h2>
+            <p>August 4th, 2015 - September 13th, 2015</p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#Season_2">Season 2</a></h2>
+            <p>November 14th, 2015 - February 6th, 2016</p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+            <h2><a href="#Season_3">Season 3</a></h2>
+            <p>Coming Soon!</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
 
 <!-- begin hype_video -->
 <span class="anchor" id="hype_video"></span>
@@ -113,7 +120,7 @@
         <h3>Season 1 & 2 Hype Video</h3>
 
         <div class="video-container">
-          <iframe width="640" height="390" src="https://www.youtube.com/embed/mrqpw-CImQ4" frameborder="0" allowfullscreen>
+          <iframe src="https://www.youtube.com/embed/mrqpw-CImQ4" frameborder="0" allowfullscreen>
           </iframe>
         </div>
       </div>
@@ -144,7 +151,7 @@
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
         <div class="content-box content-box-image">
-          <img src="/2/images/aml_lz.jpg" alt="Mr Lz was the Season 2 Champion"/>
+          <img src="/2/images/pages/aml/lz.jpg" alt="Mr Lz was the Season 2 Champion"/>
         </div>
         <h3>Season 2 Champion</h3>
         <h3>Mr Lz</h3>
@@ -197,22 +204,22 @@
 
         <h4>Season 1 Top 8</h4>
         <ul>
-          <li>1. <b>G0D</b> <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          <li>1. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
           The Champion, $146</li>
-          <li>2. <b>Lad</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          <li>2. <b>Lad</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
           Our Fine, fiery, Fox, $91</li>
-          <li>3. <b>DoomChickens</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          <li>3. <b>DoomChickens</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
           The Best Tag in Smash, $55</li>
-          <li>4. <b>Kaike</b> <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          <li>4. <b>Kaike</b> <img src="/2/images/ssbm_icons/FalcoHeadSSBM.png" alt="Melee Icon - Falco" />, 
           The Falco You Didn't Know You Feared, $37</li>
-          <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/sheik.png" alt="Melee Icon - Sheik" />, 
+          <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/SheikHeadSSBM.png" alt="Melee Icon - Sheik" />, 
           The Beast From South Florida, $18</li>
-          <li>5. <b>Hiroshi</b> <img src="/2/images/ssbm_icons/sheik.png" alt="Melee Icon - Sheik" />, 
+          <li>5. <b>Hiroshi</b> <img src="/2/images/ssbm_icons/SheikHeadSSBM.png" alt="Melee Icon - Sheik" />, 
           The Old Dog Showing Us New Tricks, $18</li>
-          <li>7. <b>Derdian</b> <img src="/2/images/ssbm_icons/ics.png" alt="Melee Icon - Ice Climbers" /> / 
-          <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          <li>7. <b>Derdian</b> <img src="/2/images/ssbm_icons/IceClimbersHeadSSBM.png" alt="Melee Icon - Ice Climbers" /> / 
+          <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
           The Voice of Reason</li>
-          <li>7. <b>Oaty</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          <li>7. <b>Oaty</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
           The <i>(at the time)</i> Beardless Wonder</li>
         </ul>
 
@@ -222,7 +229,7 @@
 
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/aml_ranch.jpg" alt="Ranch plays in AML Season 1"/>
+        <img class="img-responsive" src="images/pages/aml/ranch.jpg" alt="Ranch plays in AML Season 1"/>
         <p>Ranch is no amateur at mustache grooming.</p>
       </div>
     </div>
@@ -239,7 +246,7 @@
 
     <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/aml_oaty_vs_mike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
+        <img class="img-responsive" src="images/pages/aml/oaty_vs_mike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
         <p>Oaty and OC Mike struggle mightily to contain the immense amount of hype they feel inside
         during Season 2 Finals Day.</p>
       </div>
@@ -271,22 +278,22 @@
 
         <h4>Season 2 Top 8</h4>
         <ul>
-          <li>1. <b>Mr Lz</b> <img src="/2/images/ssbm_icons/marth.png" alt="Melee Icon - Marth" />, 
+          <li>1. <b>Mr Lz</b> <img src="/2/images/ssbm_icons/MarthHeadSSBM.png" alt="Melee Icon - Marth" />, 
           Lz stands for Look the Fuck Out Peoplez, $165</li>
-          <li>2. <b>OC Mike</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          <li>2. <b>OC Mike</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
           the Cold Stone Killer, $84</li>
-          <li>3. <b>Oaty</b> <img src="/2/images/ssbm_icons/peach.png" alt="Melee Icon - Peach" />, 
+          <li>3. <b>Oaty</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
           the Floaty Goaty like Whoa-ty, $62</li>
-          <li>4. <b>Lad</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" />, 
+          <li>4. <b>Lad</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
           Hype Incarnate, $41</li>
-          <li>5. <b>Ridz</b> <img src="/2/images/ssbm_icons/fox.png" alt="Melee Icon - Fox" /> / 
+          <li>5. <b>Ridz</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" /> / 
           <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
           Sloth Inside, Lightning Speed Space Animal Outside, $21</li>
-          <li>5. <b>G0D</b> <img src="/2/images/ssbm_icons/cfal.png" alt="Melee Icon - Captain Falcon" />, 
+          <li>5. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
           (insert badass falcon screech as it divebombs its prey here), $21</li>
-          <li>7. <b>Envy</b> <img src="/2/images/ssbm_icons/jiggly.png" alt="Melee Icon - Jigglypuff" />, 
+          <li>7. <b>Envy</b> <img src="/2/images/ssbm_icons/JigglypuffHeadSSBM.png" alt="Melee Icon - Jigglypuff" />, 
           Who Needs a Nickname When Your Actual Name is Matt Fucking Powers?, $10</li>
-          <li>7. <b>Kaike</b> <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          <li>7. <b>Kaike</b> <img src="/2/images/ssbm_icons/FalcoHeadSSBM.png" alt="Melee Icon - Falco" />, 
           Son of Father and Father of Falco Beatdowns, $10</li>
         </ul>  
 

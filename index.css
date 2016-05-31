@@ -1,21 +1,12 @@
- /* ================================================ */
- /* page defaults                                    */
- /* ================================================ */
-@font-face {
-  font-family:Telemarines;
-  src: url(fonts/telemarines/telemarinesbold1.ttf);
-}
-
+/* ================================================ */
+/* @page                                            */
+/* ================================================ */
 body {
-  font-size: 100%;
-}
-
-@media (max-width: 800px) {
-#polarity_navbar {padding:15px;}
+  font-size: 62.5%;
 }
 
 html, body {
-   height: 100%;
+  height: 100%;
 }
 
 html {
@@ -34,9 +25,9 @@ html {
   text-align: center;
 }
 
- /* ================================================ */
- /* all link defaults                                */
- /* ================================================ */
+/* ================================================ */
+/* @links                                           */
+/* ================================================ */
 
 a {
   font-weight: bold;
@@ -66,64 +57,72 @@ a:active {
   text-decoration: none;  
 }
 
- /* ================================================ */
- /* header                                           */
- /* ================================================ */
+/* ================================================ */
+/* @header                                          */
+/* ================================================ */
 
-#header-logo img {
+header {
+  font-size: 62.5%;
+}
+
+header .logo img {
   width: 225px;
-  height: 30px;
+  height: 25px;
 }
 
-#header-logo {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+header .logo {
+  padding-top: 2.25%;
+  padding-bottom: 2.25%;
 }
 
-@media only screen and (max-width: 767px) {
-  #header-logo a {
-    margin:auto;
-  }
-}
-
-.test p {
-padding: 0; 
-margin:0;
-}
-
-#compass-logo img {
-  height: 60px; 
-  width: 60px;
+header .stream-badge {
   float: right;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
-#stream-info {
-      float: right;
-  padding-left: 5px;
-
-}
-
-.stream-badge .status {
-  font-family: "Raleway";
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.stream-badge .title, .game, .viewers {
-  font-family: "Roboto";
-  font-size: 12px;
-}
-
-.stream-badge ul {
+header .stream-badge ul {
   padding: 0;
   margin: 0;
+  list-style-type: none;  
 }
- /* ================================================ */
- /* navbar                                           */
- /* ================================================ */
+
+header .stream-badge .status {
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 6.5em;
+  text-align: right;  
+}
+
+header .stream-badge .title, .game {
+  font-family: "Roboto";
+  font-size: 3em;
+  text-align: right;    
+}
+
+header .offline {
+  padding-top: 0.85%;
+}
+@media screen and (max-width: 991px) {
+header .offline { padding-top: 0.5%; }
+}
+
+@media screen and (max-width: 767px) {
+header .stream-badge .status, .game { text-align: center; }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  header .stream-badge .status { font-size: 6.2em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  header .stream-badge .status { font-size: 5.75em; } 
+}
+@media screen and (max-width: 767px) {
+  header .stream-badge .status { font-size: 3.75em; }
+  header .stream-badge .title, .game { font-size: 2.5em; }    
+}
+
+/* ================================================ */
+/* @navbar                                          */
+/* ================================================ */
 
 #navbar-container {
   padding: 0px;
@@ -147,7 +146,7 @@ margin:0;
   color: #ffffff;
   font-weight: bold;
   font-family:"Raleway";
-  font-size: 1.5em;
+  font-size: 3.5em;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -206,10 +205,6 @@ button {
     border-radius: 1px;
 }
 
-/*.nav>li>a:hover {
-  background-color: #430000;
-}*/
-
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #530000;
 }
@@ -260,6 +255,20 @@ button {
 
 .affix + .container-fluid {
   padding-top: 50px;
+}
+
+#nav, .nav_wrapper {
+  height:45px;
+}
+
+@media screen and (max-width: 768px) {
+  #nav, .nav_wrapper { height:53px; }
+}
+
+.stick {
+  position:fixed;
+  top:0px;
+  width: 100%;
 }
 
 /* ================================================ */
@@ -321,7 +330,7 @@ button {
   position: relative;
 }
 
- .carousel-caption-plus-link a {
+.carousel-caption-plus-link a {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -393,79 +402,134 @@ button {
     }
 }
 
- /* ================================================ */
- /* content                                          */
- /* ================================================ */
+/* ================================================ */
+/* @content                                         */
+/* ================================================ */
 
-.title-section-outer {
-  background: linear-gradient(rgba(0, 0, 0, 0.9) 3%, 
-                              rgba(0, 0, 0, 0) 50%, 
-                              rgba(240, 240, 240, 0.9) 92%, 
-                              rgba(240, 240, 240, 0.97) 98%), 
-                              url(/2/images/smaller.jpg);
-  background-position: 50% 100%; 
-}
-
-.title-section-inner {
-  margin: 0px;
-  border: 0px;
-  opacity: 1;
-}
+/* ================================================ */
+/* @headings and font                               */
+/* ================================================ */
 
 /* h1 is used for the title at the top of the page */
 h1 {
-  padding: 50px;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  padding-left: 0;
+  padding-right: 0;
   margin: 0px;
   font-weight: bold;
   font-family: 'Raleway', sans-serif;
-  font-size: 8vw;
+  font-size: 20em;
   text-align: center;
   color: #ffffff;
-  text-shadow: 2px 2px 5px #000000;
+  text-shadow: 2px 2px 6px #000000;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  h1 { font-size: 18em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  h1 { font-size: 16em; } 
+}
+@media screen and (max-width: 767px) {
+  h1 { font-size: 5em; }
 }
 
 /* h2 is used for any subheaders in the top section*/
 h2 {
-  font-size: 2.25em;
+  font-size: 4em;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  h2 { font-size: 3.5em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  h2 { font-size: 3em; } 
+}
+@media screen and (max-width: 767px) {
+  h2 { font-size: 2.5em; }
 }
 
 /* h3 is used for content section titles */
 h3 {
-  font-size: 2.25em;
+  font-size: 3.25em;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  h3 { font-size: 3.25em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  h3 { font-size: 2.5em; } 
+}
+@media screen and (max-width: 767px) {
+  h3 { font-size: 2.5em; }
 }
 
 /* h4 is used for any subheaders inside a content section */
 h4 {
-  margin-top: 0px;
-  font-size: 1.65em;
+  margin-top: 0px;  
+  font-size: 2.5em;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  h4 { font-size: 2.5em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  h4 { font-size: 2em; } 
+}
+@media screen and (max-width: 767px) {
+  h4 { font-size: 2em; }
 }
 
 /* h5 is used for any secondary titles of content section */
 h5 {
   margin-top: 0px;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-
-p {
-  font-size: 1.5em;
-  font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  h5 { font-size: 1.75em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  h5 { font-size: 1.5em; } 
+}
+@media screen and (max-width: 767px) {
+  h5 { font-size: 1.5em; }
 }
 
-@media only screen and (max-width: 767px) {
-  h3 {
-      font-size: 2.25em;
-  }
-  p {
-      font-size: 1.15em;
-  }
+p {
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  p { font-size: 2.35em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  p { font-size: 2.15em; } 
+}
+@media screen and (max-width: 767px) {
+  p { font-size: 2em; }
+}
+
+content ul {
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  content ul { font-size: 2.35em; }
+}
+@media screen and (min-width: 767px) and (max-width: 991px) {
+  content ul { font-size: 2.15em; } 
+}
+@media screen and (max-width: 767px) {
+  content ul { font-size: 2em; }
 }
 
 .anchor {
@@ -524,27 +588,44 @@ h5 + ul li {
   display: inline;
 }
 
-/* style a list right after a paragraph w/ no header for staff page*/
-.content-box p + ul {
-  list-style-type: none;
-  padding-left: 0px;
-}
+/* ================================================ */
+/* @background images                               */
+/* ================================================ */
 
-/* style the back to top link*/
-.back-to-top p:last-of-type {
-  text-align: center;
-}
+.top-games      { background-image: url("images/pages/games/_top_bg.jpg"); 
+                  background-position: 50% 60%; 
+                  background-size:cover;}
+.top-events     { background-image: url("images/pages/events/_top_bg.jpg");
+                  background-position: 50% 60%;
+                  background-size:cover;}
+.top-aml        { background-image: url("images/pages/aml/_top_bg.jpg"); 
+                  background-position: 50% 75%;
+                  background-size:cover;}                  
+.top-stream     { background-image: url("images/bigger_top.jpg"); 
+                  background-position: 50% 60%;
+                  background-size:cover;}                  
+.top-commentary { background-image: url("images/pages/commentary/_top_bg.jpg"); 
+                  background-position: 50% 60%;
+                  background-size:cover;}                  
+.top-news       { background-image: url("images/pages/news/_top_bg.jpg"); 
+                  background-position: 50% 30%; 
+                  background-size:cover;}                                                                                       
+.top-partners   { background-image: url("images/events_top.jpg"); 
+                  background-position: 50% 60%;
+                  background-size:cover;}                  
+.top-about      { background-image: url("images/events_top.jpg"); 
+                  background-position: 50% 60%;
+                  background-size:cover;}                  
+.top-contact    { background-image: url("images/events_top.jpg"); 
+                  background-position: 50% 60%;
+                  background-size:cover;}                  
 
-/* all content sections */
+/* ================================================ */
+/* @content_sections                                */
+/* ================================================ */
 
-/* very top section of content */
-.content-section-top {
-  background-image: url("images/stream.jpg");
-  background-color: #000000;
-
-}
 .content-section-top-title {
-  padding:10px;
+  padding: 0px;
   margin: 10px;
 }
 
@@ -562,13 +643,20 @@ h5 + ul li {
   margin: 10px;
 }
 
+/* style a list right after a paragraph w/ no header for staff page*/
+.content-box p + ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+/* style the back to top link*/
+.back-to-top p:last-of-type {
+  text-align: center;
+}
+
 content .content-section img {
   max-width: 100%;
   max-height: 100%;
-}
-
-.content-box ul, .content-box-dark ul {
-  font-size: 1.5em;
 }
 
 .content-box-image p {
@@ -580,12 +668,7 @@ content .content-section img {
 /* light background for content*/
 content .content-section:nth-of-type(even) {
   background-image: url("https://www.polarity.gg/2/images/grid.png"); 
-/*  background: linear-gradient(rgba(240, 240, 240, 0) 3%, 
-                              rgba(240, 240, 240, 0) 50%, 
-                              rgba(0, 0, 0, 0) 92%, 
-                              rgba(0, 0, 0, 0) 98%);*/
   background-color: #ffffff;
-
 }
 
 content .content-section:nth-of-type(even) .content-box {
@@ -649,6 +732,10 @@ content .content-section:nth-of-type(odd) .content-box {
   height: 100%;
 }
 
+/* ================================================ */
+/* @wp_content                                      */
+/* ================================================ */
+
 .wp-content h1 {
   font-size: 2.25em;
   padding:0;
@@ -679,9 +766,10 @@ content .content-section:nth-of-type(odd) .content-box {
 .wp-content ol {
   margin-left:10px;
 }
- /* ================================================ */
- /* footer                                           */
- /* ================================================ */
+
+/* ================================================ */
+/* footer                                           */
+/* ================================================ */
 
 #Footer {
   position: relative;

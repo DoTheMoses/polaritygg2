@@ -25,9 +25,9 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,72 +40,92 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-events">
+  <div class="container">
+
+    <div class="container-fluid content-section-top-title">
+      <h1>Events</h1>
+    </div>
+
+  </div>
+</div>
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>This page contains everything you need to know about events
+      that Polarity runs and is involved with, including upcoming events, past
+      events' results, and more.</p>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#Event_Calendar">Event Calendar</a></h2>
+        </div>        
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#CFL_Smackdown">CFL Smackdown</a></h2>
+          <p>CFL's Biggest Smash Weekly Series</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#Rankings_Results">Rankings & Results</a></h2>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
+
+<!-- begin Events_Calendar -->
+<span class="anchor" id="Event_Calendar"></span>
+
+<div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>Events</h1>
-      </div> 
+      <div class="content-box back-to-top">
+        <h3>Event Calendar</h3>
 
-      <div class="content-section-top-text">
-        <p>This page contains everything you need to know about events
-        that Polarity runs and is involved with, including upcoming events, past
-        events' results, and more.</p>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#CFL_Smackdown">CFL Smackdown</a></h2>
-            <p>CFL's Longest Running Smash Weekly Series</p>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#wiiu">Wii U</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#64">Smash 64</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#pm">Project: Melee</a></h2>
-          </div>
+        <div class="responsive-iframe-container">
+          <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23BCBCBC&amp;src=polaritygg%40gmail.com&amp;color=%23930000&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no">
+          </iframe>
         </div>
 
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
-
-  </div>
-</div>
-<!-- end top -->
-
-<div class="container">
-  <div class="container-fluid">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-      <div class="content-box-dark">
-        <p class="centered">
-          <div class="responsive-iframe-container">
-            <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23BCBCBC&amp;src=polaritygg%40gmail.com&amp;color=%23930000&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no">
-            </iframe>
-          </div>
-        </p>
+        <p><a href="#">Back to top</a></p>
       </div>
     </div>
+
   </div>
 </div>
+<!-- end Events_Calendar -->
 
+<!-- begin CFL_Smackdown -->
 <span class="anchor" id="CFL_Smackdown"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box content-box-image">
+        <img class="img-responsive" src="images/pages/events/plup_vs_colbol.jpg" alt="Plup vs. Colbol" />
+        <p>The crowd watches eagerly as Colbol plays Plup for the 6,201st time.</p>
+      </div>
+    </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
@@ -133,23 +153,19 @@
         <p><a href="#">Back to top</a></p>
       </div>
     </div>
-    
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
-      <div class="content-box">
-        <img class="img-responsive" src="images/plup_colbol.jpg" alt="Plup vs. Colbol" />
-      </div>
-    </div>
 
   </div>
 </div>
+<!-- end CFL_Smackdown -->
 
 <!-- begin players, rankings & results -->
-<span class="anchor" id="players_rankings_results"></span>
+<span class="anchor" id="Rankings_Results"></span>
+
 <div class="container-fluid content-section">
   <div class="container">
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-      <div class="content-box">
+      <div class="content-box back-to-top">
         <h3>Players, Rankings & Results</h3>
         <p>Thanks to the Polarity Inverse system, you can see how you stack up against other players in our tournaments.</p>
 
@@ -164,9 +180,10 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
-      <div class="content-box">
-        <img class="img-responsive" src="images/hands.jpg" alt="Hands" />
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box content-box-image">
+        <img class="img-responsive" src="images/pages/events/sol.jpg" alt="Sol plays Smash 4" />
+        <p>Sol wonders if his sponsor could provide a more fashionable team shirt.</p>
       </div>
     </div>
        

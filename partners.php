@@ -27,7 +27,7 @@
 <link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,46 +40,53 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-commentary">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>Partners</h1>
-      </div> 
-
-      <div class="content-section-top-text">
-        <p>We can't do this alone, but luckily we've got some help from our partners!</p>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <h2><a href="#Twitch">Twitch</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <h2><a href="#Discord">Discord</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-            <h2><a href="#Partner">Partner With Polarity</a></h2>
-          </div>
-        </div>
-
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <h1>Partners</h1>
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>We can't do this alone, but luckily we've got some help from our partners!</p>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#Twitch">Twitch</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#Discord">Discord</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+          <h2><a href="#Partner">Partner With Polarity</a></h2>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
 
 <!-- begin Twtich -->
 <span class="anchor" id="Twitch"></span>

@@ -7,27 +7,27 @@
 
 <title>Polarity: Games</title>
 <meta charset="utf-8" />
-<meta name="description" content="CFL-Based Tournament & Production Source"/>
-<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv"/>
+<meta name="description" content="CFL-Based Tournament & Production Source" />
+<meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
 <meta name="author" content="Matt Kiep" />
 
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css'/>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'/>
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
-<link rel="stylesheet" href="index.css" type="text/css"/>
+<link rel="stylesheet" href="index.css" type="text/css" />
 <script type="text/javascript" src="index.js"></script>
 
-<link rel="shortcut icon" href="images/favicon_animated.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
 <!-- =================================================================== -->
 </head>
@@ -40,54 +40,61 @@
 <?php include("page_functions.php"); ?>
 
 <!-- ========================================================= -->
-<!-- header and navbar                                         -->
+<header>
 <!-- ========================================================= -->
 
 <?php get_pol_navbar(); ?>
+
+</header>
 
 <!-- ========================================================= -->
 <content>
 <!-- ========================================================= -->
 
-<!-- begin top -->
-<div class="container-fluid content-section-top">
+<!-- begin top-header -->
+<div class="container-fluid content-section-top top-games">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="container content-section-top-title">
-        <h1>Games</h1>
-      </div> 
-
-      <div class="content-section-top-text">
-        <p>Polarity currently runs events for 4 different games: Super Smash Bros (64),
-        Super Smash Bros Melee, Project: Melee, and Smash 4. We've providied some useful
-        content about each game below, including links to communities to connect with
-        other players, links to guides on how to improve, and links to some entertaining content
-        as well. We take no credit for creating any of this content, but we couldn't let you 
-        miss out on some of the best that smash content creators have to offer!</p>
-
-        <div class="container-fluid no-padding">
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#Melee">Melee</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#WiiU">Wii U</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#64">Smash 64</a></h2>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-            <h2><a href="#PM">Project: Melee</a></h2>
-          </div>
-        </div>
-
-      </div> <!-- content-section-top-text -->
-
-    </div> <!-- cols -->
+    <div class="container-fluid content-section-top-title">
+      <h1>Games</h1>
+    </div>
 
   </div>
 </div>
-<!-- end top -->
+<!-- end top-header -->
+
+<!-- begin top-content -->
+<div class="container-fluid content-section">
+  <div class="container">
+
+    <div class="content-box">
+      <p>Polarity currently runs events for 4 different games: <b>Super Smash Bros (64)</b>,
+      <b>Super Smash Bros Melee</b>, <b>Project: Melee</b>, and <b>Smash 4</b>. We've provided 
+      some useful content about each game below, including links to communities to connect 
+      with other players, links to guides on how to improve, and links to some entertaining 
+      content as well. We take no credit for creating any of this content, but we couldn't 
+      let you miss out on some of the best that smash content creators have to offer!</p>
+
+      <div class="container-fluid no-padding">
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#Melee">Melee</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#WiiU">Wii U</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#64">Smash 64</a></h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#PM">Project: Melee</a></h2>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<!-- end top-content -->
 
 <!-- begin Melee -->
 <span class="anchor" id="Melee"></span>
@@ -95,9 +102,9 @@
 <div class="container-fluid content-section">
   <div class="container">
       
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/games_controllers.jpg" alt="Controllers of people playing Melee"/>
+        <img class="img-responsive" src="images/pages/games/controllers.jpg" alt="Controllers of people playing Melee" />
         <p>Hands work controllers silly playing Melee.</p>
       </div>
     </div>
@@ -144,13 +151,6 @@
 <div class="container-fluid content-section">
   <div class="container">
       
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
-      <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/games_ramen.jpg" alt="Prince Ramen plays Smash 4 at a CFL Smackdown Monthly"/>
-        <p>Palutena'd by his noodly princeness.</p>
-      </div>
-    </div>
-
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
         <h3>Super Smash Bros for WiiU</h3>
@@ -159,15 +159,28 @@
         and chat about Melee, you can find what you're looking for in the links 
         we've provided below.<p>
 
-        <p><a href="https://www.facebook.com/groups/cflmelee/">CFL Melee Facebook Group</a> - Largest Melee community in the CFL area<br />
-        <a href="https://www.facebook.com/groups/WinterGardenSmash/">Winter Garden Smash Facebook Group</a> - Group for players near Winter Garden (West Orlando)<br />
-        <a href="https://www.facebook.com/groups/297784970410812/">Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)<br /><br />
+        <p><a href="https://www.facebook.com/groups/cflmelee/">
+        CFL Melee Facebook Group</a> - Largest Melee community in the CFL area<br />
+        <a href="https://www.facebook.com/groups/WinterGardenSmash/">
+        Winter Garden Smash Facebook Group</a> - Group for players near Winter Garden (West Orlando)<br />
+        <a href="https://www.facebook.com/groups/297784970410812/">
+        Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)<br /><br />
             
-        <a href="https://smashboards.com/">Smashboards</a> - The original source for everything Smash<br/>
-        <a href="https://www.reddit.com/r/ssbm/">/r/ssbm</a> - Subreddit specifically about Melee<br/>
-        <a href="https://www.reddit.com/r/smashbros/">/r/smashbros</a> - Subreddit with all Smash games showcased<br/></p>
+        <a href="https://smashboards.com/">
+        Smashboards</a> - The original source for everything Smash<br/>
+        <a href="https://www.reddit.com/r/ssbm/">
+        /r/ssbm</a> - Subreddit specifically about Melee<br/>
+        <a href="https://www.reddit.com/r/smashbros/">
+        /r/smashbros</a> - Subreddit with all Smash games showcased<br/></p>
 
         <p><a href="#top">Back to top</a></p>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box content-box-image">
+        <img class="img-responsive" src="images/pages/games/ramen.jpg" alt="Prince Ramen plays Smash 4 at a CFL Smackdown Monthly" />
+        <p>Palutena'd by his noodly princeness.</p>
       </div>
     </div>
       
@@ -181,13 +194,6 @@
 <div class="container-fluid content-section">
   <div class="container">
       
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
-      <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/games_wizzy.jpg" alt="Wizzrobe plays Smash 64 at Frame One"/>
-        <p>Some say his opponents are still in hitstun.</p>
-      </div>
-    </div>
-
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
         <h3>Super Smash Bros (64)</h3>
@@ -207,6 +213,13 @@
         <p><a href="#top">Back to top</a></p>
       </div>
     </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box content-box-image">
+        <img class="img-responsive" src="images/pages/games/wizzy.jpg" alt="Wizzrobe plays Smash 64 at Frame One" />
+        <p>Some say his opponents are still in hitstun.</p>
+      </div>
+    </div>
       
   </div>
 </div>
@@ -218,9 +231,9 @@
 <div class="container-fluid content-section">
   <div class="container">
       
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding hidden-xs">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box content-box-image">
-        <img class="img-responsive" src="images/games_lz.jpg" alt="Mr Lz plays at Frame One"/>
+        <img class="img-responsive" src="images/pages/games/lz.jpg" alt="Mr Lz plays at Frame One" />
         <p>The "Mr" in Mr Lz's gamterag isn't fooling anyone.</p>
       </div>
     </div>
