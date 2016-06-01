@@ -74,11 +74,11 @@
       CFL Smackdown.</p>      
 
       <div class="container-fluid no-padding">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2><a href="#Melee">Melee</a></h2>
+         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
+          <h2><a href="#Smash4">Smash 4</a></h2>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2><a href="#Fees">Fees</a></h2>
+          <h2><a href="#Melee">Melee</a></h2>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
           <h2><a href="#64">Smash 64</a></h2>
@@ -93,6 +93,96 @@
   </div>
 </div>
 <!-- end top-content -->
+
+<!-- begin WiiU -->
+<span class="anchor" id="Fees"></span>
+
+<div class="container-fluid content-section">
+  <div class="container">
+      
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box back-to-top">
+        <h3>WiiU</h3>
+        <h4>Fees</h4>
+        <ul>        
+          <li>Venue Fee: $5</li>
+          <li>Singles Entry Fee: $3</li>          
+          <li>Doubles Entry Fee: $4 per team ($2 per person)</li>
+          <li>Entry Fee for other events will be noted on event page</li>          
+        </ul>
+
+        <h4>Payouts</h4>
+        <h4>N < 64</h4>
+        <ul>
+          <li>1st: 60%</li>
+          <li>2nd: 30%</li>
+          <li>3rd: 10%</li>
+        </ul>
+        <h4>N =< 64</h4>
+        <ul>
+          <li>1st: 55%</li>
+          <li>2nd: 30%</li>
+          <li>3rd: 10%</li>
+          <li>4th: 5%</li>
+        </ul>
+      
+        <h4><b>General Rules</b></h4>
+        <ul>
+          <li>Items off, 8 Minutes, 4 Stocks</li>
+          <li>All non-finals sets are best 2 of 3</li>
+          <li>Winner's Finals, Loser's Finals, and Grand Finals are besst 3 of 5</li> 
+          <li>No excessive stalling (Rising Pound, Luigi ladder, etc.)</li>
+          <li>Wobbling is <b>LEGAL</b> until 300%, at which point it is stalling</li>
+          <li>Double Blind and Neutral Start can be requested</li>
+          <li>DSR (Dave' Stupid Rule): You cannot counter pick to any stage you have won on that set</li>
+          <li>Gentleman’s Clause: Any stage may be played on if both players agree to it.</li>
+          <li>In case of match time out, the winner is determined first by stocks, then lowest percentage</li>
+          <li>Pausing results in a <b>stock loss</b>, at the discretion of the opponent</li>
+          <li>Winning player not locked into same character for the next game, but has to pick before loser selects character</li>
+          <li>Starting stage is decided by striking from the Starter Stages in P1-P2-P2-P1 order</li>
+          <li>Rock, paper, scissors is the generally accepted way to determine who strikes first in stage striking</li>
+          <li>Stages in following games decided by loser after winner bans 1 stage</li>
+          <li>Best 3 of 5 sets have no bans</li>
+        </ul>
+General Rules
+2 stock, 6 Minutes, Items set to off, Customs set to off.
+Best of 3, Finals Best of 5
+No excessive stalling
+Gentleman's Clause: Any stage may be played on if both players agree to
+If each player has one stock remaining and the match ends due to a suicide move (Ganon’s side-B, DDD’s swallow, holding someone in a grab on a platform as it moves out of the boundaries, etc.), the player who initiated the move wins
+Winning player is not locked into the same character for the next match, but has to pick before loser selects character
+Mii Fighters are legal. Each setup will have a 1-1-1-1 Mii Brawler/Swordsman/Gunner available for use (Using Default A Mii). No other specials for Mii Fighters will be allowed
+Players are not
+allowed to transfer existing Miis to a setu
+Pausing Results in a stock loss, at the discretion of the opponent
+        <h4>Singles Stage List</h4>
+        <h4>Starters/Neutrals</h4>
+        <ul>
+          <li>Smashville</li>
+          <li>Battlefield</li>
+          <li>Final Destination</li>
+          <li>Lylat Cruise</li>
+          <li>Town & City</li>
+        </ul>
+        <h4>Counterpicks</h4>
+        <ul>        
+        <li>Dreamland</li>  
+        <li>Duck Hunt</li>
+        <li>Omega Stages</li>
+*Miiverse *** Treated as Final Destination in banning phase. If Final Destination is
+banned, Omegas are banned and vice versa.
+** Same rule as omegas but it applies to Battlefield        
+        </ul>
+First stage picked by striking from neutrals, P1-P2-P2-P1 order.
+The winner bans 1 stage and the loser counterpicks
+
+        <p><a href="#">Back to top</a></p> 
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- end WiiU -->
 
 <!-- begin Melee -->
 <span class="anchor" id="Melee"></span>
@@ -180,33 +270,6 @@
   </div>
 </div>
 <!-- end Melee -->
-
-<!-- begin WiiU -->
-<span class="anchor" id="Fees"></span>
-
-<div class="container-fluid content-section">
-  <div class="container">
-      
-    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-      <div class="content-box back-to-top">
-        <h3>Fees & Payouts</h3>
-        <p>Venue Fees are<p>
-
-        <h4>Payouts</h4>
-        <h5>N < 16</h5>
-        <ul>
-          <li>1st: 60%</li>
-          <li>2nd: 30%</li>
-          <li>3rd: 10%</li>
-        </ul>
-
-        <p><a href="#top">Back to top</a></p>
-      </div>
-    </div>
-    
-  </div>
-</div>
-<!-- end WiiU -->
 
 <!-- begin 64 -->
 <span class="anchor" id="64"></span>
