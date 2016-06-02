@@ -1,5 +1,42 @@
-<?php function get_pol_navbar() { ?>
+<?php function get_pol_head_section() { ?>
+
+<meta name="author" content="Matt Kiep" />
+<meta name="theme-color" content="#730000">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="index.css" type="text/css" />
+<script type="text/javascript" src="index.js"></script>
+
+<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
+
+<!-- =================================================================== -->
+</head>
+<!-- =================================================================== -->
+
+<!-- =================================================================== -->
+<body>
+<!-- =================================================================== -->
+
+<?php } ?>
+
+<?php function get_pol_header() { ?>
+<!-- header includes 
 <!-- <header> -->
+<!-- ========================================================= -->
+<header>
+<!-- ========================================================= -->
+
 <div class="container">
 
   <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 logo">
@@ -63,22 +100,19 @@
         <li><a href="aml">AML</a></li>
         <li><a href="commentary">Commentary</a></li>
         <li><a href="news">News</a></li>
-        <li><a href="partners">Partners</a></li>
         <li><a href="about">About</a></li>
-        <li><a href="contact">Contact</a></li>
+        <li><a href="connect">Connect</a></li>
       </ul>
     </div>
   </div>
 </nav>
 </div>
-<!-- </header> -->
 
-<?php
-}
+</header>
 
-function get_pol_footer() {
-?>
+<?php }
 
+function get_pol_footer() { ?>
 <footer>
 
 <div class="container-fluid" id="Footer">
@@ -144,7 +178,9 @@ function get_pol_footer() {
   </div>
 </div>
 
+<!-- ========================================================= -->
 </footer>
+<!-- ========================================================= -->
 
 <?php } ?>
 

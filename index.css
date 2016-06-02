@@ -534,8 +534,8 @@ content ul {
 
 .anchor {
   display: block;
-  height: 90px;
-  margin-top: -90px;
+  height: 45px;
+  margin-top: -45px;
   visibility: hidden;
 }
 
@@ -569,6 +569,10 @@ h3 + ul {
 h3 + ul li {
   display: inline;
 }
+h3 img {
+  max-height:100px;
+  margin:auto;
+}
 
 /* for all lists inside a content box, usually a list of links*/
 h4 + ul {
@@ -594,18 +598,18 @@ h5 + ul li {
 
 .top-games      { background-image: url("images/pages/games/_top_bg.jpg"); 
                   background-position: 50% 60%; 
-                  background-size:cover;}
+                  background-size:cover;}                }
 .top-events     { background-image: url("images/pages/events/_top_bg.jpg");
                   background-position: 50% 60%;
                   background-size:cover;}
 .top-aml        { background-image: url("images/pages/aml/_top_bg.jpg"); 
-                  background-position: 50% 75%;
+                  background-position: 50% 55%;
                   background-size:cover;}                  
 .top-stream     { background-image: url("images/bigger_top.jpg"); 
                   background-position: 50% 60%;
                   background-size:cover;}                  
 .top-commentary { background-image: url("images/pages/commentary/_top_bg.jpg"); 
-                  background-position: 50% 60%;
+                  background-position: 50% 70%;
                   background-size:cover;}                  
 .top-news       { background-image: url("images/pages/news/_top_bg.jpg"); 
                   background-position: 50% 30%; 
@@ -656,7 +660,7 @@ h5 + ul li {
 
 content .content-section img {
   max-width: 100%;
-  max-height: 100%;
+/*  max-height: 100%;*/
 }
 
 .content-box-image p {

@@ -9,43 +9,12 @@
 <meta charset="utf-8" />
 <meta name="description" content="CFL-Based Tournament & Production Source" />
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
-<meta name="author" content="Matt Kiep" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
-
-<link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="index.js"></script>
-
-<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
-
-<!-- =================================================================== -->
-</head>
-<!-- =================================================================== -->
-
-<!-- =================================================================== -->
-<body>
-<!-- =================================================================== -->
 
 <?php include("page_functions.php"); ?>
 
-<!-- ========================================================= -->
-<header>
-<!-- ========================================================= -->
+<?php get_pol_head_section(); ?> 
 
-<?php get_pol_navbar(); ?>
-
-</header>
+<?php get_pol_header(); ?>
 
 <!-- ========================================================= -->
 <content>
@@ -77,7 +46,7 @@
       at Polarity events.</p>
 
       <h3><a href="https://www.facebook.com/groups/PolarityCommentators">
-      Be sure to join thePolarity Commentators Facebook group to keep up 
+      Join the Polarity Commentators Facebook group to keep up 
       to date and connect with other commentators!</a></h3>
 
       <div class="container-fluid no-padding">
@@ -194,11 +163,11 @@
         <table style="width:100%">
           <tr>
             <td><a href="https://www.twitter.com/c0llinmari0tti/">BiggPappa</a></td>
-            <td><img src="images/game_icons/small_melee.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/dr4gonBlitz/">Dr4gonblitz</a></td>
-            <td><img src="images/game_icons/small_melee.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/EE_Duelist/">EE | Duelist</a></td>
@@ -206,21 +175,21 @@
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/ProbablyOaty/">Oaty</a></td>
-            <td><img src="images/game_icons/small_melee.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/WannaRematch/">Rematch</a></td>
-            <td><img src="images/game_icons/small_64.png"> &squf;
-            <img src="images/game_icons/small_wiiu.png" /></td>
+            <td><img src="images/game_icons/64_small.png"> &squf;
+            <img src="images/game_icons/wiiu_small.png" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/??/">Steele</a></td>
-            <td><img src="images/game_icons/small_melee.png"></td>
+            <td><img src="images/game_icons/melee_small.png"></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/the_toolbag/">OHS | The Toolbag</a></td>
-            <td><img src="images/game_icons/small_melee.png" /> &squf;
-            <img src="images/game_icons/small_wiiu.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" /> &squf;
+            <img src="images/game_icons/wiiu_small.png" /></td>
           </tr>                                           
         </table>
         
@@ -288,10 +257,6 @@
 <!-- end rules -->
 
 </content>
-
-<!-- ========================================================= -->
-<!-- footer                                                    -->
-<!-- ========================================================= -->
 
 <?php get_pol_footer(); ?>
 

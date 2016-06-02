@@ -9,43 +9,12 @@
 <meta charset="utf-8" />
 <meta name="description" content="CFL-Based Tournament & Production Source" />
 <meta name="keywords" content="Polarity, polarity, melee, ssbm, smash 4, sfv" />
-<meta name="author" content="Matt Kiep" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-<link href='https://fonts.googleapis.com/css?family=Raleway:700' rel='stylesheet' type='text/css' />
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
-
-<link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="index.js"></script>
-
-<link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
-
-<!-- =================================================================== -->
-</head>
-<!-- =================================================================== -->
-
-<!-- =================================================================== -->
-<body>
-<!-- =================================================================== -->
 
 <?php include("page_functions.php"); ?>
 
-<!-- ========================================================= -->
-<header>
-<!-- ========================================================= -->
+<?php get_pol_head_section(); ?> 
 
-<?php get_pol_navbar(); ?>
-
-</header>
+<?php get_pol_header(); ?>
 
 <!-- ========================================================= -->
 <content>
@@ -78,6 +47,13 @@
       <div class="container-fluid no-padding">
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
           <h2><a href="#Melee">Melee</a></h2>
+          <ul>
+            <li><a href="#Melee_Learn">Learn Melee</a> &squf;</li>
+            <li><a href="#Melee_20XX">20XX</a> &squf;</li>
+            <li><a href="#Melee_Required_Viewing">Required Viewing</a> &squf;</li>
+            <li><a href="#Melee_Local_Communities">Local Communities</a> &squf;</li>
+            <li><a href="#Melee_Online_Communities">Online Communities</a></li>
+          </ul>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
           <h2><a href="#WiiU">Wii U</a></h2>
@@ -105,18 +81,49 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box content-box-image">
         <img class="img-responsive" src="images/pages/games/controllers.jpg" alt="Controllers of people playing Melee" />
-        <p>Hands work controllers silly playing Melee.</p>
+        <p>Original controllers are an endangered species because of Melee.</p>
       </div>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
-        <h3>Super Smash Bros Melee</h3>
+        <h3>
+          <img class="img-responsive" src="images/game_icons/melee_medium.png" alt="Super Smash Bros Melee Logo" />        
+        </h3>
         <p>Whether you're learning to wavedash or shield drop, seeking yet another 
         strategy for the Fox matchup, or just want to find a place to hang out 
         and chat about Melee, you can find what you're looking for in the links 
         we've provided below.<p>
 
+        <span class="anchor" id="Melee_Learn"></span>
+        <h4>Learn Melee</h4>
+        <p>Literally everything you need to know about Melee can be found in 
+        <a href="https://www.tinyurl.com/meleelibrary"> the Melee Library</a>. It has links to every single important guide
+        that ever existed, and has great info for every player, from those just starting on the Melee journey, to those 
+        who have played for years but need help on the next step.</p>
+
+        <span class="anchor" id="Melee_20XX"></span>
+        <h4>20XX</h4>
+        <p><a href="https://smashboards.com/threads/the-20xx-melee-training-hack-pack-v4-05-update-3-17-16.351221/">
+        20XX</a> is a Wii mod created to be the ultimate Melee training pack. The link includes info on how to install
+        and use the mod. More info about using the mod can be found in the <a href="https://www.tinyurl.com/meleelibrary"> 
+        the Melee Library</a> in section [2.P.7].</p>
+
+        <span class="anchor" id="Melee_Required_Viewing"></span>
+        <h4>Required Viewing</h4>    
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=6tgWH-qXpv8">
+          The Smash Brothers</a> - The documentary that started a Melee revolution. A 9-part series from 2013 
+          chronicling Melee from the beginning through the modern era.</li>
+          <li><a href="https://www.youtube.com/watch?v=44CRrJVhUIo">
+          Shined Blind</a> - Probably the most famous Melee combo video ever</li>          
+          <li><a href="https://www.youtube.com/watch?v=8uG0dsqy8bw&list=PL781F97057081C52E">
+          Bring Your Own Controller</a> - A lesser known documentary series from 2006</li>
+          <li><a href="https://www.youtube.com/watch?v=V25aEBZnYzs">
+          LSL Presents: Ken vs Bombsoldier</a> - The story of Ken and Bombsoldier, two of Melee's first innovators</li>
+        </ul>
+
+        <span class="anchor" id="Melee_Local_Communities"></span>
         <h4>Local Communities</h4>
         <ul>
           <li><a href="https://www.facebook.com/groups/cflmelee/">
@@ -126,7 +133,8 @@
           <li><a href="https://www.facebook.com/groups/297784970410812/">
           Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)</li>
         </ul>
-        
+
+        <span class="anchor" id="Melee_Online_Communities"></span>        
         <h4>Online Communities</h4>    
         <ul>
           <li><a href="https://smashboards.com/">
@@ -136,7 +144,7 @@
           <li><a href="https://www.reddit.com/r/smashbros/">
           /r/smashbros</a> - Subreddit with all Smash games showcased</li>
         </ul>
-        
+       
         <p><a href="#">Back to top</a></p> 
       </div>
     </div>
@@ -153,27 +161,65 @@
       
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
-        <h3>Super Smash Bros for WiiU</h3>
+        <h3>
+          <img class="img-responsive" src="images/game_icons/wiiu_medium.png" alt="Super Smash Bros WiiU Logo" />        
+        </h3>
         <p>Whether you're learning to wavedash or shield drop, seeking yet another 
         strategy for the Fox matchup, or just want to find a place to hang out 
         and chat about Melee, you can find what you're looking for in the links 
         we've provided below.<p>
 
-        <p><a href="https://www.facebook.com/groups/cflmelee/">
-        CFL Melee Facebook Group</a> - Largest Melee community in the CFL area<br />
-        <a href="https://www.facebook.com/groups/WinterGardenSmash/">
-        Winter Garden Smash Facebook Group</a> - Group for players near Winter Garden (West Orlando)<br />
-        <a href="https://www.facebook.com/groups/297784970410812/">
-        Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)<br /><br />
-            
-        <a href="https://smashboards.com/">
-        Smashboards</a> - The original source for everything Smash<br/>
-        <a href="https://www.reddit.com/r/ssbm/">
-        /r/ssbm</a> - Subreddit specifically about Melee<br/>
-        <a href="https://www.reddit.com/r/smashbros/">
-        /r/smashbros</a> - Subreddit with all Smash games showcased<br/></p>
+        <span class="anchor" id="Melee_Learn"></span>
+        <h4>Learn Melee</h4>
+        <p>Literally everything you need to know about Melee can be found in 
+        <a href="https://www.tinyurl.com/meleelibrary"> the Melee Library</a>. It has links to every single important guide
+        that ever existed, and has great info for every player, from those just starting on the Melee journey, to those 
+        who have played for years but need help on the next step.</p>
 
-        <p><a href="#top">Back to top</a></p>
+        <span class="anchor" id="Melee_20XX"></span>
+        <h4>20XX</h4>
+        <p><a href="https://smashboards.com/threads/the-20xx-melee-training-hack-pack-v4-05-update-3-17-16.351221/">
+        20XX</a> is a Wii mod created to be the ultimate Melee training pack. The link includes info on how to install
+        and use the mod. More info about using the mod can be found in the <a href="https://www.tinyurl.com/meleelibrary"> 
+        the Melee Library</a> in section [2.P.7].</p>
+
+        <span class="anchor" id="Melee_Required_Viewing"></span>
+        <h4>Required Viewing</h4>    
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=6tgWH-qXpv8">
+          The Smash Brothers</a> - The documentary that started a Melee revolution. A 9-part series from 2013 
+          chronicling Melee from the beginning through the modern era.</li>
+          <li><a href="https://www.youtube.com/watch?v=44CRrJVhUIo">
+          Shined Blind</a> - Probably the most famous Melee combo video ever</li>          
+          <li><a href="https://www.youtube.com/watch?v=8uG0dsqy8bw&list=PL781F97057081C52E">
+          Bring Your Own Controller</a> - A lesser known documentary series from 2006</li>
+          <li><a href="https://www.youtube.com/watch?v=V25aEBZnYzs">
+          LSL Presents: Ken vs Bombsoldier</a> - The story of Ken and Bombsoldier, two of Melee's first innovators</li>
+        </ul>
+
+        <span class="anchor" id="Melee_Local_Communities"></span>
+        <h4>Local Communities</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/groups/cflmelee/">
+          CFL Melee Facebook Group</a> - Largest Melee community in the CFL area</li>
+          <li><a href="https://www.facebook.com/groups/WinterGardenSmash/">
+          Winter Garden Smash Facebook Group</a> - Group for players near Winter Garden (West Orlando)</li>
+          <li><a href="https://www.facebook.com/groups/297784970410812/">
+          Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)</li>
+        </ul>
+
+        <span class="anchor" id="Melee_Online_Communities"></span>        
+        <h4>Online Communities</h4>    
+        <ul>
+          <li><a href="https://smashboards.com/">
+          Smashboards</a> - The original source for everything Smash</li>
+          <li><a href="https://www.reddit.com/r/ssbm/">
+          /r/ssbm</a> - Subreddit specifically about Melee</li>
+          <li><a href="https://www.reddit.com/r/smashbros/">
+          /r/smashbros</a> - Subreddit with all Smash games showcased</li>
+        </ul>
+       
+        <p><a href="#">Back to top</a></p> 
       </div>
     </div>
 
@@ -196,7 +242,9 @@
       
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
-        <h3>Super Smash Bros (64)</h3>
+        <h3>
+          <img class="img-responsive" src="images/game_icons/64_medium.png" alt="Super Smash Bros Logo" />        
+        </h3>
         <p>What is z-cancelling? Where I can find other Smash 64 players? You can play Smash 64 online?!
         Answers to all of these questions and more are found in the links below.</p>
 
@@ -240,7 +288,9 @@
 
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
-        <h3>Project: Melee</h3>
+        <h3>
+          <img class="img-responsive" src="images/game_icons/pm_medium.png" alt="Project Melee Logo" />        
+        </h3>
         <p>What is z-cancelling? Where I can find other Smash 64 players? You can play Smash 64 online?!
         Answers to all of these questions and more are found in the links below.</p>
 
@@ -263,10 +313,6 @@
 <!-- end PM -->
 
 </content>
-
-<!-- ========================================================= -->
-<!-- footer                                                    -->
-<!-- ========================================================= -->
 
 <?php get_pol_footer(); ?>
 
