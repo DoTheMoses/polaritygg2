@@ -32,7 +32,7 @@
 
 <?php function get_pol_header() { ?>
 <!-- header includes 
-<!-- <header> -->
+<!-- <header><meta http-equiv="Content-Type" content="text/html; charset=euc-jp"> -->
 <!-- ========================================================= -->
 <header>
 <!-- ========================================================= -->
@@ -118,26 +118,25 @@ function get_pol_footer() { ?>
 <div class="container-fluid" id="Footer">
   <div class="container">
 
-    <div class="container footer-top-row no-padding no-margin">
+    <div class="container footer-top-row">
 
       <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
         <div class="footer-about">
-          <h2>About Polarity</h2>
+          <h1>About Polarity</h1>
           <p>Polarity is an Orlando, Florida based gaming organization specializing
           in Super Smash Brothers tournaments and production for other gaming events. 
-          We've got a talented staff that has grown with the community.
-          Find out more at <a href="/">www.polarity.gg</a>.
-          </p>
+          We have a passion for games and for the community, and work hard to provide 
+          the best experience for our attendees and for viewers at home.</p>
+
+          <p>Find out more at <a href="/">www.polarity.gg</a>.</p>
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-top: 13px;">
+      <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5" style="padding-top: 40px;">
 
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
           <div class="footer-contact-link">
-          <div class="no-padding success">
-            <a href="contact">CONTACT US</a>
-          </div>
+            <a href="connect">CONNECT WITH US</a>
           </div>
         </div>
 
@@ -146,11 +145,11 @@ function get_pol_footer() { ?>
             <h3 class="centered">Follow Us</h3>
             <div class= "container-fluid centered no-padding">
             <ul class="no-padding">
-              <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_logo.png" alt="Twitter" /></a></li>
-              <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_logo.png" alt="Instagram" /></a></li>
-              <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_logo.png" alt="Facebook" /></a></li>
-              <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_logo.png" alt="Twitch" /></a></li>
-              <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_logo.png" alt="YouTube" /></a></li>
+              <li><a class="twitch" href="https://www.twitch.tv/PolarityGG" target="_blank"><img src="images/social_media/twitch_small_white.png" alt="Twitch" /></a></li>            
+              <li><a class="twitter" href="https://www.twitter.com/PolarityGG" target="_blank"><img src="images/social_media/twitter_small_white.png" alt="Twitter" /></a></li>
+              <li><a class="facebook" href="https://www.facebook.com/PolarityGG" target="_blank"><img src="images/social_media/facebook_small_white.png" alt="Facebook" /></a></li>
+              <li><a class="youtube" href="https://www.youtube.com/PolarityGG" target="_blank"><img src="images/social_media/youtube_small_white.png" alt="YouTube" /></a></li>
+              <li><a class="instagram" href="https://instagram.com/PolarityGG" target="_top"><img src="images/social_media/instagram_small_white.png" alt="Instagram" /></a></li>
             </ul>
             </div>
           </div>
@@ -158,22 +157,6 @@ function get_pol_footer() { ?>
 
       </div>
     </div>
-<!--  
-    <hr />
-
-   <div class="container footer-bottom-row no-padding no-margin">
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <div class="footer-copy-rights">
-          <div class="content">
-            <p>Polarity is a registered trademark of Polarity, Inc.<br />
-            All rights reserved.
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div> -->
 
   </div>
 </div>
@@ -213,7 +196,7 @@ $kelly_fact_b = array(
   "Zfg",
   "Gurren Lagann & Sailor Moon",
 );
-$index = rand(0, count($kelly_fact_a));
+$index = rand(0, count($kelly_fact_a)-1);
 return $kelly_fact = "<b>" . $kelly_fact_a[$index] . "</b>" . $kelly_fact_b[$index];
 } 
 
@@ -244,7 +227,7 @@ $colin_fact_b = array(
   "Zfg",
   "Steins;Gate",
 );
-$index = rand(0, count($colin_fact_a));
+$index = rand(0, count($colin_fact_a)-1);
 return $colin_fact = "<b>" . $colin_fact_a[$index] . "</b>" . $colin_fact_b[$index];
 } 
 
@@ -275,7 +258,7 @@ $lindsay_fact_b = array(
   "Rubber Soul",
   "Piña Coladas",
 );
-$index = rand(0, count($lindsay_fact_a));
+$index = rand(0, count($lindsay_fact_a)-1);
 return $lindsay_fact = "<b>" . $lindsay_fact_a[$index] . "</b>" . $lindsay_fact_b[$index];
 } 
 
@@ -306,7 +289,7 @@ $gavin_fact_b = array(
   "Rubick",
   "Bakemonogatari",
 );
-$index = rand(0, count($gavin_fact_a));
+$index = rand(0, count($gavin_fact_a)-1);
 return $gavin_fact = "<b>" . $gavin_fact_a[$index] . "</b>" . $gavin_fact_b[$index];
 } 
 
@@ -337,7 +320,7 @@ $mohamed_fact_b = array(
   "Lurkers",
   "Margaery",
 );
-$index = rand(0, count($mohamed_fact_a));
+$index = rand(0, count($mohamed_fact_a)-1);
 return $mohamed_fact = "<b>" . $mohamed_fact_a[$index] . "</b>" . $mohamed_fact_b[$index];
 }
 
@@ -369,7 +352,7 @@ $gabe_fact_b = array(
   "Fullmetal Alchemist: Brotherhood",
 );
 
-$index = rand(0, count($gabe_fact_a));
+$index = rand(0, count($gabe_fact_a)-1);
 return $gabe_fact = "<b>" . $gabe_fact_a[$index] . "</b>" . $gabe_fact_b[$index];
 } 
 
@@ -402,7 +385,7 @@ $matt_fact_b = array(
   "Cookie Dough",
   "Motion City Soundtrack",
 );
-$index = rand(0, count($matt_fact_a));
+$index = rand(0, count($matt_fact_a)-1);
 return $matt_fact = "<b>" . $matt_fact_a[$index] . "</b>" . $matt_fact_b[$index];
 } 
 

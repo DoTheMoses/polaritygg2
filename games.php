@@ -46,7 +46,11 @@
 
       <div class="container-fluid no-padding">
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2><a href="#Melee">Melee</a></h2>
+          <h2>
+            <a href="#Melee">
+            <img class="img-responsive" src="images/game_icons/melee_medium.png" 
+            alt="Super Smash Bros Melee Logo" /></a>
+          </h2>
           <ul>
             <li><a href="#Melee_Learn">Learn Melee</a> &squf;</li>
             <li><a href="#Melee_20XX">20XX</a> &squf;</li>
@@ -56,7 +60,17 @@
           </ul>
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2><a href="#WiiU">Wii U</a></h2>
+          <h2>
+          <a href="#Smash4">
+          <img class="img-responsive" src="images/game_icons/wiiu_medium.png" 
+          alt="Smash 4 Logo" /></a>
+          </h2>
+          <ul>
+            <li><a href="#Smash4_Learn">Learn Smash 4</a> &squf;</li>
+            <li><a href="#Smash4_Required_Viewing">Required Viewing</a> &squf;</li>
+            <li><a href="#Smash4_Local_Communities">Local Communities</a> &squf;</li>
+            <li><a href="#Smash4_Online_Communities">Online Communities</a></li>
+          </ul>          
         </div>
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
           <h2><a href="#64">Smash 64</a></h2>
@@ -153,8 +167,8 @@
 </div>
 <!-- end Melee -->
 
-<!-- begin WiiU -->
-<span class="anchor" id="WiiU"></span>
+<!-- begin Smash4 -->
+<span class="anchor" id="Smash4"></span>
 
 <div class="container-fluid content-section">
   <div class="container">
@@ -162,53 +176,32 @@
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
       <div class="content-box back-to-top">
         <h3>
-          <img class="img-responsive" src="images/game_icons/wiiu_medium.png" alt="Super Smash Bros WiiU Logo" />        
+          <img class="img-responsive" src="images/game_icons/wiiu_medium.png" alt="Smash 4" />        
         </h3>
-        <p>Whether you're learning to wavedash or shield drop, seeking yet another 
-        strategy for the Fox matchup, or just want to find a place to hang out 
-        and chat about Melee, you can find what you're looking for in the links 
-        we've provided below.<p>
+        <p>Smash 4 is a fresh and evolving game due to gameplay and balance patches. This means
+        the way you play must constantly shift to adapt, <p>
 
-        <span class="anchor" id="Melee_Learn"></span>
-        <h4>Learn Melee</h4>
-        <p>Literally everything you need to know about Melee can be found in 
-        <a href="https://www.tinyurl.com/meleelibrary"> the Melee Library</a>. It has links to every single important guide
-        that ever existed, and has great info for every player, from those just starting on the Melee journey, to those 
-        who have played for years but need help on the next step.</p>
+        <span class="anchor" id="Smash4_Learn"></span>
+        <h4>Learn Smash 4</h4>
+        <p>Two of the main </p>
 
-        <span class="anchor" id="Melee_20XX"></span>
-        <h4>20XX</h4>
-        <p><a href="https://smashboards.com/threads/the-20xx-melee-training-hack-pack-v4-05-update-3-17-16.351221/">
-        20XX</a> is a Wii mod created to be the ultimate Melee training pack. The link includes info on how to install
-        and use the mod. More info about using the mod can be found in the <a href="https://www.tinyurl.com/meleelibrary"> 
-        the Melee Library</a> in section [2.P.7].</p>
+        <span class="anchor" id="Smash4_Learn"></span>
+        <h4>The Top 50 Players</h4>
+        <p>Panda Global constructed a list of the top 50 Smash 4 players in the world. The list provides good insight
+        to why they play the way they do.</p>
 
-        <span class="anchor" id="Melee_Required_Viewing"></span>
-        <h4>Required Viewing</h4>    
-        <ul>
-          <li><a href="https://www.youtube.com/watch?v=6tgWH-qXpv8">
-          The Smash Brothers</a> - The documentary that started a Melee revolution. A 9-part series from 2013 
-          chronicling Melee from the beginning through the modern era.</li>
-          <li><a href="https://www.youtube.com/watch?v=44CRrJVhUIo">
-          Shined Blind</a> - Probably the most famous Melee combo video ever</li>          
-          <li><a href="https://www.youtube.com/watch?v=8uG0dsqy8bw&list=PL781F97057081C52E">
-          Bring Your Own Controller</a> - A lesser known documentary series from 2006</li>
-          <li><a href="https://www.youtube.com/watch?v=V25aEBZnYzs">
-          LSL Presents: Ken vs Bombsoldier</a> - The story of Ken and Bombsoldier, two of Melee's first innovators</li>
-        </ul>
-
-        <span class="anchor" id="Melee_Local_Communities"></span>
+        <span class="anchor" id="Smash4_Local_Communities"></span>
         <h4>Local Communities</h4>
         <ul>
-          <li><a href="https://www.facebook.com/groups/cflmelee/">
-          CFL Melee Facebook Group</a> - Largest Melee community in the CFL area</li>
+          <li><a href="https://www.facebook.com/groups/cflsmash4">
+          CFL Smash 4 Facebook Group</a> - Largest Smash 4 community in the CFL area</li>
           <li><a href="https://www.facebook.com/groups/WinterGardenSmash/">
           Winter Garden Smash Facebook Group</a> - Group for players near Winter Garden (West Orlando)</li>
           <li><a href="https://www.facebook.com/groups/297784970410812/">
           Kissimmee Smash Facebook Group</a> - Group focused on players from Kissimmee (South of Orlando)</li>
         </ul>
 
-        <span class="anchor" id="Melee_Online_Communities"></span>        
+        <span class="anchor" id="Smash4_Online_Communities"></span>        
         <h4>Online Communities</h4>    
         <ul>
           <li><a href="https://smashboards.com/">
@@ -232,7 +225,7 @@
       
   </div>
 </div>
-<!-- end WiiU -->
+<!-- end Smash4 -->
 
 <!-- begin 64 -->
 <span class="anchor" id="64"></span>

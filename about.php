@@ -37,26 +37,29 @@
   <div class="container">
 
     <div class="content-box">
-      <p>In nature, polarity is created when opposites come together, and our community 
-      is a reflection of that polarity. We are your source for premiere central Florida 
-      events.</p>                
+      <p>We are your source for premiere central Florida Smash events.</p>
 
-      <p>Polarity is for the players. We want the best for every player, no matter if 
+      <p>In nature, polarity is created when opposites come together, and our community 
+      is a reflection of that polarity.</p>                
+
+      <p>Polarity is for the <strong>players</strong>. We want the best for every player, no matter if 
       you're the best player, or if you could stand to improve. We want everyone's 
       tournament experience to be the best, and will treat every players' concerns 
       equally.</p>  
 
-      <p>Polarity is for the viewers. Whether you tune into our stream every time we 
+      <p>Polarity is for the <strong>viewers</strong>. Whether you tune into our stream every time we 
       broadcast, or if you're only here once, we want your time spent watching our 
       stream to be enjoyable and memorable.</p>  
 
-      <p>Polarity is who we are. We consider all ideas from our own staff and from the 
+      <p>Polarity is <strong>who we are</strong>. We consider all ideas from our own staff and from the 
       community, and we use every piece of information we can to make the best decisions 
       for our players, for our stream, and for the community.</p>
 
+      <p>Meet the people who make Polarity happen below!</p>
+
       <div class="container-fluid no-padding">
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2>Tournaments Team</h2>
+          <h2>Events Team</h2>
             <ul>
               <li><a href="#Kelly">Kelly</a> &squf;</li>
               <li><a href="#Colin">Colin</a> &squf;</li>
@@ -65,7 +68,7 @@
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
-          <h2>Production Team</h2>
+          <h2>Media Team</h2>
             <ul>
               <li><a href="#Gavin">Gavin</a> &squf;</li>
               <li><a href="#Mohamed">Mohamed</a></li>
@@ -116,9 +119,8 @@
         <ul>
           <li><a href="https://www.twitter.com/polarity_kupo/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:kelly@polarity.gg?" target="_top">kelly@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/colbol/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>          
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>          
         </ul>
 
         <p>Kelly first discovered competitive smash in 2011 when she attended her 
@@ -164,9 +166,8 @@
         <ul>
           <li><a href="https://www.twitter.com/Colbol725/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:colin@polarity.gg?" target="_top">colin@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/colbol/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>          
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>          
         </ul>
           
         <p>Colin has been playing Smash ever since Super Smash Brothers for the Nintendo 64 
@@ -214,9 +215,8 @@
         <ul>
           <li><a href="https://www.twitter.com/lovelylinds29/" target="_blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:lindsay@polarity.gg?" target="_top">lindsay@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/aliendaze/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Lindsay got involved with competitive Smash in 2014, helping the 
@@ -266,9 +266,8 @@
         <ul>
           <li><a href="https://www.twitter.com/PolarityAzzy/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:azzy@polarity.gg?" target="_top">azzy@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/azzyssb/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Gavin began his venture into competitive Smash in 2009 playing Brawl 
@@ -312,9 +311,8 @@
         <ul>
           <li><a href="https://www.twitter.com/BlastMohamed/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:mohamed@polarity.gg?" target="_top">mohamed@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/blasted101/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Mohamed got into competitive Smash in 2012 with Gaming Knights. He, along with 
@@ -359,9 +357,8 @@
 
         <h3>Gabriel "Taerk" Nieves</h3>
         <ul>
-          <li><a href="mailto:gabe_n@polarity.gg?" target="_top">gabe_n@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/taerknet/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Gabriel started playing competitive Smash in 2011 as a part of a fundraiser, and 
@@ -405,12 +402,12 @@
       <div class="content-box back-to-top">
 
         <h3>Matt "Moses" Kiep</h3>
+        <h3>Website Manager</h3>
         <ul>
           <li><a href="https://www.twitter.com/DoTheMoses/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
-          <li><a href="mailto:matt@polarity.gg?" target="_top">matt@polarity.gg</a> &squf; </li>
           <li><a href="https://www.twitch.tv/dothemoses/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>
         </ul>
 
         <p>Matt has played video games for forever. He began playing Melee casually upon 
@@ -464,7 +461,7 @@
           <li><a href="https://www.twitter.com/RagingCherry/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
           <li><a href="https://www.twitch.tv/ragingcherry/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Alex started the whole ball rolling years ago when he created Gaming Knights at 
@@ -505,7 +502,7 @@
           <li><a href="https://www.twitter.com/GameDragonX/" target="blank">
             <img src="images/social_media/twitter_small_red.png" alt="Twitter Logo" /></a> &squf; </li>
           <li><a href="https://www.twitch.tv/gamedragonx/" target="_top">
-            <img src="images/social_media/twich_small_red.png" alt="Twitch Logo" /></a></li>           
+            <img src="images/social_media/twitch_small_red.png" alt="Twitch Logo" /></a></li>           
         </ul>
 
         <p>Keith did a little bit of everything for Polarity, including TOing, directing the stream, 

@@ -561,6 +561,11 @@ h2 + p {
 }
 
 /* style the links right below a section header */
+h3 + h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 h3 + ul {
   list-style-type: none;
   text-align: center; 
@@ -568,6 +573,9 @@ h3 + ul {
 }
 h3 + ul li {
   display: inline;
+}
+h3 + ul li img {
+  max-height:20px;
 }
 h3 img {
   max-height:100px;
@@ -775,7 +783,7 @@ content .content-section:nth-of-type(odd) .content-box {
 /* footer                                           */
 /* ================================================ */
 
-#Footer {
+footer {
   position: relative;
   background: #530000; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(#530000, #100000); /* For Safari 5.1 to 6.0 */
@@ -786,24 +794,33 @@ content .content-section:nth-of-type(odd) .content-box {
   font-family: 'Roboto', sans-serif;
 }
 
-#Footer h1 {
-  font-size: 2.5em;
-  font-family: 'Exo 2', sans-serif;
+.footer-about h1 {
+  font-size: 6em;
+  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;  
 }
 
-#Footer p {
-  font-size: 1.5em;
+.footer-about p {
+  font-size: 2.25em;
+}
+
+.footer-top-row {
+  padding: 0;
+  margin: 0;
 }
 
 .footer-contact-link a {
   border-style: solid;
   border-width: 3px;
-  border-color: #fffff;
+  border-color: #ffffff;
   padding: 13px;
-  padding-left: 30px;
-  padding-right: 30px;
-  font-size: 1.5em;
-  font-family: 'Exo 2', sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.75em;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* unvisited link */
@@ -861,6 +878,8 @@ content .content-section:nth-of-type(odd) .content-box {
 .footer-follow-us ul li a img{
   width: 25px; 
   height: 25px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .footer-rhs-links ul {
