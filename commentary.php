@@ -85,7 +85,7 @@
         <p><b>Open Mic (Before 9 PM):</b> Before 9 at any CFL Smackdown, any person may 
         read the rules and guidelines, talk to the stream producer, and commentate. This
         is a good time for anyone who has any interest in commentating to get experience
-        before becoming a Polarity Approved Commentator.</li>
+        before becoming a Polarity Approved Commentator.</p>
 
         <p><b>Approved Only (After 9PM):</b> After 9 PM, we will only allow those who are 
         Polarity Approved Commentators to commentate. <a href="http://goo.gl/forms/ZEqwScyzEk">
@@ -156,40 +156,40 @@
           put you on schedule for an evening of guaranteed commentary time.</li>
           <li><b>We can pay you!</b> If you are scheduled to commentate a weekly, and fufill all 
           the requirements, we'll pay you! See the above section "Getting Paid" under 
-          <a href"#how">How Can I Commentate?</a> for more details.</li>
+          <a href="#how">How Can I Commentate?</a> for more details.</li>
         </ul>
 
         <h4>List of Polarity Approved Commentators:</h4>
         <table style="width:100%">
           <tr>
             <td><a href="https://www.twitter.com/c0llinmari0tti/">BiggPappa</a></td>
-            <td><img src="images/game_icons/melee_small.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" alt="Small Melee Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/dr4gonBlitz/">Dr4gonblitz</a></td>
-            <td><img src="images/game_icons/melee_small.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" alt="Small Melee Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/EE_Duelist/">EE | Duelist</a></td>
-            <td><img src="images/game_icons/small_wiiu.png" /></td>
+            <td><img src="images/game_icons/small_wiiu.png" alt="Small Smash 4 Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/ProbablyOaty/">Oaty</a></td>
-            <td><img src="images/game_icons/melee_small.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" alt="Small Melee Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/WannaRematch/">Rematch</a></td>
-            <td><img src="images/game_icons/64_small.png"> &squf;
-            <img src="images/game_icons/wiiu_small.png" /></td>
+            <td><img src="images/game_icons/64_small.png" alt="Small Smash 64 Logo" > &squf;
+            <img src="images/game_icons/wiiu_small.png" alt="Small Smash 4 Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/??/">Steele</a></td>
-            <td><img src="images/game_icons/melee_small.png"></td>
+            <td><img src="images/game_icons/melee_small.png" alt="Small Melee Logo" /></td>
           </tr>
           <tr>
             <td><a href="https://www.twitter.com/the_toolbag/">OHS | The Toolbag</a></td>
-            <td><img src="images/game_icons/melee_small.png" /> &squf;
-            <img src="images/game_icons/wiiu_small.png" /></td>
+            <td><img src="images/game_icons/melee_small.png" alt="Small Melee Logo" /> &squf;
+            <img src="images/game_icons/wiiu_small.png" alt="Small Smash 4 Logo" /></td>
           </tr>                                           
         </table>
         

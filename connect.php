@@ -38,7 +38,7 @@
 
     <div class="content-box">
       <p>If you have anything you'd like to discuss with us, let us know! You can email general questions to
-      <a href="mailto:admin@polarity.gg?Subject=General%20Information" target="_top">admin@polarity.gg</a>.<br /><br />
+      <a href="mailto:admin@polarity.gg?Subject=General%20Information" target="_top">admin@polarity.gg</a>.
       </p>
         
       <div class="container-fluid no-padding">
@@ -49,7 +49,8 @@
           <a href="mailto:admin@polarity.gg?Subject=Partnership%20Opportunity" target="_top">
           admin@polarity.gg</a>.
           Our current major partners are <a href="#Twitch">Twitch</a> and 
-          <a href="#Discord"></a>.</p>
+          <a href="#Discord"></a>.
+          </p>
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -117,8 +118,6 @@
           <li>Free venue fee on designated Sub Nights</li>
          </ul>
     
-        </p> 
-
        <p><a href="#top">Back to top</a></p>
       </div>
     </div>

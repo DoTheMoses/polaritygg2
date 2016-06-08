@@ -488,8 +488,8 @@
         very timely manner. He is currently taking a break but we look forward to working 
         with him again in the future.</p>
 
-        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/twitch_emotes/polFlako.png"/>
-        <i>(which is clearly the best one - Moses)</i></p>
+        <p>Also he's why this Twitch subscriber emote exists: <img src="/2/images/twitch_emotes/polFlako.png" 
+        alt="polFlako emote" /><i>(which is clearly the best one - Moses)</i></p>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
@@ -507,7 +507,7 @@
 
         <p>Keith did a little bit of everything for Polarity, including TOing, directing the stream, 
         commentating, planning, uploading Smash 4 VODs, being the source of one of our twitch subsciber 
-        emotes: (<img src="/2/images/twitch_emotes/polBruh.png" alt="polBruh Twitch Subcriber emote"/>) and making 
+        emotes: (<img src="/2/images/twitch_emotes/polBruh.png" alt="polBruh Twitch Subcriber emote" />) and making 
         sure that Smash 4 was treated faily amo123ng staff who didn't know Smash 4 very well. He had to take
         a hiatus due to personal reasons, but we look forward to his eventual return to the scene.</p>
       </div>

@@ -74,7 +74,7 @@
 
   <div class="col-xs-12 col-sm-5 col-sm-offset-4 col-md-4 ol-md-offset-5 col-lg-4 col-lg-offset-5 stream-badge offline">
     <ul>
-      <li class="status">Stream Status: Offline</a></li>
+      <li class="status">Stream Status: Offline</li>
       <li class="game"><a href="https://www.twitch.tv/polaritygg">Click here to follow our Twitch Channel!</a></li>           
     </ul>
   </div>

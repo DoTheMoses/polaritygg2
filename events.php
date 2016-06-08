@@ -112,7 +112,7 @@
         the CFL Smackdown (usually due to working events the previous weekend).</i></p>
            
         <p>We also hold monthly CFL Smackdown tournaments in the same location. Entrants for Melee at these monthly
-        events can easily reach 100 or more people.<p/>
+        events can easily reach 100 or more people.</p>
            
         <p>Click <a href="events.html/">here</a> to see our event calendar.</p>
            
