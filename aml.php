@@ -151,7 +151,7 @@
 
     <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
       <div class="content-box back-to-top">
-        <h3>Season 1</h3>
+      <h3 class="from-left-h3">Season 1</h3>
         <h5>August 4th, 2015 - September 13th, 2015</h5>
         <ul>
           <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-1-cfl.410319/">Rules</a> &squf;</li>
@@ -174,17 +174,17 @@
         <h4>Season 1 Top 8</h4>
         <ul>
           <li>1. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
-          The Champion, $146</li>
+          The Champion</li>
           <li>2. <b>Lad</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
-          Our Fine, fiery, Fox, $91</li>
+          Our Fine, fiery, Fox</li>
           <li>3. <b>DoomChickens</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
-          The Best Tag in Smash, $55</li>
+          The Best Tag in Smash</li>
           <li>4. <b>Kaike</b> <img src="/2/images/ssbm_icons/FalcoHeadSSBM.png" alt="Melee Icon - Falco" />, 
-          The Falco You Didn't Know You Feared, $37</li>
+          The Falco You Didn't Know You Feared</li>
           <li>5. <b>Eclipsing Binary</b> <img src="/2/images/ssbm_icons/SheikHeadSSBM.png" alt="Melee Icon - Sheik" />, 
-          The Beast From South Florida, $18</li>
+          The Beast From South Florida</li>
           <li>5. <b>Hiroshi</b> <img src="/2/images/ssbm_icons/SheikHeadSSBM.png" alt="Melee Icon - Sheik" />, 
-          The Old Dog Showing Us New Tricks, $18</li>
+          The Old Dog Showing Us New Tricks</li>
           <li>7. <b>Derdian</b> <img src="/2/images/ssbm_icons/IceClimbersHeadSSBM.png" alt="Melee Icon - Ice Climbers" /> / 
           <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
           The Voice of Reason</li>

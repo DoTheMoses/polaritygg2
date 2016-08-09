@@ -16,7 +16,7 @@
 <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 
 <link rel="stylesheet" href="index.css" type="text/css" />
-<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="scripts.js"></script>
 
 <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon" />
 
