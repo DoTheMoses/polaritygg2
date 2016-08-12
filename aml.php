@@ -146,12 +146,12 @@
 <!-- begin Season_1 -->
 <span class="anchor" id="Season_1"></span>
 
-<div class="container-fluid content-section">
+<div class="container-fluid content-section ">
   <div class="container">
 
     <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
-      <div class="content-box back-to-top">
-      <h3 class="from-left-h3">Season 1</h3>
+      <div class="content-box back-to-top from-left">
+      <h3>Season 1</h3>
         <h5>August 4th, 2015 - September 13th, 2015</h5>
         <ul>
           <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-1-cfl.410319/">Rules</a> &squf;</li>
@@ -222,7 +222,7 @@
     </div>
 
     <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
-      <div class="content-box back-to-top">
+      <div class="content-box back-to-top from-right">
         <h3>Season 2</h3>
         <h5>November 14th, 2015 - February 6th, 2016</h5>
         <ul>
