@@ -424,19 +424,18 @@ button {
 
 /* h1 is used for the title at the top of the page */
 h1 {
+  font-family: 'Raleway', sans-serif;  
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 0px;
   padding-top: 7%;
   padding-bottom: 7%;
   padding-left: 0;
   padding-right: 0;
-  margin: 0px;
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
   font-size: 20em;
-  text-align: center;
-  color: #ffffff;
   text-shadow: 2px 2px 6px #000000;
 }
-
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   h1 { font-size: 18em; }
 }
@@ -449,11 +448,11 @@ h1 {
 
 /* h2 is used for any subheaders in the top section*/
 h2 {
-  font-size: 4em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;  
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 4em;
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   h2 { font-size: 3.5em; }
@@ -467,14 +466,13 @@ h2 {
 
 /* h3 is used for content section titles */
 h3 {
-  font-size: 3.25em;
   font-family: 'Raleway', sans-serif;
-  text-align: left;
   margin-top: 5px;
   margin-bottom: 5px;
   padding-top: 15px;
   padding-bottom: 10px;
-
+  font-size: 3.25em;  
+  text-shadow: 2px 2px 6px #000000;  
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   h3 { font-size: 3.25em; }
@@ -486,14 +484,12 @@ h3 {
   h3 { font-size: 2.5em; }
 }
 
-
-
 /* h4 is used for any subheaders inside a content section */
 h4 {
+  font-family: 'Raleway', sans-serif;  
+  text-align: center;
   margin-top: 0px;  
   font-size: 2.5em;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   h4 { font-size: 2.5em; }
@@ -507,14 +503,13 @@ h4 {
 
 /* h5 is used for any secondary titles of content section */
 h5 {
+  font-family: 'Raleway', sans-serif;  
+  text-align: left;
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 1.75em;
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
   padding-top: 5px;
+  font-size: 1.75em;  
 }
-
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   h5 { font-size: 1.75em; }
 }
@@ -526,8 +521,8 @@ h5 {
 }
 
 p {
+  font-family: 'Roboto', sans-serif;  
   font-size: 2.5em;
-  font-family: 'Roboto', sans-serif;
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
   p { font-size: 2.35em; }
@@ -576,7 +571,6 @@ h2 + ul {
 h2 + ul li {
   display: inline;
 }
-
 h2 + p {
   text-align: center;
 }
@@ -586,7 +580,6 @@ h3 + h3 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
 h3 + ul {
   list-style-type: none;
   text-align: center; 
@@ -621,26 +614,33 @@ h5 + ul {
 h5 + ul li {
   display: inline;
 }
-
-.from-left h3 {
+/* from_left stuff  */
+.from-left-dark h3 {
   background: #930000;
   margin-left: -30px;
-  padding-left: 30px;  
+  padding-left: 30px;
+  color: #ffffff  
 }
-.from-left h5 {
+.from-left-dark h5 {
   text-align: left; 
 }
-.from-right h3 {
+/* from_right stuff  */
+.from-right-light h3 {
   background: #930000;
   margin-right: -30px;
   padding-right: 30px;    
   text-align: right;
   color: #ffffff;  
 }
-.from-right h5 {
+.from-right-light h5 {
   text-align: right; 
 }
-
+.from-right-light h5 + ul {
+  text-align: right;
+}
+.from-right-light h3 + a {
+  color: #ffffff;
+}
 /* ================================================ */
 /* @background images                               */
 /* ================================================ */
@@ -660,16 +660,38 @@ h5 + ul li {
                   background-size:cover;
                   background-color: #ffffff;}*/  
 
-
+.top-aml:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);    
+}
 .top-aml {
   display: block;
   position: relative;
   background:  linear-gradient(
-      rgba(255, 0, 0, 0.45), 
-      rgba(255, 0, 0, 0.45)),
+      rgba(200, 0, 0, 0.45), 
+      rgba(200, 0, 0, 0.45)),
       url(images/pages/aml/_top_bg.jpg);
-                  background-position: 50% 20%; 
-                  background-size:cover;}                 
+  background-position: 50% 20%; 
+  background-size:cover;
+  z-index: 1;
+}                 
 
 
 

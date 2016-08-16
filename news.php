@@ -41,7 +41,7 @@ require('../wp/wp-blog-header.php');
 <?php $posts = get_posts('numberposts=2&order=DSC&orderby=post_date');
       foreach ($posts as $post) : setup_postdata( $post ); ?>
 
-<div class="container-fluid content-section">
+<div class="container-fluid content-section from-right">
   <div class="container">
 
     <div class="col-xs-12 col-sm-7 col-sm-7 col-lg-7 no-padding">
@@ -53,7 +53,7 @@ require('../wp/wp-blog-header.php');
     </div>
 
     <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 no-padding">
-      <div class="content-box back-to-top">       
+      <div class="content-box back-to-top ">       
 
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         <h4><?php the_date(); ?></h4>

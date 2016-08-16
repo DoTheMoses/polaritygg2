@@ -104,73 +104,14 @@
 <div class="container-fluid content-section">
   <div class="container">
 
-    <div class="container-fluid content-box">
+    <div class="container-fluid content-box from-left-dark">
       <h3>Hall of Champions</h3>
 
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
         <div class="content-box content-box-image">
           <img src="/2/images/staff/??.jpg" alt="?? Photo"/>
         </div>
-        <h3>Season 1 Champion</h3>
-        <h3>G0D</h3>
-        <ul>
-          <li><a href="https://www.twitter.com/??">@??</a></li>
-        </ul>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-        <div class="content-box content-box-image">
-          <img src="/2/images/pages/aml/lz.jpg" alt="Mr Lz was the Season 2 Champion"/>
-        </div>
-        <h3>Season 2 Champion</h3>
-        <h3>Mr Lz</h3>
-        <ul>
-          <li><a href="https://www.twitter.com/MrLzSSBM">@MrLzSSBM</a></li>
-        </ul>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 no-padding">
-        <div class="content-box content-box-image">
-          <img src="/2/images/staff/??.jpg" alt="??"/>
-        </div>
-        <h3>Season 3 Champion</h3>
-        <h3>?</h3>
-      </div>
-
-    </div>
-
-  </div>
-</div>
-<!-- end Season_1 -->
-
-<!-- begin Season_1 -->
-<span class="anchor" id="Season_1"></span>
-
-<div class="container-fluid content-section ">
-  <div class="container">
-
-    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
-      <div class="content-box back-to-top from-left">
-      <h3>Season 1</h3>
-        <h5>August 4th, 2015 - September 13th, 2015</h5>
-        <ul>
-          <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-1-cfl.410319/">Rules</a> &squf;</li>
-          <li><a href="https://challonge.com/users/themeleeleague">Pools</a> &squf;</li>
-          <li><a href="https://www.youtube.com/channel/UClL6vf6mG4aNDkvzdyYNdAA/videos?view=0&shelf_id=0&sort=dd">VODs</a> &squf;</li>
-          <li><a href="https://challonge.com/AMLs1finals/">Final Bracket</a></li>
-        </ul>
-
-        <p>Season 1 was a good start, with <b>73</b> entrants. People were excited
-        about the league, and had fun playing their pools. The pools system 
-        created a few issues, but they were not too bad.</p>
-
-        <p>The Finals Day took place at the CFL Smackdown September monthly, and
-        the bracket can be found above. Non-AML players showed interest in watching
-        the matches, and the Winner's Finals, Loser's Finals, and Grand Finals 
-        were played on stream. However, due to technical issues at the venue, the 
-        VODs for the finals were lost. Grand Finals was a close set between G0D
-        and Lad, with G0D scraping out a victory to become the Champion of Season 1.</p>
-
+        <h4>Season 1 Champion: G0D</h4>
         <h4>Season 1 Top 8</h4>
         <ul>
           <li>1. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
@@ -190,13 +131,73 @@
           The Voice of Reason</li>
           <li>7. <b>Oaty</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
           The <i>(at the time)</i> Beardless Wonder</li>
+        </ul>        
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+        <div class="content-box content-box-image">
+          <img src="/2/images/pages/aml/lz.jpg" alt="Mr Lz was the Season 2 Champion"/>
+        </div>
+        <h4>Season 2 Champion: <a href="https://www.twitter.com/MrLzSSBM">@Mr Lz</a></h4>
+        <h4>Season 2 Top 8</h4>
+        <ul>
+          <li>1. <b>Mr Lz</b> <img src="/2/images/ssbm_icons/MarthHeadSSBM.png" alt="Melee Icon - Marth" />, 
+          Lz stands for Look the Fuck Out Peoplez</li>
+          <li>2. <b>OC Mike</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
+          the Cold Stone Killer</li>
+          <li>3. <b>Oaty</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
+          the Floaty Goaty like Whoa-ty</li>
+          <li>4. <b>Lad</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
+          Hype Incarnate</li>
+          <li>5. <b>Ridz</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" /> / 
+          <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
+          Sloth Inside, Lightning Speed Space Animal Outside</li>
+          <li>5. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
+          (insert badass falcon screech as it divebombs its prey here)</li>
+          <li>7. <b>Envy</b> <img src="/2/images/ssbm_icons/JigglypuffHeadSSBM.png" alt="Melee Icon - Jigglypuff" />, 
+          Who Needs a Nickname When Your Actual Name is Matt Fucking Powers?</li>
+          <li>7. <b>Kaike</b> <img src="/2/images/ssbm_icons/FalcoHeadSSBM.png" alt="Melee Icon - Falco" />, 
+          Son of Father and Father of Falco Beatdowns</li>
+        </ul>        
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- end Season_1 -->
+
+<!-- begin Season_1 -->
+<span class="anchor" id="Season_1"></span>
+
+<div class="container-fluid content-section ">
+  <div class="container">
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box back-to-top from-left-dark">
+      <h3>Season 1</h3>
+        <h5>August 4th, 2015 - September 13th, 2015</h5>
+        <ul>
+          <li><a href="http://smashboards.com/threads/the-amateur-melee-league-season-1-cfl.410319/">Rules</a> &squf;</li>
+          <li><a href="https://challonge.com/users/themeleeleague">Pools</a> &squf;</li>
+          <li><a href="https://www.youtube.com/channel/UClL6vf6mG4aNDkvzdyYNdAA/videos?view=0&shelf_id=0&sort=dd">VODs</a> &squf;</li>
+          <li><a href="https://challonge.com/AMLs1finals/">Final Bracket</a></li>
         </ul>
+
+        <p>Season 1 was an excellent start, with <b>73</b> entrants. People were super hyped
+        about the league, and had fun playing their pools matches and creating new rivalries.</p>
+
+        <p>Season 1 Finals Day took place at the CFL Smackdown September '15 monthly.
+        Winner's Finals, Loser's Finals, and Grand Finals were played on stream, with everyone
+        in the venue cheering behind them with each stock taken. However, due to 
+        technical issues at the venue, the VODs for the finals were lost. Grand Finals 
+        was a close set between G0D and Lad, with G0D scraping out a victory to 
+        become the Champion of Season 1.</p>
 
         <p><a href="#">Back to top</a></p> 
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
+    <div class="col-xs-12 col-sm-6 col-sm-6 col-lg-6 no-padding">
       <div class="content-box content-box-image">
         <img class="img-responsive" src="images/pages/aml/ranch.jpg" alt="Ranch plays in AML Season 1"/>
         <p>Ranch is no amateur at mustache grooming.</p>
@@ -213,7 +214,7 @@
 <div class="container-fluid content-section">
   <div class="container">
 
-    <div class="col-xs-12 col-sm-5 col-sm-5 col-lg-5 no-padding">
+    <div class="col-xs-12 col-sm-6 col-sm-6 col-lg-6 no-padding">
       <div class="content-box content-box-image">
         <img class="img-responsive" src="images/pages/aml/oaty_vs_mike.jpg" alt="Oaty plays Mike on AML Season 2 Finals Day"/>
         <p>Oaty and OC Mike struggle mightily to contain the immense amount of hype they feel inside
@@ -221,8 +222,8 @@
       </div>
     </div>
 
-    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7 no-padding">
-      <div class="content-box back-to-top from-right">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+      <div class="content-box back-to-top from-right-light">
         <h3>Season 2</h3>
         <h5>November 14th, 2015 - February 6th, 2016</h5>
         <ul>
@@ -233,38 +234,17 @@
           <li><a href="https://www.youtube.com/playlist?list=PLWqagSqx492eSc7czLhAOKBlSgnY01kmA">VODs</a></li>
         </ul>
 
-        <p>Season 2 was even better than Season 1. Fearless came up with a brilliant
-        idea to get rid of pools, and instead use an Elo ranking system. He wrote custom
-        software to handle this new system, and the players loved it. Find out more about
+        <p>Season 2 was even better than Season 1. Fearless thought of a brilliant
+        idea to move from pools to an Elo ranking system. He wrote custom software to 
+        handle the new system, and the players loved it. Find out more about
         the system at the <b>Rules</b> link above.</p>
 
-        <p>Season 2 Finals day was held at the CFL Smackdown February Monthly. We were able 
-        to get way more matches on stream (found in the VODs link above), and plenty of the 
-        matches went to three games, which indicated to us that the seeding from the season's 
+        <p>Season 2 Finals day was held at the CFL Smackdown February '16 Monthly. Many 
+        more matches were played on stream (found in the <b>VODs</b> link above), and plenty 
+        of the matches went to three games, indicating that the seeding from the regular season's 
         final results was pretty close to ideal. There was an outlier, however. Mr Lz finished 
-        the season in 9th place, but ended up taking a pretty clean ride to Grand Finals. 
+        the regular season in 9th place, but ended up taking a pretty clean ride to Grand Finals. 
         There, he took only 10 minutes to 3-0 OC Mike to become the Season 2 Champion.</p>
-
-        <h4>Season 2 Top 8</h4>
-        <ul>
-          <li>1. <b>Mr Lz</b> <img src="/2/images/ssbm_icons/MarthHeadSSBM.png" alt="Melee Icon - Marth" />, 
-          Lz stands for Look the Fuck Out Peoplez, $165</li>
-          <li>2. <b>OC Mike</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
-          the Cold Stone Killer, $84</li>
-          <li>3. <b>Oaty</b> <img src="/2/images/ssbm_icons/PeachHeadSSBM.png" alt="Melee Icon - Peach" />, 
-          the Floaty Goaty like Whoa-ty, $62</li>
-          <li>4. <b>Lad</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" />, 
-          Hype Incarnate, $41</li>
-          <li>5. <b>Ridz</b> <img src="/2/images/ssbm_icons/FoxHeadSSBM.png" alt="Melee Icon - Fox" /> / 
-          <img src="/2/images/ssbm_icons/falco.png" alt="Melee Icon - Falco" />, 
-          Sloth Inside, Lightning Speed Space Animal Outside, $21</li>
-          <li>5. <b>G0D</b> <img src="/2/images/ssbm_icons/CaptainFalconHeadSSBM.png" alt="Melee Icon - Captain Falcon" />, 
-          (insert badass falcon screech as it divebombs its prey here), $21</li>
-          <li>7. <b>Envy</b> <img src="/2/images/ssbm_icons/JigglypuffHeadSSBM.png" alt="Melee Icon - Jigglypuff" />, 
-          Who Needs a Nickname When Your Actual Name is Matt Fucking Powers?, $10</li>
-          <li>7. <b>Kaike</b> <img src="/2/images/ssbm_icons/FalcoHeadSSBM.png" alt="Melee Icon - Falco" />, 
-          Son of Father and Father of Falco Beatdowns, $10</li>
-        </ul>  
 
         <p><a href="#">Back to top</a></p> 
       </div>
@@ -281,7 +261,7 @@
   <div class="container">
 
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 no-padding">
-      <div class="content-box back-to-top">
+      <div class="content-box back-to-top from-left-dark">
         <h3>Season 3</h3>
         <h5>?? - ??</h5>
 

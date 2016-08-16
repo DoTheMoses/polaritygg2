@@ -51,14 +51,6 @@
             <img class="img-responsive top-melee-img" src="images/game_icons/melee_medium.png" 
             alt="Super Smash Bros Melee Logo" /></a>
           </h2>
-          <ul>
-            <li><a href="#Melee_Learn">Learn Melee</a> &squf;</li>
-            <li><a href="#Melee_20XX">20XX</a> &squf;</li>
-            <li><a href="#Melee_Netplay">Netplay</a> &squf;</li>            
-            <li><a href="#Melee_Required_Viewing">Required Viewing</a> &squf;</li>
-            <li><a href="#Melee_Local_Communities">Local Communities</a> &squf;</li>
-            <li><a href="#Melee_Online_Communities">Online Communities</a></li>
-          </ul>
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -66,13 +58,7 @@
           <a href="#Smash4">
           <img class="img-responsive" src="images/game_icons/wiiu_medium.png" 
           alt="Smash 4 Logo" /></a>
-          </h2>
-          <ul>
-            <li><a href="#Smash4_Learn">Learn Smash 4</a> &squf;</li>
-            <li><a href="#Smash4_Top_Players">Top 50 Smash 4 Players</a> &squf;</li>
-            <li><a href="#Smash4_Local_Communities">Local Communities</a> &squf;</li>
-            <li><a href="#Smash4_Online_Communities">Online Communities</a></li>
-          </ul>          
+          </h2>       
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -80,13 +66,7 @@
             <a href="#64">          
             <img class="img-responsive top-64-img" src="images/game_icons/64_medium.png" 
             alt="Super Smash Bros Logo" /></a>
-          </h2>
-          <ul>
-            <li><a href="#64_Learn">Learn Smash 64</a> &squf;</li>
-            <li><a href="#64_Netplay">Netplay</a> &squf;</li>             
-            <li><a href="#64_Local_Communities">Local Communities</a> &squf;</li>
-            <li><a href="#64_Online_Communities">Online Communities</a></li>
-          </ul>             
+          </h2>             
         </div>
 
         <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 no-padding">
@@ -94,13 +74,7 @@
             <a href="#PM">         
             <img class="img-responsive top-pm-img" src="images/game_icons/pm_medium.png" 
             alt="Project Melee Logo" /></a>
-          </h2>
-          <ul>
-            <li><a href="#PM_Learn">Learn PM</a> &squf;</li>
-            <li><a href="#PM_Upcoming_Events">Required Viewing</a> &squf;</li>
-            <li><a href="#PM_Local_Communities">Local Communities</a> &squf;</li>
-            <li><a href="#PM_Online_Communities">Online Communities</a></li>
-          </ul>             
+          </h2>             
         </div>
       </div>
 
